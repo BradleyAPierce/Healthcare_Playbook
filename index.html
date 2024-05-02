@@ -37,14 +37,53 @@
     <link rel="stylesheet" href="css/dxplaybook.css" />
     <link rel="stylesheet" href="css/responsiveiframe.css" />
 
+    
+
 
     <style></style>
   </head>
 
   <body>
-<!-- Google Tag Manager (noscript) -->
-  <!-- Removed -->
-<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- Page pop-up modal begin -->
+
+<div class="modal fade" id="pageenterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Healthcare Enabled MFP Plus</h5>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <p> This cloud&#45;based solution optimizes Konica Minolta bizhub multifunction printers &#40;MFPs&#41; for the healthcare industry. Specifically, it helps healthcare providers easily and securely exchange patient information electronically in formats that support and adhere to the latest industry regulations. </p>
+          <div class="col-md-6">
+            <img src="https://github.com/BradleyAPierce/Healthcare_Playbook_Images/blob/main/HealthcareMFPPlusAccordian.jpg?raw=true" class="img-fluid" alt="Image">
+          </div>
+          <div class="col-md-6">
+            <p> <b> Key Sales tools include: </b> </p>
+            <ul>
+              <li> Capturing and Exchanging Information</li>
+              <li> Things to Know</li>
+              <li> Ecosystem</li>
+              <li> Demos</li>
+              <li> Prospecting Readiness</li>
+              <li> Prospecting Tools</li>
+              <!-- Add more bullet points as needed -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="ambulatorymarketmfp.html" class="btn btn-primary">Ambulatory Care Page</a>
+        <a href="extendedcaremarketmps.html" class="btn btn-primary">Extended Care Page</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Page pop-up modal end -->
 
 <!-- Start your project here-->
     
@@ -829,4 +868,17 @@
   <script type="text/javascript" src="plugins/js/all.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript"></script>
+
+<!-- Page pop-up modal begin -->
+
+<script>
+  // Function to show the modal when the page loads
+  window.onload = function() {
+    var myModal = new mdb.Modal(document.getElementById('pageenterModal'));
+    myModal.show();
+  };
+</script>
+
+<!-- Page pop-up modal end -->
+
 </html>
