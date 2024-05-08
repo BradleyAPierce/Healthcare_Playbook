@@ -37,7 +37,17 @@
     <link rel="stylesheet" href="css/dxplaybook.css" />
     <link rel="stylesheet" href="css/responsiveiframe.css" />
 
-    
+    <!-- Page pop-up modal begin -->
+
+      <script>
+        // Function to show the modal when the page loads
+        window.onload = function() {
+          var myModal = new mdb.Modal(document.getElementById('pageenterModal'));
+          myModal.show();
+        };
+      </script>
+
+    <!-- Page pop-up modal end -->
 
 
     <style></style>
@@ -886,17 +896,5 @@
   <script type="text/javascript" src="plugins/js/all.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript"></script>
-
-<!-- Page pop-up modal begin -->
-
-<script>
-  // Function to show the modal when the page loads
-  window.onload = function() {
-    var myModal = new mdb.Modal(document.getElementById('pageenterModal'));
-    myModal.show();
-  };
-</script>
-
-<!-- Page pop-up modal end -->
 
 </html>
