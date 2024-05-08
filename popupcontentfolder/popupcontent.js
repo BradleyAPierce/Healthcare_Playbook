@@ -5,7 +5,7 @@ const endDate = new Date('2024-05-31');   // End date
 // Function to check if today's date is within the range
 function checkDate() {
     // Check if on the specific page by checking for the presence of a unique element
-    if (document.getElementById('pageIdentifier')) {
+    if (document.getElementById('dxhealthcare')) {
         const today = new Date();
         if (today >= startDate && today <= endDate) {
             // If today is within the range, display the item
