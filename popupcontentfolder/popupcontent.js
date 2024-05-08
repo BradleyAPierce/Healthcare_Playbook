@@ -9,10 +9,10 @@ function checkDate() {
         const today = new Date();
         if (today >= startDate && today <= endDate) {
             // If today is within the range, display the item
-            document.getElementById('specialItem').style.display = 'block';
+            document.getElementById('pageenterModal').style.display = 'block';
         } else {
             // Otherwise, hide the item
-            document.getElementById('specialItem').style.display = 'none';
+            document.getElementById('pageenterModal').style.display = 'none';
         }
     }
 }
