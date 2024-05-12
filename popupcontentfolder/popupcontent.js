@@ -12,4 +12,12 @@ window.onload = function() {
     }
   };
   
+  document.addEventListener('DOMContentLoaded', function() {
+    fetch('popupcontentfolder/popupheader.txt')
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('popupModalLabel').textContent = text;
+        })
+        .catch(error => console.error('Error loading the text:', error));
+});
 
