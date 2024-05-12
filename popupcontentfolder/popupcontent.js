@@ -13,7 +13,7 @@ window.onload = function() {
   };
   
   document.addEventListener('DOMContentLoaded', function() {
-    fetch('popupcontentfolder/popupheader.txt')
+    fetch('https://bradleyapierce.github.io/Healthcare_Playbook/popupcontentfolder/popupheader.txt')
         .then(response => response.text())
         .then(text => {
             document.getElementById('popupModalLabel').textContent = text;
