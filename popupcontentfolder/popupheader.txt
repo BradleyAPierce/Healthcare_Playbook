@@ -1,1 +1,4 @@
-The NEW Healthcare Vertical Sales Journey
+On line 658 and line 673 change <div class="column2"> to <div class="col-12 col-md-6"
+
+
+You might want to check lines 640 and 642 how see if center needs to be changed to left.
