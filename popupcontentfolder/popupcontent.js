@@ -3,7 +3,7 @@ window.onload = function() {
   
     // Define the start and end dates for the modal display
     var startDate = new Date('September 12, 2024 09:00:00');
-    var endDate = new Date('November 12, 2024 17:00:00');
+    var endDate = new Date('January 12, 2025 17:00:00');
     var currentDate = new Date();
   
     // Check if the current date is within the range
