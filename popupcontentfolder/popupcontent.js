@@ -2,8 +2,8 @@ window.onload = function() {
     var myModal = new mdb.Modal(document.getElementById('pageenterModal'));
   
     // Define the start and end dates for the modal display
-    var startDate = new Date('January 6, 2025 09:00:00');
-    var endDate = new Date('March 30, 2025 17:00:00');
+    var startDate = new Date('April 20, 2025 09:00:00');
+    var endDate = new Date('July 31, 2025 17:00:00');
     var currentDate = new Date();
   
     // Check if the current date is within the range
