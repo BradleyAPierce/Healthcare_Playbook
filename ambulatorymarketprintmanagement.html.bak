@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Google Tag Manager -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-28P21D5QN2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-28P21D5QN2');
+</script>
+  
+<!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+        <meta name="citation_date" content="2025-05-07">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Healthcare Playbook: Ambulatory Care Print Management</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB ESSENTIAL -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB PLUGINS -->
+    <link rel="stylesheet" href="plugins/css/all.min.css" />
+    <!-- Custom styles -->
+
+    <!-- Special DX Playbook CSS Sheet -->
+    <link rel="stylesheet" href="css/dxplaybook.css" />
+    <link rel="stylesheet" href="css/responsiveiframe.css" />
+
+
+    <style></style>
+  </head>
+
+ <body>
+
+    <!-- Start your project here-->
+
+<!-- Start your project here-->
+    
+    <!-- Nav Begin -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	  
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+         <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarCenterExample"
+          aria-controls="navbarCenterExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+    
+        <!-- Collapsible wrapper -->
+          
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCenterExample">
+          <!-- Left linwks -->
+            
+          <a class="navbar-brand" href="index.html"> <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/DX_Playbook_Images/kmlogostacked.png" width="100px" height="auto" alt="KM Logo"/></a>
+            
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+            
+          <ul class="navbar-nav justify-content-center mb-2 mb-lg-0">
+              
+            <li class="nav-item" >
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+    
+            <li class="nav-item" >
+              <a class="nav-link" aria-current="page" href="dxhealthcare.html">DX in Healthcare</a>
+            </li>
+              
+            <!-- Navbar Sales Practices Begin -->
+              
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownWhat"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sales Practices
+              </a>
+                
+              <!-- Dropdown Sales  menu items begin -->
+                
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                <li>
+                  <a class="dropdown-item" href="salespractices.html"> Sales Practices Home </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="howtoresearch.html"> Researching a Healthcare Account  </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="buyerpersonas.html"> Organizational Structures </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="communicatingvalue.html"> Communicating Value </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="prospectingforappointmentsbestpractices.html"> Prospecting for Appointments </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="preparingforappointments.html"> Preparing for Appointments </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="gpo.html"> &#40;GPO&#41; Group Purchasing Organizations </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="knowthecompetition.html"> Know the Competition </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="healthcareterms.html"> Healthcare Terms </a>
+                </li>
+                  
+              </ul>
+                
+            <!-- Dropdown Sales Practices menu items end -->
+                
+            </li>
+              
+            <!-- Nav Sales Practices End -->
+              
+            <!-- Navbar Acute Care Begin -->
+              
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Acute Care
+              </a>
+                
+              <!-- Dropdown Acute Care items begin -->
+                
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 
+                <li>
+                  <a class="dropdown-item" href="acutecaremarket.html"> Acute Care Home </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="acutecaremarkethipaa.html"> HIPAA </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketmps.html"> &#40;MPS&#41; Managed Print Services </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketcybersecuritysolutions.html"> Cybersecurity Solutions </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketlayeredsecurity.html"> Layered Security </a>
+                </li>
+            
+                <!-- Hide Begin
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketvss.html"> Video Solution Services </a>
+                </li>
+                Hide End -->
+            
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketworkflow.html"> Workflow </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketprintmanagement.html"> Print Management </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketenterprise.html"> &#40;IIM&#41; Intelligent Information Management </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketrpa.html"> &#40;RPA&#41; Robotic Process Automation </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketmanageditservices.html"> Managed IT Services </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="acutecarecmarketcloudservices.html"> Cloud Services </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketfaxmanagement.html"> Fax Management </a>
+                </li>
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="acutecaremarketpatientexperiencemanagement.html"> Patient Experience Management </a>
+                </li> -->
+    
+                <!--  <li>
+                  <a class="dropdown-item" href="acutecaremarketvaluebasedcareservices.html"> Value Based Care Services </a>
+                </li> -->
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="acutecaremarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li> -->
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="acutecaremarketinteroperabilityandintegrationservices.html"> Interoperability &amp; Integration Services </a>
+                </li> -->
+          
+              </ul>
+                
+            <!-- Dropdown Acute Care Items End -->
+                
+            </li>
+              
+            <!-- Nav Acute Care End -->
+
+            <!-- Navbar Ambulatory Care Begin -->
+              
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ambulatory Care
+              </a>
+                
+              <!-- Dropdown Ambulatory Care items begin -->
+                
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarket.html"> Ambulatory Care Home </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarkethipaa.html"> HIPAA </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmps.html"> &#40;MPS&#41; Managed Print Services </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketcybersecuritysolutions.html"> Cybersecurity Solutions </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketlayeredsecurity.html"> Layered Security </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketworkflow.html"> Workflow </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmfp.html"> Healthcare Enabled MFP Plus </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketprintmanagement.html"> Print Management </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketenterprise.html"> &#40;IIM&#41; Intelligent Information Management </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketrpa.html"> &#40;RPA&#41; Robotic Process Automation </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmanageditservices.html"> Managed IT Services </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketcloudservices.html"> Cloud Services </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="ambulatorycaremarketfaxmanagement.html"> Fax Management </a>
+                </li>
+
+                <!-- <li>
+                  <a class="dropdown-item" href="ambulatorymarketvaluebasedcareservices.html"> Value Based Care Services </a>
+                </li> -->
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="ambulatorymarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li> -->
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="ambulatorymarketinteroperabilityandintegrationservices.html"> Interoperability &amp; Integration Services </a>
+                </li> -->
+          
+              </ul>
+                
+            <!-- Dropdown Ambulatory Care Items End -->
+                
+            </li>
+              
+            <!-- Nav Ambulatory Care End -->
+
+            <!-- Navbar Extended Care Begin -->
+              
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Extended Care
+              </a>
+                
+              <!-- Dropdown Extended Care items begin -->
+                
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarket.html"> Extended Care Home </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarkethipaa.html"> HIPAA </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmps.html"> &#40;MPS&#41; Managed Print Services </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketcybersecuritysolutions.html"> Cybersecurity Solutions </a>
+                </li>
+            
+                <!-- Hide Begin
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketvss.html"> Video Solution Services </a>
+                </li>
+                Hide End -->
+            
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarkethworkflow.html"> Workflow </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmfp.html"> Healthcare Enabled MFP Plus </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketprintmanagement.html"> Print Management </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketenterprise.html"> &#40;IIM&#41; Intelligent Information Management </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketrpa.html"> &#40;RPA&#41; Robotic Process Automation </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmanageditservices.html"> Managed IT Services </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketcloudservices.html"> Cloud Services </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketfaxmanagement.html"> Fax Management </a>
+                </li>
+
+                <!-- <li>
+                  <a class="dropdown-item" href="extendedcaremarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li>
+                  -->
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="extendedcaremarketinteroperabilityandintegrationservices.html"> Interoperability &amp; Integration Services </a>
+                </li> -->
+          
+              </ul>
+                
+            <!-- Dropdown Extended Care Items End -->
+                
+            </li>
+              
+            <!-- Nav Extended Care End -->
+              
+            <!-- Navbar Other Resources Begin -->
+              
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownResources"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Other Resources
+              </a>
+                
+              <!-- Dropdown Other Resources items begin -->
+                
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                <li>
+                  <a class="dropdown-item" href="http://site-751160.bcvp0rtal.com/" target="_blank"> Multimedia Resources </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="keyresources.html"> Key Resources </a>
+                </li>
+
+              </ul>
+                
+            <!-- Dropdown Other Resources Items End -->
+                
+            </li>
+              
+            <!-- Nav Other Resources End -->
+              
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+
+<!-- Nav End -->
+
+<!-- Banner Images Begin -->
+      
+<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel" style="margin-top: 70px">
+       
+  <!-- Background image -->
+    <div class="p-5 text-center bg-image" style="background-image: url('https://cdn.jsdelivr.net/gh/BradleyAPierce/Legal_Vertical_Playbook_Images/PrintMangement.jpg'); height: 600px;">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h6 class="banner2"> Ambulatory Care  </h6>
+            <h1 class="banner1"> Print Management </h1>
+            <h4 class="banner4"> Konica Minolta&#39;s premier solutions for print management. </h4>
+
+          <!-- Hide Button Begin
+            <a class="btn btn-danger btn-lg" href="https://www.youtube.com/watch?v=OvBi15sN1WQ&list=PLkd9gsOSsrMGFGDaXzH4gaBcPnZzErgSp&index=1" role="button" target="_blank">  Understanding the Healthcare Vertical strategy is the first step. Watch video! </a>
+          Hide Button End -->
+    
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Background image -->  
+              
+  </div>
+        
+<!-- Banner Images End -->
+        
+        
+<!-- Breadcrumbs Begin -->
+        
+      <div class="container">
+          
+          <nav aria-label="breadcrumb" style="padding-top: 15px">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html"> Healthcare Playbook </a></li>
+              <li class="breadcrumb-item"><a href="ambulatorymarket.html"> Ambulatory Care </a></li>
+              <li class="breadcrumb-item active" aria-current="page"> Print Management </li>
+            </ol>
+          </nav>
+          
+      </div> 
+          
+<!-- Breadcrumbs End -->
+
+
+<!-- Intro Begins -->	
+	   
+<section class="container col-12" style="padding-top: 15px; padding-bottom: 0px" id="ambulatoryprintmanagementintro">
+            
+  <div class="row justify-content-center border-0" style="margin-bottom: px; border-style: groove; padding: 5px" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="900" >
+      
+    <div id="preview" class="preview">
+      <div style="display: none;"></div>
+      <div>
+          <div data-draggable="true" style="position: relative;" draggable="false" class="">
+              <section draggable="false" class="overflow-hidden pt-0" data-v-271253ee="">
+                  <section class="mb-10 background-radial-gradient"> 
+                      <style> .background-radial-gradient { background-color: hsl(218, 41%, 15%); background-image: radial-gradient( 650px circle at 0% 0%, hsl(218, 41%, 35%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100% ), radial-gradient( 1250px circle at 100% 100%, hsl(218, 41%, 45%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100% ); } </style>
+                      
+                      <div class="container px-4 py-5 px-md-5 text-center text-lg-start"> 
+                          <div class="row gx-lg-5 align-items-center"> 
+                              <div class="col-lg-6 mb-5 mb-lg-0"> 
+                                  <h1 class="my-5 display-3 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)"> <span>What you will find</span> <br> <span style="color: hsl(218, 81%, 75%)">on this page</span> </h1>
+                                  
+                                  <p style="color: white">Use this Healthcare Solution page to refresh your skills for prospecting and appointments.</p>
+
+                                  <div class="row mb-3" style="color: hsl(218, 81%, 95%)">
+                                    <div class="col-lg-4 mb-2">
+                                      <p>
+                                        <i class="fas fa-check-circle text-light me-2"></i>Why Print Management Matters
+                                      </p>
+                                    </div>
+                      
+                                    <div class="col-lg-4 mb-2">
+                                      <p>
+                                        <i class="fas fa-check-circle text-light me-2"></i>Print Management Challenges
+                                      </p>
+                                    </div>
+                      
+                                    <div class="col-lg-4 mb-2">
+                                      <p>
+                                        <i class="fas fa-check-circle text-light me-2"></i>Pre&#45;call Planning
+                                      </p>
+                                    </div>
+                                    <div class="col-lg-4 mb-2">
+                                      <p>
+                                        <i class="fas fa-check-circle text-light me-2"></i>Prospecting
+                                      </p>
+                                    </div>
+                      
+                                    <div class="col-lg-4 mb-2">
+                                      <p>
+                                        <i class="fas fa-check-circle text-light me-2"></i
+                                          >Sales Tools and Links
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <a
+                                  class="btn btn-white btn-lg py-3 px-5 mb-2 ripple-surface-primary mt-"
+                                  data-ripple-color="primary"
+                                  href="https://jam4.sapjam.com/groups/gkperfF9MNoLYhGn1ErjW7/documents/agua5XqBvTC3n4q9o2Z78G/slide_viewer?_lightbox=true"
+                                  role="button"
+                                  aria-controls="#picker-editor"
+                                  draggable="false"
+                                  style="min-width: auto"
+                                  target="_blank"
+                                  >Healthcare Enabled MFP Plus Sales Playbook</a
+                                  >
+
+                                  <a class="btn btn-white btn-lg py-3 px-5 mb-2 ripple-surface-primary" data-ripple-color="primary" href="https://www.youtube.com/watch?v=lG8FpaB_Agc" role="button" aria-controls="#picker-editor" draggable="false" style="min-width: auto;" target="_blank">Watch Video: Konica Minolta Secure Print for Healthcare</a>
+                                  <!-- Hide button begin
+                                  <a class="btn btn-white btn-lg py-3 px-5 mb-2 ripple-surface-primary" data-ripple-color="primary" href="https://solutionsguide.mykonicaminolta.com/core-solutions/all-covered-it-services/" role="button" aria-controls="#picker-editor" draggable="false" style="min-width: auto;" target="_blank">All Covered IT Services</a>
+                                  <a class="btn btn-white btn-lg py-3 px-5 mb-2 ripple-surface-primary" data-ripple-color="primary" href="https://solutionsguide.mykonicaminolta.com/supported-solutions/document-management-legal/" role="button" aria-controls="#picker-editor" draggable="false" style="min-width: auto;" target="_blank">Legal Document Management </a>
+                                  Hide Buttons End -->
+
+                              </div> 
+                              <div class="col-lg-6 mb-5 mb-lg-0"> 
+                                <div class="ratio ratio-16x9" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="300">
+                                  <iframe width="560" height="315" src="https://bcove.video/38nRXap" title="Legal Playbook Tour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                              </div> 
+                          </div> 
+                      </div> 
+                  </section>
+          </section>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+</section> 
+
+<!-- Intro Ends Ends -->
+
+<!-- Healthcare News Begin -->
+
+<section class="container col-12" style="padding-top: 15px; padding-bottom: 0px" id="ambulatoryprintmanagementynews">
+            
+  <div class="row justify-content-center border-0" style="margin-bottom: px; border-style: groove; padding: 5px" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="900">
+
+    <section>
+      <div class="row gx-5">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
+            <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/HealthcareMFPPlus.jpg" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4 mb-md-0">
+          <span class="badge badge-danger mb-3">Healthcare New News!</span>
+          <h4><strong>Konica Minolta&#39;s Healthcare&#45;enabled MFP Addresses Challenges Providers Face Capturing and Exchanging Patient Information</strong></h4>
+          <p class="text-muted">
+            <b> Ramsey, NJ, &#40;April 5, 2022&#41;</b> Konica Minolta Business Solutions U.S.A., Inc. &#40;Konica Minolta&#41; is proud to announce the release of its latest version of the Healthcare&#45;enabled MFP Plus, connected by Kno2.
+          </p>
+          <a href="https://kmbs.konicaminolta.us/press-release/km-healthcare-enabled-mfp-addresses-challenges/" type="button" class="btn btn-primary" target="_blank">Read more </a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</section>
+
+<!-- Healthcare News End -->
+
+<!-- Intro Card Begin -->
+<div class="container my-5 py-5 shadow-5" id="ambulatoryprintmanagementintrocard">
+
+  <!--Section: Design Block-->
+  <section>
+    <div class="row">
+      <div class="col-lg-6 col-xl-5 mb-4 mb-lg-0">
+        <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/HealthcareAcuteIntro.jpg" class="img-fluid shadow-3 rounded" />
+      </div>
+      <div class="col-lg-6 offset-xl-1">
+        <h3 class="mb-4 pt-2 pt-lg-0">Summary of Print Management challenges
+</h3>
+        <p class="mb-4">
+          <ol style="text-align: left">
+            <li> Over reliance on printing across the healthcare enterprise is an obstacle to effective use of electronic health records &#40;EHR&#41; systems </li>
+            <li> Risk of exposing printed patient health records to unauthorized personnel </li>
+            <li> Wasted paper from print jobs left unclaimed in output trays </li>
+            <li> Printing to less cost&#8211;effective output devices, such as desktop printers, instead of directing users to more cost effective devices </li>
+            <li> Proper allocation of the costs of print to departments or functional teams </li>
+            <li> Lower insurance reimbursement of claims leading to cost&#8211;cutting reviews of print expenses </li>
+            <li> Multiple technology vendors and service plans that come with mergers and acquisitions of hospitals into larger enterprises </li>
+        </ol>
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--Section: Design Block-->
+
+</div>
+<!-- Intro Card End -->
+
+<!-- Video Playlist Begins-->
+
+<section class="container col-12 mb-10" style="padding-top: 15px; padding-bottom: 0px" id="ambulatoryprintmanagementvideos">
+            
+  <div class="row justify-content-center border-0" style="margin-bottom: px; border-style: groove; padding: 5px" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="900" >
+
+    <div class="row"> 
+      <h2 class="my-5 display-5 fw-bold ls-tight" style="text-align: center"> Secure Print Playlist:  <br> <span class="text-primary">Konica Minolta&#39;s premier solution for print management.</span> </h2>
+    </div>
+
+    <iframe src="https://bcove.video/30rorfk" allowfullscreen="" allow="encrypted-media" width="960" height="540"></iframe>
+
+  </div>
+
+</section>
+
+<!-- Video Playlist Ends -->
+
+<!-- Insert PDF Begin
+
+<section class="container col-12 mb-10" style="padding-top: 15px; padding-bottom: 0px" id="ambulatoryprintmanagementinfrographic">         
+  <div class="row justify-content-center border-0" style="margin-bottom: px; border-style: groove; padding: 5px" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="900" >
+   
+    <div class="row"> 
+      <h2 class="my-5 display-5 fw-bold ls-tight" style="text-align: center"> <span> Secure Print </span> <br> <span class="text-primary">EHR Infographic</span> </h2>
+    </div>
+
+    <embed
+      src="https://www.mykonicaminolta.com/wps/wcm/myconnect/mkm/53ddf86c-21b2-4696-97b0-a7b25e6de07a/Secure_Print_EHR_Infographic_2020.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE.Z18_HDP09B1A08GH60I3G2LUMD24P7-53ddf86c-21b2-4696-97b0-a7b25e6de07a-o1yIj6J"
+      type="application/pdf"
+      width="100%"
+      height="875"/>
+
+  </div>
+</section>
+
+Insert Pdf Ends -->
+
+<!-- Embed Accordian Begin -->
+
+
+      <section class="container col-12" style="padding-top: 15px; padding-bottom: 0px" id="ambulatoryprintworkflowaccordian">
+            
+        <div class="row justify-content-center border-0" style="margin-bottom: px; border-style: groove; padding: 5px" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="900" >
+      
+          <div class="row"> 
+            <h2 class="my-5 display-5 fw-bold ls-tight" style="text-align: center;"> Prospecting Readiness </h2> </div>
+        
+      
+      <div id="preview" class="preview">
+        <div style="display: none;"></div>
+        <div>
+            <div data-draggable="true" class="" style="position: relative;" draggable="false"><!----><!---->
+                <section draggable="false" class="container pt-5" data-v-271253ee="">
+                    <section class="mb-10 text-center text-lg-start"> 
+                        <style> .cascading-right { margin-right: -50px; } @media (max-width: 991.98px) { .cascading-right { margin-right: 0; } } </style>
+                        <!-- Jumbotron --> 
+                        <div class="container py-4"> 
+                            <div class="row g-0 align-items-center"> 
+      
+      
+                                <div class="col-lg-6 mb-5 mb-lg-0" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in-" data-mdb-animation-delay="900"> 
+                                    <div class="card cascading-right" style=" background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px); ">
+                                        <div class="card-body py-5 px-md-5 shadow-5">
+                                            <h3 class="fw-bold" spellcheck="false">Prospecting Readiness</h3>
+                                            <h5 class="mb-5">Use the information below to get started!</h5>
+                                            
+      <!-- Accordian Begin -->
+                                            
+      <div id="preview2" class="preview">
+        <div style="display: none;"></div>
+        <div>
+          <div data-draggable="true" style="position: relative;">
+            <section draggable="false" class="container pt-5" data-v-271253ee="">
+              <section class="mb-10 text-center text-lg-start">
+      
+                <div class="row gx-lg-5" style="text-align: left;">
+      
+                  <div class="accordion accordion-borderless" id="accordionFlushExampleX">
+        
+                    <!-- Dropdown Begin -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOneX">
+                        <button class="accordion-button" type="button" data-mdb-toggle="collapse"
+                          data-mdb-target="#flush-collapseOneX" aria-expanded="true" aria-controls="flush-collapseOneX">
+                          <h5> Buyer Personas: Decision Makers You Should Target </h5>
+                        </button>
+                      </h2>
+                      <hr>
+                      <div id="flush-collapseOneX" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOneX" data-mdb-parent="#accordionFlushExampleX">
+                        <div class="accordion-body">
+      
+                          <ul>
+                            <li> CIO </li>
+                            <li> IT Director </li>
+                            <li> Chief Compliance Officer </li>
+                            <li> CFO </li>
+                            <li> Chief Operations Officer </li>
+                            <li> Purchasing Executive </li>
+                            </ul>
+                            <h5> Personas&#8219; Top&#8211;of&#8211;Mind Concerns </h5>
+                            <ul>
+                            <li> Finding ways to better manage the costs of print </li>
+                            <li> Capturing and allocating the costs of printing and copying </li>
+                            <li> Ensuring that only authorized personnel can access printed PHI </li>
+                            <li> Encouraging responsible use of output devices and elimination of wasteful print practices </li>
+                            <li> Wireless access to print for highly </li>
+                            </ul>
+                            <p> Use the Prospecting Planning Worksheet, or PPW, to plan your prospecting messages to the Buyer Personas you will target. </p>
+                            <p> Click <a href="forms/Prospecting Planning Worksheet_v5.docx" target="_blank"> here </a> to download the PPW template. </p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Dropdown End -->
+                    
+                    <!-- Dropdown Begin -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwoX">
+                        <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                          data-mdb-target="#flush-collapseTwoX" aria-expanded="false" aria-controls="flush-collapseTwoX">
+                          <h5> How You Can Provide Value </h5>
+                        </button>
+                      </h2>
+                      <hr>
+                      <div id="flush-collapseTwoX" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoX"
+                        data-mdb-parent="#accordionFlushExampleX">
+                        <div class="accordion-body">
+                         
+                          <h5> How You Can Add Value </h5>
+                          <p> Does your Acute Care customer require any of the following listed below? </p>
+                          <p> Listen for clues to start a business conversation about how you can help them improve their current situation. </p>
+                          <br>
+                          <h5> Managing costs of print </h5>
+                          <p> You can discuss how our Managed Print Services program can help your customer obtain visibility over all printing, and reduce or eliminate costly print devices. </p>
+                          <br>
+                          <h5> Tracking print jobs and reporting on print usage </h5>
+                          <p> You can offer the ability to allocate print costs to specific budgets, and create reports on print usage from a dashboard. Your customer benefits from a centralized view of printing done by the entire organization. </p>
+                          <br>
+                          <h5> Rules&#8219; based Printing </h5>
+                          <p> You can offer the capability to enforce duplex printing, restrict color prints to specific output devices, and route large print jobs to high&#8219;volume MFPs. </p>
+                          <br>
+                          <h5> Secure Print </h5>
+                          <p> You can offer device management solutions that include secure print release integrated with EHR systems. With this technology, your customer can drive accountability and enhanced security for all printing. </p>
+                        
+                        <br>
+
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Dropdown End -->
+                    
+                  </div>
+      
+                </div>
+      
+              </section>
+            </section>
+          </div>
+        </div>
+      </div>
+                                            
+      <!-- Accordian End -->
+       </div> 
+      </div> 
+   </div> 
+      
+      
+                                <div class="col-lg-6 mb-5 mb-lg-0" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="900"> 
+                                    <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/HealthcarePrintManagementAccordian.jpg" class="w-100 rounded-5 shadow-4" alt="" aria-controls="#picker-editor" draggable="false"> 
+                                </div> 
+      
+                            </div> 
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+      </div>
+        
+    </div>
+</section>
+        
+        
+<!-- Embed Accordian End -->
+
+
+<!-- Resources Card Begin -->
+      
+      <!-- Start Cards here -->
+      
+      <section class="container col-12" style="padding-top: 15px; padding-bottom: 0px" id="acuteprintmanagementcards">
+                  
+        <div class="row justify-content-center border-0" style="margin-bottom: px; border-style: groove; padding: 5px">
+        
+          <div class="container my-5 py-5">
+        
+            <!-- Section: Design Block -->
+            <section class="mb-10 text-center text-lg-start">
+              
+              <div class="row"> 
+                      <h2 class="my-5 display-5 fw-bold ls-tight" style="text-align: center;"> <span> Effective Prospecting Tools </span> </h2>
+                    </div>
+              
+              <div class="row gx-lg-5"style="display:flex;justify-content:center;align-items:center;">
+                
+                <!-- Card Begin -->
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-4">
+                  <div class="card">
+                    <div
+                         class="bg-image hover-overlay ripple"
+                         data-ripple-color="light"
+                         >
+                      <img
+                           src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Legal_Vertical_Playbook_Images/Emails.jpg"
+                           class="img-fluid" />
+                      
+                    </div>
+                    
+                    <div class="card-body" style="text-align: left;">
+                      <h5 class="card-title"> Email Scripts </h5>
+                      <p class="card-text"> Learn to script an email message that targets a specific buyer persona, provides education or new information for the target, and gives the target a call to action. Use this information to get more appointments and engagement. </p>
+                      
+                      <!-- Button Begin -->
+                      <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#resources1">Learn More </button>
+                      <!-- Button End -->
+          
+                        <!-- Modal Begin  -->
+                        <div class="modal fade" id="resources1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"> Email Scripts </h5>
+                                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                
+                                <h5> Email Scripts </h5>
+                                <h6> <b> Email Sample 1: </b></h6>
+                                <br>
+                                <p> Hello <i> &#91;insert name of prospect&#93; </i> </p>	<br>		
+                                <p> Imagine that a hospital staff member picks up a stack of prints from an MFP on an intensive care floor in your hospital. Later, this employee discovers that mixed into that stack of prints is a health record for a patient for whom the employee has no working relationship or responsibility. </p> <br> 				
+                                <p> How would you handle this situation? </p> <br>
+                                <p> The protection of printed PHI is just one of the challenges that you will see highlighted in this video. </p>
+                                <p> Interested in learning more? </p>
+
+                                <p> <a href="https://www.youtube.com/embed/lG8FpaB_Agc" target="_blank"> Click to Watch Video </a> </p> <br>
+
+                                <p> If you find the ideas about Secure Print Release from EHR of interest, then I suggest that we meet briefly to explore how our experts in print management can help you strengthen your print security. There&#8219;s no obligation. Just a 15&#8211;minute conversation to help you consider your options. </p>	<br>				
+                                <p> I have next <i> &#91; Insert Day and Time &#93; or &#91; Insert Day and Time &#93; </i> open. Which time works better for you? </p> <br>
+                                <p> Feel free to reply to this message, or call me at the number below. </p> <br>
+                                <p> I will follow up with you next week. I look forward to speaking with you. </p> <br>				
+                                <p> Best wishes, </p>				
+                                <p> <i> &#91;insert Konica Minolta or All Covered email signature&#93; </i> </p>
+                                <br>
+                                          
+                                <h6> <b> Email Sample 2; </b> </h6>
+                                <br>
+                                <p> Hello &#91;insert name of prospect&#93; </p> <br>
+
+                                <p> If you find integrating your print environment with a host&#8211;based E H R system and managing multiple print queues and print drivers to be a challenge, you&#8219;re not alone. </p>
+                                <p> Perhaps your acute care operations would find value in Print Management&#8211;as&#8211;a&#8211;Service. I would like to meet briefly with you to share how this service can reduce IT complexity and relieve a burden from your busy IT staff. </p> <br> 
+
+                                <p> I have next &#91; Insert Day and Time &#93; or &#91; Insert Day and Time &#93; open. Which time works better for you? </p>
+                                <p> Feel free to reply to this message, or call me at the number below. I will follow up with you next week. I look forward to speaking with you. </p> <br>
+                                <p> Best wishes, </p>
+                                <p> &#91;insert Konica Minolta or All Covered email signature&#93; </p> 
+                                <br>
+                            
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Modal End -->
+                      
+                    </div>
+                  </div>
+                </div>
+                <!-- Card End -->
+          
+                <!-- Card Begin -->
+                <div class="col-lg-4 mb-4 mb-lg-4">
+                  <div class="card">
+                    <div
+                         class="bg-image hover-overlay ripple"
+                         data-ripple-color="light"
+                         >
+                      <img
+                           src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Legal_Vertical_Playbook_Images/Phone.jpg"
+                           class="img-fluid" />
+                      
+                    </div>
+                    <div class="card-body" style="text-align: left;">
+                      <h5 class="card-title">Phone Scripts</h5>
+                      <p class="card-text"> Use phone scripts to stay focused on what is important to the prospect, to be consistent in what you say, to remain in control of the conversation, and to provide information to help a prospect decide to meet with you. </p>
+                      
+                      <!-- Button Begin -->
+                      <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#resources2">Learn More</button>
+                      <!-- Button End -->
+          
+                        <!-- Modal Begin  -->
+                        <div class="modal fade" id="resources2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Phone Scripts</h5>
+                                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                
+                                <h5> Phone Scripts </h5>
+                                <p> <i> Phone Script 1 </i></p>
+                                <br>
+                                <p> Hello <i> &#91;name of contact&#93; </i></p>
+                                <br>
+                                <p> This is <i> &#91;your name&#93; </i> from <i> &#91;Konica Minolta&#93; [All Covered] </i></p>
+                                <br>
+                                <p> Thank you for taking my call. I am sure you are busy, and I respect your time, so I&#8219;ll be brief. </p>
+                                <br>
+                                <p> I would like to meet with you for about 20 minutes next week because I have valuable information to share with you about how you can allocate the costs of print to specific users, such as departments or clinical teams. </p>
+                                <br>
+                                <p> Maybe you are looking to increase security around all the patient records your staff prints,  or ways to eliminate print waste to reduce your costs. I have equally valuable ideas to share with you about those practices. </p>
+                                <br>
+                                <p> I have time to meet next Tuesday at 9&#58;15am or Thursday at 1&#58;45pm. Which time works better for you? <i> &#91;Close for the appointment&#93; </i></p>
+                                <br>
+                                <p> <i> &#91;Optional if contact asks for more info&#93; </i> Our experts in print management can help you set up ways to securely release prints of protected health information directly from your E H R system. This means no PHI prints until the clinical worker authenticates at one of your networked MFPs. It&#8219;s the best way to ensure that your printing is HIPAA compliant. </p>
+                                <br>
+                                <br>
+                                <hr>
+                                <p> <i> Voicemail Script 1 </i></p>
+                                <br>
+                                <p> Hello <i> &#91;name of contact&#93; </i></p>
+                                <br>
+                                <p> This is <i> &#91;your name&#93; </i> from <i> &#91;Konica Minolta&#93; &#91;All Covered&#93; </i></p>
+                                <br>
+                                <p> I have valuable information to share with you about ways to significantly improve the print environment in your <i> &#91;hospital&#93; &#91;healthcare facility&#93;</i>. </p>
+                                <br>
+                                <p> I would like to meet briefly with you next week. </p>
+                                <br>
+                                <br>
+                                <p> &#91;option 1&#93; We can explore how you can implement highly secure print release from your EHR system. This ensures that when your staff prints PHI, it stays protected and secure. </p>
+                                <br>
+                                <p> &#91;option 2&#93; We can explore how to allocate the costs of print to specific users, so that there is accountability for print across your organization, and so you have centralized overview of all printing and the associated costs. </p>
+                                <br>
+                                <br>
+                                <p> If you would like to know more, please call me at <i> &#91;insert phone number&#93;</i>. </p>
+                                <br>
+                                <p> Thank you very much. I look forward to hearing from you. Again, my name is <i> &#91;your name&#93;</i> , and you may reach me at <i> &#91;insert phone number&#93;</i>. </p>
+          
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Modal End --> 
+                    </div>
+                  </div>
+                </div>
+                <!-- Card End -->
+                
+                <!-- Card Begin -->
+                <div class="col-lg-4 mb-4 mb-lg-4">
+                  <div class="card">
+                    <div
+                         class="bg-image hover-overlay ripple"
+                         data-ripple-color="light"
+                         >
+                      <img
+                           src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Legal_Vertical_Playbook_Images/QualifyingQuestions.jpg"
+                           class="img-fluid" />
+                      
+                    </div>
+                    <div class="card-body" style="text-align: left;">
+                      <h5 class="card-title">Qualifying Questions</h5>
+                      <p class="card-text"> Use this information when you: 1. Prepare for your appointments 2. Prepare your Value Statements 3. Choose Konica Minolta and All Covered content to share with prospects. </p>
+                      
+                      <!-- Button Begin -->
+                      <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#resources3">Learn More</button>
+                      <!-- Button End -->
+          
+                        <!-- Modal Begin  -->
+                        <div class="modal fade" id="resources3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Qualifying Questions</h5>
+                                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                
+                                <h5> Qualifying Questions </h5>
+                                <ol style="text-align: left">
+                                  <li> How do you monitor the associated costs of maintaining your output devices? </li>
+                                  <li> How important is it to reduce the costs associated with printing? </li>
+                                  <li> How do you capture staff use of MFPs so that the printing and copying costs can be allocated to departments or functional teams? </li>
+                                  <li> How do you integrate the allocation of print costs into your management of your output devices? </li>
+                                  <li> Do you have a goal for improving allocation of costs associated with printing and copying? What is the goal? Why is this goal important to you? </li>
+                                  <li> What built&#8211;in safeguards have you deployed to ensure that only authorized personnel use your output devices? </li>
+                                  <li> What features do you have to help you maintain document confidentiality when printing at any MFP on your network? </li>
+                                  <li> How much are you using preprinted forms? </li>
+                                  <li> Have you developed an initial budget for your forms management program? How did you develop that budget? </li>
+                                  <li> Do you need to limit employee print and copy to specific MFPs or printers? </li>
+                                  <li> Can anyone walk up to an MFP and make a copy? </li>
+                                  <li> How do you currently limit color printing to only essential uses? </li>
+                                  <li> Do you need to enforce two&#8211;sided printing and copying? </li>
+                                  <li> How much of your IT Help Desk time and effort is devoted to printer issues? </li>
+                                 </ol>
+                              
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Modal End --> 
+                    </div>
+                  </div>
+                </div>
+                <!-- Card End -->
+                
+                <!-- Card Begin -->
+                <div class="col-lg-4 mb-4 mb-lg-4">
+                  <div class="card">
+                    <div
+                         class="bg-image hover-overlay ripple"
+                         data-ripple-color="light"
+                         >
+                      <img
+                           src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Legal_Vertical_Playbook_Images/MoreResources.jpg"
+                           class="img-fluid" />
+                      
+                    </div>
+                    <div class="card-body" style="text-align: left;">
+                      <h5 class="card-title">More Sales Tools</h5>
+                      <p class="card-text"> Sales Tools such as Brochures, Battle Cards, and other resources.  </p>
+                      
+                      <!-- Button Begin -->
+                      <button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#resources4">Learn More</button>
+                      <!-- Button End -->
+          
+                        <!-- Modal Begin  -->
+                        <div class="modal fade" id="resources4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">More Sales Tools</h5>
+                                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                
+                                <h5> More Sales Tools </h5>
+                                <p> <a href="https://www.youtube.com/embed/lG8FpaB_Agc" target="_blank" id="ambulatoryprintmanagementviewsalestools1"> Konica Minolta Secure Print for Healthcare </a></p>
+                                <p> <a href="https://www.mykonicaminolta.com/wps/wcm/myconnect/mkm/f3682b4d-e6e2-4f8b-9e45-8e9e06f18b75/Dispatcher+Paragon+Brochure.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE.Z18_HDP09B1A08GH60I3G2LUMD24P7-f3682b4d-e6e2-4f8b-9e45-8e9e06f18b75-nrOFhEp" target="_blank"> Dispatcher Paragon brochure: Managing Print Costs Made Easy </a></p>
+                                <p> <a href="https://www.mykonicaminolta.com/wps/wcm/myconnect/mkm/0c08995e-e6a3-45e6-bfdf-555ca2da036e/Discover_Secure_Print_Connected_with_Epic_EHR.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE.Z18_HDP09B1A08GH60I3G2LUMD24P7-0c08995e-e6a3-45e6-bfdf-555ca2da036e-nmYV0SG" target="_blank"> Dispatcher Paragon Connector Integrated with Epic </a></p>
+                                <p> <a href="https://www.mykonicaminolta.com/wps/wcm/myconnect/mkm/fa6b67fb-f8a7-497b-a2d0-aeb53521a267/PaperCut_Healthcare.pdf?MOD=AJPERES&CONVERT_TO=url&CVID=myl.vFT" target="_blank"> PaperCut Healthcare Solutions </a></p>
+                                <p> <a href="https://www.mykonicaminolta.com/wps/wcm/myconnect/mkm/a5fc94f1-9112-4178-af23-4b206153c1c8/Kofax_Output_Manager_For_Healthcare_Protected_Healthcare_Information.pdf?MOD=AJPERES&CONVERT_TO=url&CVID=nbtoBdj" target="_blank"> Kofax Output Manager for Healthcare: Protected Healthcare Information </a></p>
+                                <p> <a href="https://www.mykonicaminolta.com/wps/wcm/myconnect/mkm/9ff56583-1110-4773-b4dd-6583a72b3f0a/Dispatcher+Paragon+Security+White+Paper.pdf?MOD=AJPERES&CONVERT_TO=url&CVID=mIzv2ho" target="_blank"> Architecture Overview&#8211;Dispatcher Paragon </a></p>
+                                
+                              
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Modal End --> 
+                    </div>
+                  </div>
+                </div>
+                <!-- Card End -->
+      
+              </div>
+            </section>
+            <!-- Section: Design Block -->
+          
+          </div>
+          
+          <!-- Modal Popup Sections Begin -->
+        
+        
+        </div>
+        </section>
+        
+        <!-- End Cards here -->  
+        
+        <!-- Resources Cards End -->
+
+<!-- Start Footer Section here -->
+      
+      <!-- Footer -->
+      <footer class="bg-dark text-center text-white">
+            
+        <!-- Grid container -->
+          
+        <div class="container p-4">
+
+
+          <!-- Section: Form -->
+          
+          <!-- Section: Form -->
+
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column 1 Begin-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="index.html" style="color: inherit;"> <h5 class="text-uppercase"> Home </h5> </a>
+              </div>
+              <!--Grid column 1 End -->
+
+              <!--Grid column 2 Begin-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="dxhealthcare.html" style="color: inherit;"> <h5 class="text-uppercase"> DX in Healthcare </h5> </a>
+              </div>
+              <!--Grid column 2 End -->
+                
+              <!--Grid column 3 Begin-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="salespractices.html" style="color: inherit;"> <h5 class="text-uppercase"> Sales Practices </h5> </a>
+              </div>
+              <!--Grid column 3 End -->
+                
+              <!--Grid column 4 Begin-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="acutecaremarket.html" style="color: inherit;"> <h5 class="text-uppercase"> Acute Care </h5> </a>
+              </div>
+              <!--Grid column 4 End -->
+
+              <!--Grid column 5 Begin -->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="ambulatorymarket.html" style="color: inherit;"> <h5 class="text-uppercase"> Ambulatory Care   </h5> </a>
+              </div>
+              <!--Grid column 5 End -->
+
+              <!--Grid column 6 Begin -->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="extendedcaremarket.html" style="color: inherit;"> <h5 class="text-uppercase"> Extended Care </h5> </a>
+              </div>
+              <!--Grid column 6 End -->
+
+              <!--Grid column 7 Begin -->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <a href="keyresources.html" style="color: inherit;"> <h5 class="text-uppercase"> Key Resources </h5> </a>
+            </div>
+            <!--Grid column 7 End -->
+
+            <!--Grid column 8 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="http://site-751160.bcvp0rtal.com/" target="_blank" style="color: inherit;"> <h5 class="text-uppercase"> Multimedia Resources </h5> </a>
+            </div>
+            <!--Grid column 8 End -->
+                
+            </div>
+            <!--Grid row-->
+        </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          &copy; 2025 Konica Minolta Business Solutions USA
+        </div>
+        <!-- Copyright -->
+      </footer>
+<!-- Footer -->
+    
+  <!-- End Footer Section here -->
+
+
+
+
+
+
+<!-- End your project here-->
+  </body>
+
+  <!-- MDB ESSENTIAL -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- MDB PLUGINS -->
+  <script type="text/javascript" src="plugins/js/all.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</html>

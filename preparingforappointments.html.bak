@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Google Tag Manager -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-28P21D5QN2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-28P21D5QN2');
+</script>
+  
+<!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+        <meta name="citation_date" content="2025-05-07">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Healthcare Playbook: Preparing for Appointments</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB ESSENTIAL -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB PLUGINS -->
+    <link rel="stylesheet" href="plugins/css/all.min.css" />
+    <!-- Custom styles -->
+
+    <!-- Special DX Playbook CSS Sheet -->
+    <link rel="stylesheet" href="css/dxplaybook.css" />
+    <link rel="stylesheet" href="css/responsiveiframe.css" />
+
+  </head>
+
+ <body>
+
+    <!-- Start your project here-->
+
+<!-- Start your project here-->
+    
+    <!-- Nav Begin -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	  
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+         <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarCenterExample"
+          aria-controls="navbarCenterExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+    
+        <!-- Collapsible wrapper -->
+          
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCenterExample">
+          <!-- Left linwks -->
+            
+          <a class="navbar-brand" href="index.html"> <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/DX_Playbook_Images/kmlogostacked.png" width="100px" height="auto" alt="KM Logo"/></a>
+            
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+            
+          <ul class="navbar-nav justify-content-center mb-2 mb-lg-0">
+              
+            <li class="nav-item" >
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+    
+            <li class="nav-item" >
+              <a class="nav-link" aria-current="page" href="dxhealthcare.html">DX in Healthcare</a>
+            </li>
+              
+            <!-- Navbar Sales Practices Begin -->
+              
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownWhat"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sales Practices
+              </a>
+                
+              <!-- Dropdown Sales  menu items begin -->
+                
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                <li>
+                  <a class="dropdown-item" href="salespractices.html"> Sales Practices Home </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="howtoresearch.html"> Researching a Healthcare Account  </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="buyerpersonas.html"> Organizational Structures </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="communicatingvalue.html"> Communicating Value </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="prospectingforappointmentsbestpractices.html"> Prospecting for Appointments </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="preparingforappointments.html"> Preparing for Appointments </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="gpo.html"> &#40;GPO&#41; Group Purchasing Organizations </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="knowthecompetition.html"> Know the Competition </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="healthcareterms.html"> Healthcare Terms </a>
+                </li>
+                  
+              </ul>
+                
+            <!-- Dropdown Sales Practices menu items end -->
+                
+            </li>
+              
+            <!-- Nav Sales Practices End -->
+              
+            <!-- Navbar Acute Care Begin -->
+              
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Acute Care
+              </a>
+                
+              <!-- Dropdown Acute Care items begin -->
+                
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 
+                <li>
+                  <a class="dropdown-item" href="acutecaremarket.html"> Acute Care Home </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="acutecaremarkethipaa.html"> HIPAA </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketmps.html"> &#40;MPS&#41; Managed Print Services </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketcybersecuritysolutions.html"> Cybersecurity Solutions </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketlayeredsecurity.html"> Layered Security </a>
+                </li>
+            
+                <!-- Hide Begin
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketvss.html"> Video Solution Services </a>
+                </li>
+                Hide End -->
+            
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketworkflow.html"> Workflow </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketprintmanagement.html"> Print Management </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketenterprise.html"> &#40;IIM&#41; Intelligent Information Management </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketrpa.html"> &#40;RPA&#41; Robotic Process Automation </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketmanageditservices.html"> Managed IT Services </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="acutecarecmarketcloudservices.html"> Cloud Services </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketfaxmanagement.html"> Fax Management </a>
+                </li>
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="acutecaremarketpatientexperiencemanagement.html"> Patient Experience Management </a>
+                </li> -->
+    
+                <!--  <li>
+                  <a class="dropdown-item" href="acutecaremarketvaluebasedcareservices.html"> Value Based Care Services </a>
+                </li> -->
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="acutecaremarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li> -->
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="acutecaremarketinteroperabilityandintegrationservices.html"> Interoperability &amp; Integration Services </a>
+                </li> -->
+          
+              </ul>
+                
+            <!-- Dropdown Acute Care Items End -->
+                
+            </li>
+              
+            <!-- Nav Acute Care End -->
+
+            <!-- Navbar Ambulatory Care Begin -->
+              
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ambulatory Care
+              </a>
+                
+              <!-- Dropdown Ambulatory Care items begin -->
+                
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarket.html"> Ambulatory Care Home </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarkethipaa.html"> HIPAA </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmps.html"> &#40;MPS&#41; Managed Print Services </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketcybersecuritysolutions.html"> Cybersecurity Solutions </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketlayeredsecurity.html"> Layered Security </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketworkflow.html"> Workflow </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmfp.html"> Healthcare Enabled MFP Plus </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketprintmanagement.html"> Print Management </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketenterprise.html"> &#40;IIM&#41; Intelligent Information Management </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketrpa.html"> &#40;RPA&#41; Robotic Process Automation </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmanageditservices.html"> Managed IT Services </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketcloudservices.html"> Cloud Services </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="ambulatorycaremarketfaxmanagement.html"> Fax Management </a>
+                </li>
+
+                <!-- <li>
+                  <a class="dropdown-item" href="ambulatorymarketvaluebasedcareservices.html"> Value Based Care Services </a>
+                </li> -->
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="ambulatorymarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li> -->
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="ambulatorymarketinteroperabilityandintegrationservices.html"> Interoperability &amp; Integration Services </a>
+                </li> -->
+          
+              </ul>
+                
+            <!-- Dropdown Ambulatory Care Items End -->
+                
+            </li>
+              
+            <!-- Nav Ambulatory Care End -->
+
+            <!-- Navbar Extended Care Begin -->
+              
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Extended Care
+              </a>
+                
+              <!-- Dropdown Extended Care items begin -->
+                
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarket.html"> Extended Care Home </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarkethipaa.html"> HIPAA </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmps.html"> &#40;MPS&#41; Managed Print Services </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketcybersecuritysolutions.html"> Cybersecurity Solutions </a>
+                </li>
+            
+                <!-- Hide Begin
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketvss.html"> Video Solution Services </a>
+                </li>
+                Hide End -->
+            
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarkethworkflow.html"> Workflow </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmfp.html"> Healthcare Enabled MFP Plus </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketprintmanagement.html"> Print Management </a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketenterprise.html"> &#40;IIM&#41; Intelligent Information Management </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketrpa.html"> &#40;RPA&#41; Robotic Process Automation </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmanageditservices.html"> Managed IT Services </a>
+                </li>
+                  
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketcloudservices.html"> Cloud Services </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketfaxmanagement.html"> Fax Management </a>
+                </li>
+
+                <!-- <li>
+                  <a class="dropdown-item" href="extendedcaremarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li>
+                  -->
+    
+                <!-- <li>
+                  <a class="dropdown-item" href="extendedcaremarketinteroperabilityandintegrationservices.html"> Interoperability &amp; Integration Services </a>
+                </li> -->
+          
+              </ul>
+                
+            <!-- Dropdown Extended Care Items End -->
+                
+            </li>
+              
+            <!-- Nav Extended Care End -->
+              
+            <!-- Navbar Other Resources Begin -->
+              
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownResources"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Other Resources
+              </a>
+                
+              <!-- Dropdown Other Resources items begin -->
+                
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                <li>
+                  <a class="dropdown-item" href="http://site-751160.bcvp0rtal.com/" target="_blank"> Multimedia Resources </a>
+                </li>
+    
+                <li>
+                  <a class="dropdown-item" href="keyresources.html"> Key Resources </a>
+                </li>
+
+              </ul>
+                
+            <!-- Dropdown Other Resources Items End -->
+                
+            </li>
+              
+            <!-- Nav Other Resources End -->
+              
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+
+<!-- Nav End -->
+
+<!-- Banner Images Begin -->
+      
+<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel" style="margin-top: 70px">
+       
+  <!-- Background image -->
+    <div class="p-5 text-center bg-image" style="background-image: url('https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/HealthcareAppointments.jpg'); height: 600px;">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="banner1"> Preparing for Appointments </h1>
+            <h4 class="banner4"> Sales Practices that help support the sales process. </h4>
+
+          
+            <a class="btn btn-danger btn-lg" href="https://bcove.video/3taYwWg" role="button" target="_blank">  Watch the 1 minute Introduction Video </a>
+          
+    
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Background image -->  
+              
+  </div>
+        
+<!-- Banner Images End -->
+        
+        
+<!-- Breadcrumbs Begin -->
+        
+      <div class="container">
+          
+          <nav aria-label="breadcrumb" style="padding-top: 15px">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html"> Healthcare Playbook </a></li>
+              <li class="breadcrumb-item"><a href="salespractices.html"> Sales Practices </a></li>
+              <li class="breadcrumb-item active" aria-current="page"> Perparing for Appointments </li>
+            </ol>
+          </nav>
+          
+      </div> 
+          
+<!-- Breadcrumbs End -->
+
+<!-- Intro Begin -->
+
+
+<!-- Intro End -->
+   
+<!-- Video Playlist Begins-->
+
+<section class="container col-12 mb-10" style="padding-top: 15px; padding-bottom: 0px" id="dxvideo">
+            
+  <div class="row justify-content-center border-0" style="margin-bottom: px; border-style: groove; padding: 5px" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="900" >
+
+    <div class="row"> 
+      <h2 class="my-5 display-5 fw-bold ls-tight" style="text-align: center">  Why You Should Leverage <br> <span class="text-primary">Healthcare Team Expertise When Prospecting</span> </h2>
+    </div>
+
+    <iframe src="https://bcove.video/3mpEVNF" allowfullscreen="" allow="encrypted-media" width="960" height="540"></iframe>
+
+  </div>
+
+</section>
+
+<!-- Video Playlist Ends -->
+
+<!-- Insert PDF Begin -->
+
+<section class="container col-12 mb-10" style="padding-top: 15px; padding-bottom: 0px" id="iltadx">         
+  <div class="row justify-content-center border-0" style="margin-bottom: px; border-style: groove; padding: 5px" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="900" >
+   
+    <div class="row"> 
+      <h2 class="my-5 display-5 fw-bold ls-tight" style="text-align: center"> <span> How to engage </span> <br> <span class="text-primary"> the Healthcare sales teams</span> </h2>
+    </div>
+
+    <embed
+      src="https://bradleyapierce.github.io/Healthcare_Playbook/pdf/EngagingHealthCareTeamsExpertise.pdf"
+      type="application/pdf"
+      width="100%"
+      height="875"/>
+
+  </div>
+</section>
+
+<!-- Insert Pdf Ends -->
+
+<!-- CPW Accordian Begins -->
+
+<section class="container col-12" style="padding-top: 15px; padding-bottom: 0px" id="cpwaccordian">
+            
+  <div class="row justify-content-center border-0" style="margin-bottom: px; border-style: groove; padding: 5px" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="900" >
+  
+  <div id="preview2" class="preview">
+    <div style="display: none;"></div>
+    <div>
+      <div data-draggable="true" style="position: relative;">
+        <section draggable="false" class="container pt-5" data-v-271253ee="">
+          <section class="mb-10 text-center text-lg-start">
+  
+            <div class="row"> 
+              <h2 class="my-5 display-5 fw-bold ls-tight" style="text-align: center"> <span>CPW and stages of the Customer Buying Decision Process </span> <br> <span class="text-primary">and Best Practices to support them. </span> </h2>
+            </div>
+  
+            <div class="row gx-lg-5" style="text-align: left;">
+
+
+
+  
+              <div class="row w-100">
+                <div class="col-3">
+                  <!-- Tab navs -->
+                  <div
+                    class="nav flex-column nav-tabs text-center"
+                    id="v-tabs-tab"
+                    role="tablist"
+                    aria-orientation="vertical"
+                  >
+                    <a
+                      class="nav-link active"
+                      id="v-tabs-home-tab"
+                      data-mdb-toggle="tab"
+                      href="#v-tabs-cpw"
+                      role="tab"
+                      aria-controls="v-tabs-cpw"
+                      aria-selected="true"
+                      >Download the Call Planning Worksheet</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-tabs-profile-tab"
+                      data-mdb-toggle="tab"
+                      href="#v-tabs-identify"
+                      role="tab"
+                      aria-controls="v-tabs-identify"
+                      aria-selected="false"
+                      > 1. Identify Need</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-tabs-messages-tab"
+                      data-mdb-toggle="tab"
+                      href="#v-tabs-investigate"
+                      role="tab"
+                      aria-controls="v-tabs-investigate"
+                      aria-selected="false"
+                      >2. Investigate Options</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-tabs-resolve-tab"
+                      data-mdb-toggle="tab"
+                      href="#v-tabs-resolve"
+                      role="tab"
+                      aria-controls="v-tabs-resolve"
+                      aria-selected="false"
+                      >3. Resolve Concerns</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-tabs-part1-tab"
+                      data-mdb-toggle="tab"
+                      href="#v-tabs-part1"
+                      role="tab"
+                      aria-controls="v-tabs-part1"
+                      aria-selected="false"
+                      >4. Best Practices Part 1</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-tabs-part2-tab"
+                      data-mdb-toggle="tab"
+                      href="#v-tabs-part2"
+                      role="tab"
+                      aria-controls="v-tabs-part2"
+                      aria-selected="false"
+                      >5. Best Practices Part 2</a
+                    >
+                  </div>
+                  <!-- Tab navs -->
+                </div>
+              
+                <div class="col-9">
+                  <!-- Tab content -->
+                  <div class="tab-content m-3" id="v-tabs-tabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="v-tabs-cpw"
+                      role="tabpanel"
+                      aria-labelledby="v-tabs-cpw-tab"
+                      style="height: 400px; overflow: auto;"
+                    >
+                      <span> <h5>
+                        Call Planning Worksheet </h5> </span>
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_Call_Planning_Worksheet.jpg"
+                        class="img-thumbnail mb-5"
+                        alt="Call Planning Worksheet"
+                      />
+                      <br>
+                      <p> The Call Planning Worksheet or CPW is a tool to help you prepare for appointments.</p>
+                      <!-- Button Begin -->
+                      <a href="pdf/Technology Insights Report_bp_v2 (1).pptx" type="button" class="btn btn-primary">Download Here to Get Started</a>
+                      <!-- Button End -->
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-tabs-identify"
+                      role="tabpanel"
+                      aria-labelledby="v-tabs-identify-tab"
+                    >
+                      <span> <h5> 1. Identify Need </h5> </span>
+                      <p> You add value by helping your prospect recognize a problem in the work environment or a business need that has not been addressed. </p>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-tabs-investigate"
+                      role="tabpanel"
+                      aria-labelledby="v-tabs-investigate-tab"
+                    >
+                      <span> <h5> 2. Investigate Options </h5> </span>
+                      <p> Your prospect considers options, including keeping the status quo and doing nothing. You add value by differentiating yourself and your offerings. You help the client see that Konica Minolta and All Covered provide the best option.  </p>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-tabs-resolve"
+                      role="tabpanel"
+                      aria-labelledby="v-tabs-resolve-tab"
+                    >
+                      <span> <h5> 3. Resolve Concerns </h5> </span>
+                      <p> Your prospect is weighing what might go wrong in taking action. You add value when you are prepared to answer questions and overcome objections. You add value when you can document the value of a solution by sharing a customer success story, by providing a proof of concept, or by asking an expert to demonstrate Konica Minolta / All Covered capabilities.  </p>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-tabs-part1"
+                      role="tabpanel"
+                      aria-labelledby="v-tabs-part1-tab"
+                      style="height: 275px; overflow: auto;"
+                    >
+                      <span> <h5> 4. Best Parctices Part 1 </h5> </span>
+                      
+                      <p> You will find some examples in the following suggested practices. The examples use a fictitious account called Ace Medical Partners. </p> <br>
+              
+              
+                    <h5> Stage of Customer Buying &#8211; Decision Process </h5>
+                  
+                    <section class="row justify-content-center" id="article">
+                           
+                            <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_Call_Planning_Worksheet_2.jpg" class="boxshadow" alt="Call Planning Worksheet Image" style="float: left;" width="50%" height="50%"> 
+                           
+                      </section> <br> 
+                    
+                    
+                    <p> Enter one of the following stages: 
+                    <ul>
+                      <li> Identify Need </li>
+                      <li> Investigate Options </li>
+                      <li> Resolve Concerns </li>
+                    </ul>
+                    </p> <br> <br> <br> <br>
+              
+                    <h5> Background </h5>
+                    
+                    <section class="row justify-content-center">
+                           
+                            <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_Call_Planning_Worksheet_3.jpg" style="float: left;" width="50%" height="50%"> 
+                           
+                      </section> <br> 
+                    
+                    
+              
+                    <p> For Identify Need stage: Summarize what you found in CRM, D&amp;B, Definitive Healthcare, the client website, LinkedIn, and other social media platforms. Note your prospect&#8219;s  job role or Buyer Persona, so that you can anticipate the most important challenges. </p>
+              
+                    <p> For Investigate Options and Resolve Concerns stages: Summarize what you learned from a phone interview or a first appointment. </p> <br>
+              
+              
+                    <h5> Goal </h5>
+                    
+                    <section class="row justify-content-center">
+                           
+                            <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_Call_Planning_Worksheet_4.jpg" class="boxshadow" alt="Call Planning Worksheet Image" style="float: left;" width="50%" height="50%"> 
+                           
+                      </section> <br> 
+                    
+                    
+                    
+                    <p> You should define a goal for every appointment. Your ultimate goal is to win business. You may define a more limited goal, however, for one appointment. For example, the goal may be to obtain your prospect&#8219;s agreement to do an assessment. </p>
+                    <p> The CPW provides space for you to define a primary goal and a secondary goal. Read the explanations of these goals on the CPW. </p> <br>
+              
+              
+                   
+                    <h5> Valid Business Reason &#40;VBR&#41; to Meet Benefits Statement </h5>
+                    
+                    <section class="row justify-content-center">
+                           
+                            <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_Call_Planning_Worksheet_5.jpg" class="boxshadow" alt="Call Planning Worksheet Image" style="float: left;" width="50%" height="50%"> 
+                           
+                      </section> <br> 
+                    
+                    
+                    
+                    <p>The <b> VBR </b> states your prospect&#8219;s reason for the meeting. The <b> VBR </b> reflects the prospect&#8219;s priorities, not yours. </p>
+                    <p> For example, you might say </p> 
+                    
+                    <p> <i> &#8220;Based on our phone call, Ace Medical Partners just launched an initiative to strengthen HIPAA compliance in all areas of the practice.&#8221; </i> </p>
+              
+                    <p> The <b> Benefits Statement </b> tells how your prospect will benefit from meeting with you. It is your way to demonstrate your value to the prospect. </p>
+                    <p> For example, you might say </p>
+                    <p> <i> &#8220;I want to explore with you some ways we can bring significant improvement in HIPAA compliance to your practice.&#8221; </i> </p> <br>
+              
+              
+                    <h5>  Suggested Agenda and Response Check </h5>
+                    
+                    <section class="row justify-content-center">
+                           
+                            <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_Call_Planning_Worksheet_6.jpg" class="boxshadow" alt="Call Planning Worksheet Image" style="float: left;" width="50%" height="50%"> 
+                           
+                      </section> <br> 
+                    
+                    
+                    
+                    <p> <b> Suggested Agenda </b> </p>
+                    <p> Keep your suggested agenda short and simple. Make sure agenda items show the prospect point of view. </p>
+                    <p> For example </p>
+                    <p> <i> &#8220;Discuss and document most difficult challenges at Ace Medical Partners&#8221; </i> </p>
+                    <p> <i> Or </i> </p>
+                    <p> <i> &#8220;How Secure Print Will Enhance HIPAA Compliance at Ace Medical Partners&#8221; </i> </p> <br>
+              
+                    <p> Avoid putting the name of a specific product or service in your agenda before you are prepared to propose a solution. </p> <br>
+              
+                    <p> <b> Response Check </b> </p>
+                    <p> A Response Check seeks prospect input or unspoken objections. Use them to keep your prospect fully engaged. </p>
+                    <p> For example </p>
+                    <p> <i> &#8220;Is there anything else you would like to add to our agenda?&#8221; </i> </p> <br>
+              
+              
+                    <h5>  Fact Finding </h5>
+                    
+                    <section class="row justify-content-center">
+                           
+                            <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_Call_Planning_Worksheet_7.jpg" class="boxshadow" alt="Call Planning Worksheet Image" style="float: left;" width="50%" height="50%"> 
+                           
+                      </section> <br> 
+                    
+                    
+                    
+                    <p> In Fact Finding, you will use questions to help your prospect Identify Needs. </p>
+                    <p> The CPW lets you organize your questions using <b>S&#8211;I&#8211;G&#8211;N</b>, which stands for </p> 
+                    <p> <b>S</b>ituation &#8211; <b>I</b>nsight &#8211; <b>G</b>ap &#8211; <b>N</b>eed/Solution. </p>
+              
+                    <p> <b> Situation </b> questions help you get the facts about the prospect&#8219;s current state. Use them sparingly. Only ask Situation questions that you cannot answer from your background research. </p>
+                    <p> For example </p>
+                    <p> <i> &#8220;How does your practice currently protect the security of patient records when they are printed?&#8221; </i> </p>
+              
+                    <p> <b> Insight </b> questions help you discover the prospect&#8219;s dissatisfaction with the current state. </p> 
+                    <p> For example </p>
+                    <p> <i> &#8220;Does your practice have a metric or key performance indicator that is tied to how you manage security of your patient records?&#8221; </i> </p>
+              
+                    <p> <b> Gap </b> questions help the prospect see the difference between current state and desired state, and recognize that the need is serious enough to justify a solution. </p>
+                    <p> For example </p>
+                    <p> <i>  &#8220;Given the challenge you have described about security of printed patient records, how is that affecting your day&#8211;to&#8211;day performance? How is that affecting the performance of your staff?&#8221; </i> </p>
+              
+                    <p> <b> Need/Solution </b> questions encourage your prospect to tell you the value of solving a problem. </p>
+                    <p> For example </p>
+                    <p> <i> &#8220;We can help you eliminate the risk of HIPAA violations for unsecured patient records, what would be the impact for Ace Medical and for you?&#8221; </i>  </p>
+              
+                  </div>
+                  <div class="col-9" style="display:none; max-height: 600px; overflow: scroll; background: #EBE9E9" id="panel2">
+                  <p> 
+                  
+                  <h3> CPW Best Practices Part 2 </h3> <br> <br> <br>
+                  <h5> Selling Value </h5>
+                    
+                  <section class="row justify-content-center">
+                           
+                            <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_Call_Planning_Worksheet_8.jpg" class="boxshadow" alt="Call Planning Worksheet Image" style="float: left;" width="50%" height="50%"> 
+                           
+                      </section> <br> 
+                  
+                  <p> Use this part of the CPW when you are prepared to align your expertise or your services to a specific need that the prospect has identified. </p> 
+              
+                  <p> If your prospect is in the Investigate Options stage: </p>
+                  <p> This is when you communicate the value of an assessment that can document specific details about the prospect&#8219;s current state. </p>
+                  <p> If your prospect is in the Resolve Concerns stage: </p>
+                  <p> This is when you describe the impact of a solution that will solve the prospect&#8219;s problem and bring the prospect closer to the desired state. </p> <br> <br> <br>
+              
+              
+                  <h5> Anticipated Objections </h5>
+                    
+                    <section class="row justify-content-center">
+                           
+                            <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_Call_Planning_Worksheet_9.jpg" class="boxshadow" alt="Call Planning Worksheet Image" style="float: left;" width="50%" height="50%"> 
+                           
+                      </section> <br> 
+                    
+                  
+                  <p> To keep your appointments on track, you should prepare responses to anticipated objections. </p> 
+                  <p> Use this practice: </p>
+                  <ul>
+                    <li> <b> 1. Listen and Acknowledge </b> </li>
+                    <li> <b> 2. Explore </b> </li>
+                    <li> <b> 3. Respond </b> </li>
+                  </ul> <br> <br> <br>
+              
+                  <p> Here are some common objections along with some examples. </p>
+              
+                  <h6> <b> Objection: </b> &#8220;We handle all of this in&#8211;house, with our own personnel&#8220; </h6>
+                  <p> <b> 1. Listen and Acknowledge </b> </p>
+                  <p> <i> &#8220;That&#8219;s great. Many of our current customers do as well. &#8221; </i> </p>
+                  <p> <b> 2. Explore </b> </p>
+                  <p> <i> &#8220;Have you considered how much more valuable your personnel can be  when they can work on your most strategic technology issues?&#8221; </i> </p>
+                  <p> <b> 3. Respond </b> </p>
+                  <p> <i> &#8220;When you use our services, you can free up time from performing the routine maintenance tasks.  Alternatively, some other companies come to us for our Cybersecurity and Document Security expertise and tools because that expertise is hard to find and expensive to retain in house.&#8221; </i> </p> <br> <br> <br>
+              
+                  <h6> <b> Objection: </b> &#8220;We already have a vendor that we use. We are satisfied with our current vendor.&#8221; </h6>
+                  <p> <b> 1. Listen and Acknowledge </b> </p>
+                  <p> <i> &#8220;Thanks for that information.  It is great to have a vendor you can trust.&#8221; </i>  </p> 
+                  <p> <b> 2. Explore </b> </p>
+                  <p> <i> &#8220; On a scale of 1 to 10, 10 being perfect, how would you rate the service you get from your current vendor?&#8221; </i> </p>
+                  <p> <b> 3. Respond </b> </p>
+                  <p> <i> &#8220;Many of our clients have found that IT has become their 3rd largest expense and as a result, they evaluate the service providers every year.  How often do you look for improvements in the service you receive now? &#8221; </i> </p> <br> <br> <br>
+              
+              
+                  <p> <b> Objection: </b> &#8220;Oh yeah we&#8219;re good!  We don&#8219;t really have any technology problems right now.&#8221; </p>
+                  <p> <b> 1. Listen and Acknowledge </b> </p>
+                  <p> <i> &#8220;That&#8219;s good to hear! You know many of our current customers felt the same way.  Then the unexpected happened.&#8221; </i> </p>
+                  <p> <b> 2. Explore </b> </p>
+                  <p> <i> &#8220;Have you considered how you would cope if a key member of your technology team leaves or becomes disabled?&#8221; </i> </p>
+                  <p> <b> 3. Respond </b> </p>
+                  <p> <i> &#8220;Our customers tell us they are glad to have the relationship because they feel they are prepared to thrive no matter what unusual events come along to disrupt business. The lesson is that the best time to have a conversation with us is when you are feeling good about the business because then you won&#8219;t make decisions based on fear or panic.&#8221; </i> </p> <br> <br> <br>
+              
+              
+              
+                  <h6> <b> Objection: </b> &#8220;We just renewed our vendor contract.&#8221; </h6>
+                  <p> <b> 1. Listen and Acknowledge </b> </p>
+                  <p> <i> &#8220;Thanks for sharing that. That&#8219;s good that you trust your vendor.  Many of our current customers do too.&#8221; </i> </p>
+                  <p> <b> 2. Explore </b> </p>
+                  <p> <i> &#8220;Have you considered if the scope and scale of the services provided under that new contract will meet your needs in a year or two from today?&#8221; </i> </p> 
+                  <p> <b> 3. Respond </b> </p>
+                  <p> <i> &#8220;Business is changing fast. Your business requirements for support services can also change quickly. You might want to think about a plan of action if you find that unexpected events leave you vulnerable in a way that is hard to predict now. That&#8219;s where an assessment, performed by our experts, can give you some options to think about.&#8221; </i> </p> <br> <br> <br>
+                      
+                      </p> </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-tabs-part2"
+                      role="tabpanel"
+                      aria-labelledby="v-tabs-part2-tab"
+                      style="height: 275px; overflow: auto;"
+                    >
+                      <span> <h5> 5. Best Parctices Part 2 </h5> </span>
+                      
+                          <h5> Selling Value </h5>
+                    
+                  <section class="row justify-content-center">
+                           
+                            <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_Call_Planning_Worksheet_8.jpg" class="boxshadow" alt="Call Planning Worksheet Image" style="float: left;" width="50%" height="50%"> 
+                           
+                      </section> <br> 
+                  
+                  <p> Use this part of the CPW when you are prepared to align your expertise or your services to a specific need that the prospect has identified. </p> 
+              
+                  <p> If your prospect is in the Investigate Options stage: </p>
+                  <p> This is when you communicate the value of an assessment that can document specific details about the prospect&#8219;s current state. </p>
+                  <p> If your prospect is in the Resolve Concerns stage: </p>
+                  <p> This is when you describe the impact of a solution that will solve the prospect&#8219;s problem and bring the prospect closer to the desired state. </p> <br> <br> <br>
+              
+              
+                  <h5> Anticipated Objections </h5>
+                    
+                    <section class="row justify-content-center">
+                           
+                            <img src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_Call_Planning_Worksheet_9.jpg" class="boxshadow" alt="Call Planning Worksheet Image" style="float: left;" width="50%" height="50%"> 
+                           
+                      </section> <br> 
+                    
+                  
+                  <p> To keep your appointments on track, you should prepare responses to anticipated objections. </p> 
+                  <p> Use this practice: </p>
+                  <ul>
+                    <li> <b> 1. Listen and Acknowledge </b> </li>
+                    <li> <b> 2. Explore </b> </li>
+                    <li> <b> 3. Respond </b> </li>
+                  </ul> <br> <br> <br>
+              
+                  <p> Here are some common objections along with some examples. </p>
+              
+                  <h6> <b> Objection: </b> &#8220;We handle all of this in&#8211;house, with our own personnel&#8220; </h6>
+                  <p> <b> 1. Listen and Acknowledge </b> </p>
+                  <p> <i> &#8220;That&#8219;s great. Many of our current customers do as well. &#8221; </i> </p>
+                  <p> <b> 2. Explore </b> </p>
+                  <p> <i> &#8220;Have you considered how much more valuable your personnel can be  when they can work on your most strategic technology issues?&#8221; </i> </p>
+                  <p> <b> 3. Respond </b> </p>
+                  <p> <i> &#8220;When you use our services, you can free up time from performing the routine maintenance tasks.  Alternatively, some other companies come to us for our Cybersecurity and Document Security expertise and tools because that expertise is hard to find and expensive to retain in house.&#8221; </i> </p> <br> <br> <br>
+              
+                  <h6> <b> Objection: </b> &#8220;We already have a vendor that we use. We are satisfied with our current vendor.&#8221; </h6>
+                  <p> <b> 1. Listen and Acknowledge </b> </p>
+                  <p> <i> &#8220;Thanks for that information.  It is great to have a vendor you can trust.&#8221; </i>  </p> 
+                  <p> <b> 2. Explore </b> </p>
+                  <p> <i> &#8220; On a scale of 1 to 10, 10 being perfect, how would you rate the service you get from your current vendor?&#8221; </i> </p>
+                  <p> <b> 3. Respond </b> </p>
+                  <p> <i> &#8220;Many of our clients have found that IT has become their 3rd largest expense and as a result, they evaluate the service providers every year.  How often do you look for improvements in the service you receive now? &#8221; </i> </p> <br> <br> <br>
+              
+              
+                  <p> <b> Objection: </b> &#8220;Oh yeah we&#8219;re good!  We don&#8219;t really have any technology problems right now.&#8221; </p>
+                  <p> <b> 1. Listen and Acknowledge </b> </p>
+                  <p> <i> &#8220;That&#8219;s good to hear! You know many of our current customers felt the same way.  Then the unexpected happened.&#8221; </i> </p>
+                  <p> <b> 2. Explore </b> </p>
+                  <p> <i> &#8220;Have you considered how you would cope if a key member of your technology team leaves or becomes disabled?&#8221; </i> </p>
+                  <p> <b> 3. Respond </b> </p>
+                  <p> <i> &#8220;Our customers tell us they are glad to have the relationship because they feel they are prepared to thrive no matter what unusual events come along to disrupt business. The lesson is that the best time to have a conversation with us is when you are feeling good about the business because then you won&#8219;t make decisions based on fear or panic.&#8221; </i> </p> <br> <br> <br>
+              
+              
+              
+                  <h6> <b> Objection: </b> &#8220;We just renewed our vendor contract.&#8221; </h6>
+                  <p> <b> 1. Listen and Acknowledge </b> </p>
+                  <p> <i> &#8220;Thanks for sharing that. That&#8219;s good that you trust your vendor.  Many of our current customers do too.&#8221; </i> </p>
+                  <p> <b> 2. Explore </b> </p>
+                  <p> <i> &#8220;Have you considered if the scope and scale of the services provided under that new contract will meet your needs in a year or two from today?&#8221; </i> </p> 
+                  <p> <b> 3. Respond </b> </p>
+                  <p> <i> &#8220;Business is changing fast. Your business requirements for support services can also change quickly. You might want to think about a plan of action if you find that unexpected events leave you vulnerable in a way that is hard to predict now. That&#8219;s where an assessment, performed by our experts, can give you some options to think about.&#8221; </i> </p> <br> <br> <br>
+                      
+                    </div>
+                  </div>
+                  <!-- Tab content -->
+                </div>
+              </div>
+  
+            </div>
+  
+          </section>
+
+
+
+<!-- CPW Accordian Ends-->
+
+<!-- Start Footer Section here -->
+      
+      <!-- Footer -->
+      <footer class="bg-dark text-center text-white">
+            
+        <!-- Grid container -->
+          
+        <div class="container p-4">
+
+
+          <!-- Section: Form -->
+          
+          <!-- Section: Form -->
+
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column 1 Begin-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="index.html" style="color: inherit;"> <h5 class="text-uppercase"> Home </h5> </a>
+              </div>
+              <!--Grid column 1 End -->
+
+              <!--Grid column 2 Begin-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="dxhealthcare.html" style="color: inherit;"> <h5 class="text-uppercase"> DX in Healthcare </h5> </a>
+              </div>
+              <!--Grid column 2 End -->
+                
+              <!--Grid column 3 Begin-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="salespractices.html" style="color: inherit;"> <h5 class="text-uppercase"> Sales Practices </h5> </a>
+              </div>
+              <!--Grid column 3 End -->
+                
+              <!--Grid column 4 Begin-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="acutecaremarket.html" style="color: inherit;"> <h5 class="text-uppercase"> Acute Care </h5> </a>
+              </div>
+              <!--Grid column 4 End -->
+
+              <!--Grid column 5 Begin -->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="ambulatorymarket.html" style="color: inherit;"> <h5 class="text-uppercase"> Ambulatory Care   </h5> </a>
+              </div>
+              <!--Grid column 5 End -->
+
+              <!--Grid column 6 Begin -->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <a href="extendedcaremarket.html" style="color: inherit;"> <h5 class="text-uppercase"> Extended Care </h5> </a>
+              </div>
+              <!--Grid column 6 End -->
+
+              <!--Grid column 7 Begin -->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <a href="keyresources.html" style="color: inherit;"> <h5 class="text-uppercase"> Key Resources </h5> </a>
+            </div>
+            <!--Grid column 7 End -->
+
+            <!--Grid column 8 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="http://site-751160.bcvp0rtal.com/" target="_blank" style="color: inherit;"> <h5 class="text-uppercase"> Multimedia Resources </h5> </a>
+            </div>
+            <!--Grid column 8 End -->
+                
+            </div>
+            <!--Grid row-->
+        </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          &copy; 2025 Konica Minolta Business Solutions USA
+        </div>
+        <!-- Copyright -->
+      </footer>
+<!-- Footer -->
+    
+  <!-- End Footer Section here -->
+
+
+
+
+
+
+<!-- End your project here-->
+  </body>
+
+  <!-- MDB ESSENTIAL -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- MDB PLUGINS -->
+  <script type="text/javascript" src="plugins/js/all.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</html>

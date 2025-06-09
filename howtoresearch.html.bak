@@ -1,0 +1,1761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Google Tag Manager -->
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-28P21D5QN2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-28P21D5QN2");
+    </script>
+
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+    <meta name="citation_date" content="2025-05-07" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Healthcare Playbook: Researching a Healthcare Account</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB ESSENTIAL -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB PLUGINS -->
+    <link rel="stylesheet" href="plugins/css/all.min.css" />
+    <!-- Custom styles -->
+
+    <!-- Special DX Playbook CSS Sheet -->
+    <link rel="stylesheet" href="css/dxplaybook.css" />
+    <link rel="stylesheet" href="css/responsiveiframe.css" />
+
+    <style></style>
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+
+    <!-- Nav Begin -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarCenterExample"
+          aria-controls="navbarCenterExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarCenterExample"
+        >
+          <!-- Left linwks -->
+
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="https://cdn.jsdelivr.net/gh/BradleyAPierce/DX_Playbook_Images/kmlogostacked.png"
+              width="100px"
+              height="auto"
+              alt="KM Logo"
+          /></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <ul class="navbar-nav justify-content-center mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="dxhealthcare.html"
+                >DX in Healthcare</a
+              >
+            </li>
+
+            <!-- Navbar Sales Practices Begin -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownWhat"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sales Practices
+              </a>
+
+              <!-- Dropdown Sales  menu items begin -->
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="salespractices.html">
+                    Sales Practices Home
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="howtoresearch.html">
+                    Researching a Healthcare Account
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="buyerpersonas.html">
+                    Organizational Structures
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="communicatingvalue.html">
+                    Communicating Value
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="prospectingforappointmentsbestpractices.html"
+                  >
+                    Prospecting for Appointments
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="preparingforappointments.html">
+                    Preparing for Appointments
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="gpo.html">
+                    &#40;GPO&#41; Group Purchasing Organizations
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="knowthecompetition.html">
+                    Know the Competition
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="healthcareterms.html">
+                    Healthcare Terms
+                  </a>
+                </li>
+              </ul>
+
+              <!-- Dropdown Sales Practices menu items end -->
+            </li>
+
+            <!-- Nav Sales Practices End -->
+
+            <!-- Navbar Acute Care Begin -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Acute Care
+              </a>
+
+              <!-- Dropdown Acute Care items begin -->
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="acutecaremarket.html">
+                    Acute Care Home
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarkethipaa.html">
+                    HIPAA
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketmps.html">
+                    &#40;MPS&#41; Managed Print Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketcybersecuritysolutions.html"
+                  >
+                    Cybersecurity Solutions
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketlayeredsecurity.html"
+                  >
+                    Layered Security
+                  </a>
+                </li>
+
+                <!-- Hide Begin
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketvss.html"> Video Solution Services </a>
+                </li>
+                Hide End -->
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketworkflow.html">
+                    Workflow
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketprintmanagement.html"
+                  >
+                    Print Management
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketenterprise.html"
+                  >
+                    &#40;IIM&#41; Intelligent Information Management
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketrpa.html">
+                    &#40;RPA&#41; Robotic Process Automation
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketmanageditservices.html"
+                  >
+                    Managed IT Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecarecmarketcloudservices.html"
+                  >
+                    Cloud Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketfaxmanagement.html"
+                  >
+                    Fax Management
+                  </a>
+                </li>
+
+                <!-- <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketpatientexperiencemanagement.html"
+                  >
+                    Patient Experience Management
+                  </a>
+                </li> -->
+
+                <!--  <li>
+                  <a class="dropdown-item" href="acutecaremarketvaluebasedcareservices.html"> Value Based Care Services </a>
+                </li> -->
+
+                <!-- <li>
+                  <a class="dropdown-item" href="acutecaremarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li> -->
+
+                <!-- <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketinteroperabilityandintegrationservices.html"
+                  >
+                    Interoperability &amp; Integration Services
+                  </a>
+                </li> -->
+              </ul>
+
+              <!-- Dropdown Acute Care Items End -->
+            </li>
+
+            <!-- Nav Acute Care End -->
+
+            <!-- Navbar Ambulatory Care Begin -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ambulatory Care
+              </a>
+
+              <!-- Dropdown Ambulatory Care items begin -->
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarket.html">
+                    Ambulatory Care Home
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarkethipaa.html">
+                    HIPAA
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmps.html">
+                    &#40;MPS&#41; Managed Print Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketcybersecuritysolutions.html"
+                  >
+                    Cybersecurity Solutions
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketlayeredsecurity.html"
+                  >
+                    Layered Security
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketworkflow.html">
+                    Workflow
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmfp.html">
+                    Healthcare Enabled MFP Plus
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketprintmanagement.html"
+                  >
+                    Print Management
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketenterprise.html"
+                  >
+                    &#40;IIM&#41; Intelligent Information Management
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketrpa.html">
+                    &#40;RPA&#41; Robotic Process Automation
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketmanageditservices.html"
+                  >
+                    Managed IT Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketcloudservices.html"
+                  >
+                    Cloud Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorycaremarketfaxmanagement.html"
+                  >
+                    Fax Management
+                  </a>
+                </li>
+
+                <!-- <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketvaluebasedcareservices.html"
+                  >
+                    Value Based Care Services
+                  </a>
+                </li> -->
+
+                <!-- <li>
+                  <a class="dropdown-item" href="ambulatorymarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li> -->
+
+                <!-- <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketinteroperabilityandintegrationservices.html"
+                  >
+                    Interoperability &amp; Integration Services
+                  </a>
+                </li> -->
+              </ul>
+
+              <!-- Dropdown Ambulatory Care Items End -->
+            </li>
+
+            <!-- Nav Ambulatory Care End -->
+
+            <!-- Navbar Extended Care Begin -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Extended Care
+              </a>
+
+              <!-- Dropdown Extended Care items begin -->
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarket.html">
+                    Extended Care Home
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarkethipaa.html">
+                    HIPAA
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmps.html">
+                    &#40;MPS&#41; Managed Print Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketcybersecuritysolutions.html"
+                  >
+                    Cybersecurity Solutions
+                  </a>
+                </li>
+
+                <!-- Hide Begin
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketvss.html"> Video Solution Services </a>
+                </li>
+                Hide End -->
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarkethworkflow.html"
+                  >
+                    Workflow
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmfp.html">
+                    Healthcare Enabled MFP Plus
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketprintmanagement.html"
+                  >
+                    Print Management
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketenterprise.html"
+                  >
+                    &#40;IIM&#41; Intelligent Information Management
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketrpa.html">
+                    &#40;RPA&#41; Robotic Process Automation
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketmanageditservices.html"
+                  >
+                    Managed IT Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketcloudservices.html"
+                  >
+                    Cloud Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketfaxmanagement.html"
+                  >
+                    Fax Management
+                  </a>
+                </li>
+
+                <!-- <li>
+                  <a class="dropdown-item" href="extendedcaremarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li>
+                  -->
+
+                <!-- <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketinteroperabilityandintegrationservices.html"
+                  >
+                    Interoperability &amp; Integration Services
+                  </a>
+                </li> -->
+              </ul>
+
+              <!-- Dropdown Extended Care Items End -->
+            </li>
+
+            <!-- Nav Extended Care End -->
+
+            <!-- Navbar Other Resources Begin -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownResources"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Other Resources
+              </a>
+
+              <!-- Dropdown Other Resources items begin -->
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="http://site-751160.bcvp0rtal.com/"
+                    target="_blank"
+                  >
+                    Multimedia Resources
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="keyresources.html">
+                    Key Resources
+                  </a>
+                </li>
+              </ul>
+
+              <!-- Dropdown Other Resources Items End -->
+            </li>
+
+            <!-- Nav Other Resources End -->
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+
+    <!-- Nav End -->
+
+    <!-- Banner Images Begin -->
+
+    <div
+      id="carouselBasicExample"
+      class="carousel slide carousel-fade"
+      data-mdb-ride="carousel"
+      style="margin-top: 70px"
+    >
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        style="
+          background-image: url('https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/HealthcareResearch.jpg');
+          height: 600px;
+        "
+      >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="banner1">How to Research a Healthcare Account</h1>
+              <h4 class="banner4">
+                Sales Practices that help support the sales process.
+              </h4>
+
+              <!-- Hide Button Begin
+            <a class="btn btn-danger btn-lg" href="https://www.youtube.com/watch?v=OvBi15sN1WQ&list=PLkd9gsOSsrMGFGDaXzH4gaBcPnZzErgSp&index=1" role="button" target="_blank">  Understanding the Healthcare Vertical strategy is the first step. Watch video! </a>
+          Hide Button End -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </div>
+
+    <!-- Banner Images End -->
+
+    <!-- Breadcrumbs Begin -->
+
+    <div class="container">
+      <nav aria-label="breadcrumb" style="padding-top: 15px">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="index.html"> Healthcare Playbook </a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="salespractices.html"> Sales Practices </a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            How to Research a Healthcare Account
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <!-- Breadcrumbs End -->
+
+    <!-- Introduction Begin -->
+
+    <div id="preview" class="preview">
+      <div style="display: none"></div>
+      <div>
+        <div
+          data-draggable="true"
+          class=""
+          style="position: relative"
+          draggable="false"
+          data-mdb-toggle="animation"
+          data-mdb-animation-start="onScroll"
+          data-mdb-animation-on-scroll="repeat"
+          data-mdb-animation="fade-in"
+          data-mdb-animation-delay="900"
+          id="introvalue"
+        >
+          <section
+            draggable="false"
+            class="overflow-hidden pt-0"
+            data-v-271253ee=""
+          >
+            <section class="mb-10 overflow-hidden">
+              <div
+                class="px-4 py-5 px-md-5 text-center bg-image"
+                style="
+                  background-image: url('https://cdn.jsdelivr.net/gh/BradleyAPierce/Legal_Vertical_Playbook_Images/AdobeStock_300546467.jpeg');
+                  height: 500px;
+                  background-size: cover;
+                  background-position: 50% 50%;
+                  background-color: rgba(0, 0, 0, 0);
+                "
+                aria-controls="#picker-editor"
+              >
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
+                  <div class="container h-100">
+                    <div
+                      class="row d-flex justify-content-center align-items-center h-100"
+                    >
+                      <div class="col-lg-10">
+                        <div
+                          class="text-white pb-5"
+                          data-mdb-toggle="animation"
+                          data-mdb-animation-start="onScroll"
+                          data-mdb-animation-on-scroll="repeat"
+                          data-mdb-animation="fade-in"
+                          data-mdb-animation-delay="900"
+                        >
+                          <h1
+                            class="my-md-5 mb-4 px-5 display-3 fw-bold ls-tight"
+                          >
+                            <span>How to Research a </span> <br />
+                            <span class="">Healthcare Account</span>
+                          </h1>
+
+                          <h5>
+                            <q>
+                              A Value Statement is a business statement that
+                              tells what positive impact you or your company can
+                              make to improve a customer&#39;s business.
+                            </q>
+                          </h5>
+
+                          <!-- Hide Buttons Begin
+                                          <a class="btn btn-outline-light btn-lg btn-rounded py-3 px-5 mb-2 mb-md-0 me-md-2" href="#!" role="button" aria-controls="#picker-editor" draggable="false" style="">Get started</a> 
+                                          <a class="btn      btn-link btn-lg btn-rounded py-3 px-5 mb-2 mb-md-0 text-white" style="background-color: transparent" href="#!" role="button" aria-controls="#picker-editor" draggable="false">Learn more</a>
+                                          Hide Buttons End -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class=""
+                style="
+                  height: 30px;
+                  margin-top: -30px;
+                  transform: scale(2);
+                  transform-origin: top center;
+                  color: #fff;
+                "
+              >
+                <svg viewBox="0 0 2880 48" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M 0 48 L 1437.5 48 L 2880 48 L 2880 0 L 2160 0 C 1453.324 60.118 726.013 4.51 720 0 L 0 0 L 0 48 Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <!-- Background image -->
+            </section>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- Introduction End -->
+
+    <!-- How to Research Card Begin -->
+
+    <!-- Start Cards here -->
+
+    <section
+      class="container col-12"
+      style="padding-top: 15px; padding-bottom: 0px"
+      id="researchcards"
+    >
+      <div
+        class="row justify-content-center border-0"
+        style="margin-bottom: px; border-style: groove; padding: 5px"
+      >
+        <div class="container my-5 py-5">
+          <!-- Section: Design Block -->
+          <section class="mb-10 text-center text-lg-start">
+            <div class="row">
+              <h2
+                class="my-5 display-5 fw-bold ls-tight"
+                style="text-align: center"
+              >
+                <span> 6 Steps to use while </span> <br />
+                <span> Researching Healthcare accounts </span>
+              </h2>
+            </div>
+
+            <div
+              class="row gx-lg-5"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <!-- Card Begin -->
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-4">
+                <div class="card">
+                  <div
+                    class="bg-image hover-overlay ripple"
+                    data-ripple-color="light"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/HealthcareCRM.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+
+                  <div class="card-body" style="text-align: left">
+                    <h5 class="card-title">CRM</h5>
+                    <p class="card-text">
+                      Always build a knowledge base from CRM. Follow the steps
+                      to do this.
+                    </p>
+
+                    <!-- Button Begin -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#resources1"
+                    >
+                      Learn More
+                    </button>
+                    <!-- Button End -->
+
+                    <!-- Modal Begin  -->
+                    <div
+                      class="modal fade"
+                      id="resources1"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              CRM
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-mdb-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <h5>
+                              <b> How to Research a Healthcare Account </b>
+                            </h5>
+                            <br />
+                            <br />
+
+                            <h5>Step 1</h5>
+                            <ul>
+                              <li>
+                                Navigate to the D&amp;B company record,
+                                integrated with your CRM.
+                              </li>
+                              <li>
+                                Use the information in the following tabs:
+                              </li>
+                              <ul>
+                                <li>Description</li>
+                                <li>Family Tree</li>
+                                <li>People</li>
+                                <li>Call Prep</li>
+                                <li>News</li>
+                              </ul>
+                            </ul>
+
+                            <h5>Step 2: On the Description tab:</h5>
+                            <ul>
+                              <li>
+                                This tab gives a street address, the
+                                account&#8219;s DUNS number, a phone number,
+                                social media presence, and a web URL.
+                              </li>
+                              <li>
+                                Make a note of the healthcare account website so
+                                you can continue your research there.
+                              </li>
+                              <li>
+                                Look at the Location Type to see if the
+                                healthcare organization is at a
+                                single&#8211;location, or at multiple locations.
+                              </li>
+                              <li>
+                                Look at the number of employees at all sites.
+                              </li>
+                            </ul>
+
+                            <section
+                              class="row justify-content-center"
+                              id="article"
+                            >
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_DandB1.jpg"
+                                class="img-fluid boxshadow"
+                                alt="CRM Thumbnail"
+                                max-width="100%"
+                                height="auto"
+                              />
+                            </section>
+                            <br />
+                            <br />
+                            <br />
+
+                            <h5>Step 3: On the Family Tree tab:</h5>
+                            <p>
+                              If the healthcare account has multiple locations,
+                              view the locations here. Some may be recent
+                              acquisitions that are near you.
+                            </p>
+                            <br />
+
+                            <section
+                              class="row justify-content-center"
+                              id="article"
+                            >
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_DandB2.jpg"
+                                class="img-fluid boxshadow"
+                                alt="CRM Thumbnail"
+                                max-width="100%"
+                                height="auto"
+                              />
+                            </section>
+                            <br />
+                            <br />
+                            <br />
+
+                            <h5>Step 4: On the People tab:</h5>
+                            <p>
+                              Note the titles of the people listed. When you
+                              find managers, leaders and top executives listed,
+                              you should view their LinkedIn profiles.
+                            </p>
+                            <br />
+
+                            <section
+                              class="row justify-content-center"
+                              id="article"
+                            >
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_DandB3.jpg"
+                                class="img-fluid boxshadow"
+                                alt="CRM Thumbnail"
+                                max-width="100%"
+                                height="auto"
+                              />
+                            </section>
+                            <br />
+                            <br />
+                            <br />
+
+                            <h5>Step 5: On the Call Prep tab:</h5>
+                            <p>
+                              Choose an industry description in this tab to view
+                              talking points and challenges. Review the facts
+                              and the Executive Talking Points for information
+                              you can use in a prospecting phone call or email.
+                              Review the Key Business Challenges and Key
+                              Business Opportunities for ideas that will help
+                              you form questions to ask during a prospecting
+                              phone call to ask for an appointment.
+                            </p>
+                            <br />
+
+                            <section
+                              class="row justify-content-center"
+                              id="article"
+                            >
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_DandB4.jpg"
+                                class="img-fluid boxshadow"
+                                alt="CRM Thumbnail"
+                                max-width="100%"
+                                height="auto"
+                              />
+                            </section>
+                            <br />
+                            <br />
+                            <br />
+
+                            <h5>Step 6: On the News tab:</h5>
+                            <p>
+                              Look for information about technology, new
+                              facilities, acquisitions, or new leadership.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-mdb-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+                  </div>
+                </div>
+              </div>
+              <!-- Card End -->
+
+              <!-- Card Begin -->
+              <div class="col-lg-4 mb-4 mb-lg-4">
+                <div class="card">
+                  <div
+                    class="bg-image hover-overlay ripple"
+                    data-ripple-color="light"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/HealthcareSAPCRM.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-body" style="text-align: left">
+                    <h5 class="card-title">Technology Insights Report</h5>
+                    <p class="card-text">
+                      Always build technology knowledge from CRM&#39;s
+                      Technology Insights Report. Use the button below to
+                      download the presentation.
+                    </p>
+
+                    <!-- Button Begin -->
+                    <a
+                      href="pdf/Technology Insights Report_bp_v2 (1).pptx"
+                      type="button"
+                      class="btn btn-primary"
+                      >Download Here</a
+                    >
+                    <!-- Button End -->
+                  </div>
+                </div>
+              </div>
+              <!-- Card End -->
+
+              <!-- Card Begin -->
+              <div class="col-lg-4 mb-4 mb-lg-4">
+                <div class="card">
+                  <div
+                    class="bg-image hover-overlay ripple"
+                    data-ripple-color="light"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/DefinitiveHealthcare.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-body" style="text-align: left">
+                    <h5 class="card-title">Definitive Healthcare</h5>
+                    <p class="card-text">
+                      Definitive Healthcare is a technology company that
+                      provides intelligence on the healthcare market.
+                    </p>
+
+                    <!-- Button Begin -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#resources3"
+                    >
+                      Learn More
+                    </button>
+                    <!-- Button End -->
+
+                    <!-- Modal Begin  -->
+                    <div
+                      class="modal fade"
+                      id="resources3"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              Definitive Healthcare
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-mdb-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <h5>
+                              <b>
+                                Directions: Follow the steps to find healthcare
+                                data provided by Definitive.
+                              </b>
+                            </h5>
+                            <br />
+                            <br />
+                            <h5>Step 1:</h5>
+                            <p>
+                              Select an account in CRM360 and navigate to the
+                              D&amp;B tab.
+                            </p>
+                            <br />
+                            <br />
+
+                            <h5>Definitive Step 2:</h5>
+                            <p>
+                              Select the D&amp;B tab and the Definitive
+                              Healthcare frame will open to its Summary tab.
+                              This tab provides general information such as
+                              organization name and type of organization, such
+                              as hospital, ambulatory practice, or extended care
+                              facility. The Summary tab also displays key
+                              clinical metrics, such as number of affiliated
+                              physicians.
+                            </p>
+                            <br />
+                            <br />
+
+                            <section class="row justify-content-center">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_DefinitiveStep2.jpg"
+                                class="img-fluid boxshadow"
+                                alt="CRM Thumbnail"
+                                max-width="100%"
+                                height="auto"
+                              />
+                            </section>
+                            <br />
+                            <br />
+                            <p>
+                              <b> <i> &#42;Please note </i> </b> that there may
+                              be accounts with no Definitive Healthcare
+                              information within the D&amp;B tab. In such
+                              instances, please note the account name and CRM ID
+                              and send email to jcisna&#64;kmbs.konicaminolta.us
+                              and/or nbalakrishnaraja&#64;kmbs.konicaminolta.us.
+                              We will work with Definitive to make the match.
+                            </p>
+                            <br />
+
+                            <p>
+                              <b> <i> Note </i> </b> the other tabs in the
+                              Definitive Healthcare frame. These include
+                              Executives, Financial and Clinical Metrics,
+                              Affiliations, News, Technologies, and
+                              Purchasing/Staffing.
+                            </p>
+                            <br />
+                            <br />
+
+                            <h5>Step 3:</h5>
+                            <p>
+                              On the Executives tab and scroll through the list.
+                              Definitive also provides an extensive list of key
+                              contacts, including executives. In many cases
+                              there are phone numbers and email address. These
+                              contacts go deeper than the typical CEO, COO, CIO,
+                              and provide Chief Medical Information Officer
+                              &#40;CMIO&#41;, Chief Nursing Officer
+                              &#40;CNO&#41;, Innovation leaders, Directors of
+                              Health Information Management or HIM, and many
+                              other relevant key contacts.
+                            </p>
+                            <br />
+                            <br />
+
+                            <section class="row justify-content-center">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_DefinitiveStep3.jpg"
+                                class="img-fluid boxshadow"
+                                alt="CRM Thumbnail"
+                                max-width="100%"
+                                height="auto"
+                              />
+                            </section>
+                            <br />
+                            <br />
+
+                            <h5>Step 4:</h5>
+                            <p>
+                              Select the Technologies tab. Use it to determine
+                              the various technologies in place at the customer.
+                              This tab first provides the top technologies at a
+                              glance, such as the EHR, and the years
+                              implemented.
+                            </p>
+                            <br />
+                            <br />
+                            <section class="row justify-content-center">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_DefinitiveStep4.jpg"
+                                class="img-fluid boxshadow"
+                                alt="CRM Thumbnail"
+                                max-width="100%"
+                                height="auto"
+                              />
+                            </section>
+                            <br />
+                            <br />
+                            <br />
+                            <h5>Step 5:</h5>
+                            <p>
+                              Scroll down the Technologies tab to Current
+                              Implementations. This is a list of IT systems by
+                              category, technology, vendor, and product. You may
+                              filter for the specific systems you are interested
+                              in finding, such as inpatient and outpatient EHR,
+                              document management, health information exchange,
+                              and so on.
+                            </p>
+                            <br />
+                            <br />
+                            <section
+                              class="row justify-content-center"
+                              id="article2"
+                            >
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Thumbnail_DefinitiveStep5.jpg"
+                                class="img-fluid boxshadow"
+                                alt="CRM Thumbnail"
+                                max-width="100%"
+                                height="auto"
+                              />
+                            </section>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-mdb-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+                  </div>
+                </div>
+              </div>
+              <!-- Card End -->
+
+              <!-- Card Begin -->
+              <div class="col-lg-4 mb-4 mb-lg-4">
+                <div class="card">
+                  <div
+                    class="bg-image hover-overlay ripple"
+                    data-ripple-color="light"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/LinkedIn.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-body" style="text-align: left">
+                    <h5 class="card-title">LinkedIn</h5>
+                    <p class="card-text">
+                      Add depth to your knowledge from CRM by using LinkedIn
+                      profiles.
+                    </p>
+
+                    <!-- Button Begin -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#resources4"
+                    >
+                      Learn More
+                    </button>
+                    <!-- Button End -->
+
+                    <!-- Modal Begin  -->
+                    <div
+                      class="modal fade"
+                      id="resources4"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              LinkedIn
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-mdb-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <h5>Step 1</h5>
+                            <p>
+                              Visit the account&#8219;s LinkedIn page. Look for
+                              links to the leadership or professional staff.
+                            </p>
+                            <br />
+                            <h5>Step 2</h5>
+                            <p>
+                              Visit the LinkedIn profiles of the leaders that
+                              you found in D&amp;B People.
+                            </p>
+                            <br />
+                            <h5>Step 3</h5>
+                            <p>
+                              Review each area of the profile to discover each
+                              leader&#8219;s expertise and prior healthcare
+                              experience.
+                            </p>
+                            <br />
+                            <h5>Step 4</h5>
+                            <p>
+                              Look at the individual&#8219;s connections to see
+                              if any work for other accounts that are in your
+                              CRM account database. If the individual has a
+                              connection in your LinkedIn network, you should
+                              ask your network connection to make an
+                              introduction.
+                            </p>
+                            <br />
+                            <h5>Step 5</h5>
+                            <p>
+                              Look at the prospect&#8219;s membership in
+                              LinkedIn Groups &#8211; this will indicate areas
+                              of professional interest.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-mdb-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+                  </div>
+                </div>
+              </div>
+              <!-- Card End -->
+
+              <!-- Card Begin -->
+              <div class="col-lg-4 mb-4 mb-lg-4">
+                <div class="card">
+                  <div
+                    class="bg-image hover-overlay ripple"
+                    data-ripple-color="light"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/ResearchSocialMedia.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-body" style="text-align: left">
+                    <h5 class="card-title">
+                      Customer Websites &amp; Social Media
+                    </h5>
+                    <p class="card-text">
+                      Visit the healthcare account website for timely
+                      information and news.
+                    </p>
+
+                    <!-- Button Begin -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#resources5"
+                    >
+                      Learn More
+                    </button>
+                    <!-- Button End -->
+
+                    <!-- Modal Begin  -->
+                    <div
+                      class="modal fade"
+                      id="resources5"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              Customer Websites &amp; Social Media
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-mdb-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <h5>
+                              <b>
+                                Research Customer Websites &amp; Social Media
+                              </b>
+                            </h5>
+                            <br />
+                            <br />
+
+                            <h5>
+                              Part 3: Use the healthcare account website to
+                              continue your research.
+                            </h5>
+                            <br />
+                            <br />
+
+                            <h5>Step 1</h5>
+                            <p>
+                              Review the Home or About page for a summary. The
+                              About page may have information on facilities,
+                              locations, and leadership.
+                            </p>
+                            <h5>Step 2</h5>
+                            <p>
+                              The website may also have links to Blogs, Videos,
+                              Podcasts, and Events. Any of these can offer
+                              information you can use in prospecting messages.
+                            </p>
+                            <h5>Step 3</h5>
+                            <p>
+                              Look for a News section about the hospital,
+                              facility, or practice. The news section may have
+                              updates about new facilities, acquisitions, and
+                              new leadership.
+                            </p>
+                            <h5>Step 4</h5>
+                            <p>
+                              Look for a directory or a link to senior
+                              leadership. There may be leaders listed that you
+                              did not find in LinkedIn.
+                            </p>
+                            <h5>Step 5</h5>
+                            <p>
+                              Look for an Annual Report, which may contain
+                              updates about technology and facilities you can
+                              use in your prospecting messages and appointments.
+                            </p>
+                            <br />
+                            <br />
+
+                            <h5>Part 4: Social media</h5>
+
+                            <p>
+                              Use other social media, such as Twitter, YouTube,
+                              and Facebook, to discover news about the
+                              healthcare account.
+                            </p>
+                            <p>
+                              Many healthcare organizations today use multiple
+                              social media platforms to communicate.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-mdb-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+                  </div>
+                </div>
+              </div>
+              <!-- Card End -->
+
+              <!-- Card Begin -->
+              <div class="col-lg-4 mb-4 mb-lg-4">
+                <div class="card">
+                  <div
+                    class="bg-image hover-overlay ripple"
+                    data-ripple-color="light"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/HealthcareBeckers.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-body" style="text-align: left">
+                    <h5 class="card-title">Becker&#8219;s Hospital Review</h5>
+                    <p class="card-text">
+                      Becker&#8219;s Healthcare is the go&#8211;to source for
+                      healthcare decision&#8211;makers and one of the fastest
+                      growing media platforms in the industry.
+                    </p>
+
+                    <!-- Button Begin -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#resources6"
+                    >
+                      Learn More
+                    </button>
+                    <!-- Button End -->
+
+                    <!-- Modal Begin  -->
+                    <div
+                      class="modal fade"
+                      id="resources6"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              Becker&#8219;s Hospital Review
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-mdb-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              <a
+                                href="https://www.beckershospitalreview.com/"
+                                target="_blank"
+                              >
+                                Becker&#8219;s Hospital Review
+                              </a>
+                              is a media platform that provides information for
+                              health care leaders and decision makers. You can
+                              search for news about specific hospitals on its
+                              website. The Becker&#8219;s Hospital Review
+                              website is one place to find hospital news that
+                              may not be covered in a hospital&#8219;s own
+                              website.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-mdb-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+                  </div>
+                </div>
+              </div>
+              <!-- Card End -->
+            </div>
+          </section>
+          <!-- Section: Design Block -->
+        </div>
+
+        <!-- Modal Popup Sections Begin -->
+      </div>
+    </section>
+
+    <!-- End Cards here -->
+
+    <!-- How to Research Cards End -->
+
+    <!-- Start Footer Section here -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+
+      <div class="container p-4">
+        <!-- Section: Form -->
+
+        <!-- Section: Form -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column 1 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="index.html" style="color: inherit">
+                <h5 class="text-uppercase">Home</h5>
+              </a>
+            </div>
+            <!--Grid column 1 End -->
+
+            <!--Grid column 2 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="dxhealthcare.html" style="color: inherit">
+                <h5 class="text-uppercase">DX in Healthcare</h5>
+              </a>
+            </div>
+            <!--Grid column 2 End -->
+
+            <!--Grid column 3 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="salespractices.html" style="color: inherit">
+                <h5 class="text-uppercase">Sales Practices</h5>
+              </a>
+            </div>
+            <!--Grid column 3 End -->
+
+            <!--Grid column 4 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="acutecaremarket.html" style="color: inherit">
+                <h5 class="text-uppercase">Acute Care</h5>
+              </a>
+            </div>
+            <!--Grid column 4 End -->
+
+            <!--Grid column 5 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="ambulatorymarket.html" style="color: inherit">
+                <h5 class="text-uppercase">Ambulatory Care</h5>
+              </a>
+            </div>
+            <!--Grid column 5 End -->
+
+            <!--Grid column 6 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="extendedcaremarket.html" style="color: inherit">
+                <h5 class="text-uppercase">Extended Care</h5>
+              </a>
+            </div>
+            <!--Grid column 6 End -->
+
+            <!--Grid column 7 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="keyresources.html" style="color: inherit">
+                <h5 class="text-uppercase">Key Resources</h5>
+              </a>
+            </div>
+            <!--Grid column 7 End -->
+
+            <!--Grid column 8 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a
+                href="http://site-751160.bcvp0rtal.com/"
+                target="_blank"
+                style="color: inherit"
+              >
+                <h5 class="text-uppercase">Multimedia Resources</h5>
+              </a>
+            </div>
+            <!--Grid column 8 End -->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        &copy; 2025 Konica Minolta Business Solutions USA
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- End Footer Section here -->
+
+    <!-- End your project here-->
+  </body>
+
+  <!-- MDB ESSENTIAL -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- MDB PLUGINS -->
+  <script type="text/javascript" src="plugins/js/all.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</html>

@@ -1,0 +1,2296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Google Tag Manager -->
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-28P21D5QN2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-28P21D5QN2");
+    </script>
+
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+    <meta name="citation_date" content="2025-05-07" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Healthcare Playbook: Extended Care HIPAA</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB ESSENTIAL -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB PLUGINS -->
+    <link rel="stylesheet" href="plugins/css/all.min.css" />
+    <!-- Custom styles -->
+
+    <!-- Special DX Playbook CSS Sheet -->
+    <link rel="stylesheet" href="css/dxplaybook.css" />
+    <link rel="stylesheet" href="css/responsiveiframe.css" />
+
+    <style></style>
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+
+    <!-- Nav Begin -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarCenterExample"
+          aria-controls="navbarCenterExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarCenterExample"
+        >
+          <!-- Left linwks -->
+
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="https://cdn.jsdelivr.net/gh/BradleyAPierce/DX_Playbook_Images/kmlogostacked.png"
+              width="100px"
+              height="auto"
+              alt="KM Logo"
+          /></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <ul class="navbar-nav justify-content-center mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="dxhealthcare.html"
+                >DX in Healthcare</a
+              >
+            </li>
+
+            <!-- Navbar Sales Practices Begin -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownWhat"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sales Practices
+              </a>
+
+              <!-- Dropdown Sales  menu items begin -->
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="salespractices.html">
+                    Sales Practices Home
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="howtoresearch.html">
+                    Researching a Healthcare Account
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="buyerpersonas.html">
+                    Organizational Structures
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="communicatingvalue.html">
+                    Communicating Value
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="prospectingforappointmentsbestpractices.html"
+                  >
+                    Prospecting for Appointments
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="preparingforappointments.html">
+                    Preparing for Appointments
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="gpo.html">
+                    &#40;GPO&#41; Group Purchasing Organizations
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="knowthecompetition.html">
+                    Know the Competition
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="healthcareterms.html">
+                    Healthcare Terms
+                  </a>
+                </li>
+              </ul>
+
+              <!-- Dropdown Sales Practices menu items end -->
+            </li>
+
+            <!-- Nav Sales Practices End -->
+
+            <!-- Navbar Acute Care Begin -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Acute Care
+              </a>
+
+              <!-- Dropdown Acute Care items begin -->
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="acutecaremarket.html">
+                    Acute Care Home
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarkethipaa.html">
+                    HIPAA
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketmps.html">
+                    &#40;MPS&#41; Managed Print Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketcybersecuritysolutions.html"
+                  >
+                    Cybersecurity Solutions
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketlayeredsecurity.html"
+                  >
+                    Layered Security
+                  </a>
+                </li>
+
+                <!-- Hide Begin
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketvss.html"> Video Solution Services </a>
+                </li>
+                Hide End -->
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketworkflow.html">
+                    Workflow
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketprintmanagement.html"
+                  >
+                    Print Management
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketenterprise.html"
+                  >
+                    &#40;IIM&#41; Intelligent Information Management
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketrpa.html">
+                    &#40;RPA&#41; Robotic Process Automation
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketmanageditservices.html"
+                  >
+                    Managed IT Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecarecmarketcloudservices.html"
+                  >
+                    Cloud Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketfaxmanagement.html"
+                  >
+                    Fax Management
+                  </a>
+                </li>
+
+                <!-- <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketpatientexperiencemanagement.html"
+                  >
+                    Patient Experience Management
+                  </a>
+                </li> -->
+
+                <!--  <li>
+                  <a class="dropdown-item" href="acutecaremarketvaluebasedcareservices.html"> Value Based Care Services </a>
+                </li> -->
+
+                <!-- <li>
+                  <a class="dropdown-item" href="acutecaremarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li> -->
+
+                <!-- <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketinteroperabilityandintegrationservices.html"
+                  >
+                    Interoperability &amp; Integration Services
+                  </a>
+                </li> -->
+              </ul>
+
+              <!-- Dropdown Acute Care Items End -->
+            </li>
+
+            <!-- Nav Acute Care End -->
+
+            <!-- Navbar Ambulatory Care Begin -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ambulatory Care
+              </a>
+
+              <!-- Dropdown Ambulatory Care items begin -->
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarket.html">
+                    Ambulatory Care Home
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarkethipaa.html">
+                    HIPAA
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmps.html">
+                    &#40;MPS&#41; Managed Print Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketcybersecuritysolutions.html"
+                  >
+                    Cybersecurity Solutions
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketlayeredsecurity.html"
+                  >
+                    Layered Security
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketworkflow.html">
+                    Workflow
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmfp.html">
+                    Healthcare Enabled MFP Plus
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketprintmanagement.html"
+                  >
+                    Print Management
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketenterprise.html"
+                  >
+                    &#40;IIM&#41; Intelligent Information Management
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketrpa.html">
+                    &#40;RPA&#41; Robotic Process Automation
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketmanageditservices.html"
+                  >
+                    Managed IT Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketcloudservices.html"
+                  >
+                    Cloud Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorycaremarketfaxmanagement.html"
+                  >
+                    Fax Management
+                  </a>
+                </li>
+
+                <!-- <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketvaluebasedcareservices.html"
+                  >
+                    Value Based Care Services
+                  </a>
+                </li> -->
+
+                <!-- <li>
+                  <a class="dropdown-item" href="ambulatorymarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li> -->
+
+                <!-- <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketinteroperabilityandintegrationservices.html"
+                  >
+                    Interoperability &amp; Integration Services
+                  </a>
+                </li> -->
+              </ul>
+
+              <!-- Dropdown Ambulatory Care Items End -->
+            </li>
+
+            <!-- Nav Ambulatory Care End -->
+
+            <!-- Navbar Extended Care Begin -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Extended Care
+              </a>
+
+              <!-- Dropdown Extended Care items begin -->
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarket.html">
+                    Extended Care Home
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarkethipaa.html">
+                    HIPAA
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmps.html">
+                    &#40;MPS&#41; Managed Print Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketcybersecuritysolutions.html"
+                  >
+                    Cybersecurity Solutions
+                  </a>
+                </li>
+
+                <!-- Hide Begin
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketvss.html"> Video Solution Services </a>
+                </li>
+                Hide End -->
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarkethworkflow.html"
+                  >
+                    Workflow
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmfp.html">
+                    Healthcare Enabled MFP Plus
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketprintmanagement.html"
+                  >
+                    Print Management
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketenterprise.html"
+                  >
+                    &#40;IIM&#41; Intelligent Information Management
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketrpa.html">
+                    &#40;RPA&#41; Robotic Process Automation
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketmanageditservices.html"
+                  >
+                    Managed IT Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketcloudservices.html"
+                  >
+                    Cloud Services
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketfaxmanagement.html"
+                  >
+                    Fax Management
+                  </a>
+                </li>
+
+                <!-- <li>
+                  <a class="dropdown-item" href="extendedcaremarketrevenuecyclemanagement.html"> Revenue Cycle Management </a>
+                </li>
+                  -->
+
+                <!-- <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketinteroperabilityandintegrationservices.html"
+                  >
+                    Interoperability &amp; Integration Services
+                  </a>
+                </li> -->
+              </ul>
+
+              <!-- Dropdown Extended Care Items End -->
+            </li>
+
+            <!-- Nav Extended Care End -->
+
+            <!-- Navbar Other Resources Begin -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownResources"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Other Resources
+              </a>
+
+              <!-- Dropdown Other Resources items begin -->
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="http://site-751160.bcvp0rtal.com/"
+                    target="_blank"
+                  >
+                    Multimedia Resources
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="keyresources.html">
+                    Key Resources
+                  </a>
+                </li>
+              </ul>
+
+              <!-- Dropdown Other Resources Items End -->
+            </li>
+
+            <!-- Nav Other Resources End -->
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+
+    <!-- Nav End -->
+
+    <!-- Banner Images Begin -->
+
+    <div
+      id="carouselBasicExample"
+      class="carousel slide carousel-fade"
+      data-mdb-ride="carousel"
+      style="margin-top: 70px"
+    >
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        style="
+          background-image: url('https://cdn.jsdelivr.net/gh/BradleyAPierce/Legal_Vertical_Playbook_Images/SecurityandCompliance.jpg');
+          height: 600px;
+        "
+      >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h6 class="banner2">Extended Care</h6>
+              <h1 class="banner1">HIPAA</h1>
+              <h4 class="banner4">
+                Why HIPAA Compliance Matters in Healthcare
+              </h4>
+
+              <!-- Hide Button Begin
+            <a class="btn btn-danger btn-lg" href="https://www.youtube.com/watch?v=OvBi15sN1WQ&list=PLkd9gsOSsrMGFGDaXzH4gaBcPnZzErgSp&index=1" role="button" target="_blank">  Understanding the Healthcare Vertical strategy is the first step. Watch video! </a>
+          Hide Button End -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </div>
+
+    <!-- Banner Images End -->
+
+    <!-- Breadcrumbs Begin -->
+
+    <div class="container">
+      <nav aria-label="breadcrumb" style="padding-top: 15px">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="index.html"> Healthcare Playbook </a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="extendedcaremarket.html"> Extended Care </a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">HIPAA</li>
+        </ol>
+      </nav>
+    </div>
+
+    <!-- Breadcrumbs End -->
+
+    <!-- Intro Begins -->
+
+    <section
+      class="container col-12"
+      style="padding-top: 15px; padding-bottom: 0px"
+      id="ambulatoryhipaaintro"
+    >
+      <div
+        class="row justify-content-center border-0"
+        style="margin-bottom: px; border-style: groove; padding: 5px"
+        data-mdb-toggle="animation"
+        data-mdb-animation-start="onScroll"
+        data-mdb-animation-on-scroll="repeat"
+        data-mdb-animation="fade-in"
+        data-mdb-animation-delay="900"
+      >
+        <div id="preview" class="preview">
+          <div style="display: none"></div>
+          <div>
+            <div
+              data-draggable="true"
+              style="position: relative"
+              draggable="false"
+              class=""
+            >
+              <section
+                draggable="false"
+                class="overflow-hidden pt-0"
+                data-v-271253ee=""
+              >
+                <section class="mb-10 background-radial-gradient">
+                  <style>
+                    .background-radial-gradient {
+                      background-color: hsl(218, 41%, 15%);
+                      background-image: radial-gradient(
+                          650px circle at 0% 0%,
+                          hsl(218, 41%, 35%) 15%,
+                          hsl(218, 41%, 30%) 35%,
+                          hsl(218, 41%, 20%) 75%,
+                          hsl(218, 41%, 19%) 80%,
+                          transparent 100%
+                        ),
+                        radial-gradient(
+                          1250px circle at 100% 100%,
+                          hsl(218, 41%, 45%) 15%,
+                          hsl(218, 41%, 30%) 35%,
+                          hsl(218, 41%, 20%) 75%,
+                          hsl(218, 41%, 19%) 80%,
+                          transparent 100%
+                        );
+                    }
+                  </style>
+
+                  <div
+                    class="container px-4 py-5 px-md-5 text-center text-lg-start"
+                  >
+                    <div class="row gx-lg-5 align-items-center">
+                      <div class="col-lg-6 mb-5 mb-lg-0">
+                        <h1
+                          class="my-5 display-3 fw-bold ls-tight"
+                          style="color: hsl(218, 81%, 95%)"
+                        >
+                          <span>What you will find</span> <br />
+                          <span style="color: hsl(218, 81%, 75%)"
+                            >on this page</span
+                          >
+                        </h1>
+
+                        <p style="color: white">
+                          Use this Healthcare Solution page to refresh your
+                          skills for prospecting and appointments.
+                        </p>
+
+                        <div class="row mb-3" style="color: hsl(218, 81%, 95%)">
+                          <div class="col-lg-4 mb-2">
+                            <p>
+                              <i class="fas fa-check-circle text-light me-2"></i
+                              >Why HIPAA Compliance Matters
+                            </p>
+                          </div>
+
+                          <div class="col-lg-4 mb-2">
+                            <p>
+                              <i class="fas fa-check-circle text-light me-2"></i
+                              >HIPAA Compliance Challenges
+                            </p>
+                          </div>
+
+                          <div class="col-lg-4 mb-2">
+                            <p>
+                              <i class="fas fa-check-circle text-light me-2"></i
+                              >Pre&#45;call Planning
+                            </p>
+                          </div>
+                          <div class="col-lg-4 mb-2">
+                            <p>
+                              <i class="fas fa-check-circle text-light me-2"></i
+                              >Prospecting
+                            </p>
+                          </div>
+
+                          <div class="col-lg-4 mb-2">
+                            <p>
+                              <i class="fas fa-check-circle text-light me-2"></i
+                              >Qualifying Questions
+                            </p>
+                          </div>
+
+                          <div class="col-lg-4 mb-2">
+                            <p>
+                              <i class="fas fa-check-circle text-light me-2"></i
+                              >Sales Tools
+                            </p>
+                          </div>
+                        </div>
+
+                        <a
+                          class="btn btn-white btn-lg py-3 px-5 mb-2 ripple-surface-primary mt-"
+                          data-ripple-color="primary"
+                          href="https://www.mykonicaminolta.com/wps/myportal/mkm/home/marketing/channel/productmaterials/salestools/sa_documents/hipaa%20compliance%20battle%20card/!ut/p/z1/tVRdb4IwFP0rvuyRtPLtI1MnMp0OP-mLKaVqF6CIVed-_YrRZC4Tsxh4Kbe9Paf33J4CBOYApXjPVlgwnuJYxgEyF7DbarrOCPY6Lw0LOpPOoDtu9_22BsGsLAEOTYBuL79P65f9Nz4H3ts_BQigjLAIBEsDNnRNo4qtEl3RtWUk_8JQ0VUrJBSadSOCRTZJRSbWIMhyHu2IWCRY0JzhePsEt3hxnr2e3OKYbgXn5zDiZJfQVMhozTKMa4QnWcxwSmgtxELEtEZwHpWLU6iHymv37lUv26Pm_WZ_JTXAYq2wdMnBPMvpntGDpEdlAOpQK0-A_r2Eor_3igikCNZtESwwOx12kvI8kTdu9M-GuheGV7fhwBNDpy6JLW-qewNfhWP4IMMveBvaBfx70_Xr0LNbZqXwRsXwRqXwPb1a-EdPX2qwwqDSYOxjs0GOfDZ4KuinKOxV9bvxt61_AoB5KUCWTCaJrR0VFJp-e9lva3rg7b-e35TrAYXHwzfExWx6/dz/d5/L2dBISEvZ0FBIS9nQSEh/"
+                          role="button"
+                          aria-controls="#picker-editor"
+                          draggable="false"
+                          style="min-width: auto"
+                          target="_blank"
+                          >HIPAA Compliance Battle Card</a
+                        >
+                        <!-- Hide Buttons Begin
+                                  <a class="btn btn-white btn-lg py-3 px-5 mb-2 ripple-surface-primary" data-ripple-color="primary" href="" role="button" aria-controls="#picker-editor" draggable="false" style="min-width: auto;" target="_blank">bizhub SECURE Alert Battle Card</a>
+                                  <a class="btn btn-white btn-lg py-3 px-5 mb-2 ripple-surface-primary" data-ripple-color="primary" href="https://solutionsguide.mykonicaminolta.com/core-solutions/all-covered-it-services/" role="button" aria-controls="#picker-editor" draggable="false" style="min-width: auto;" target="_blank">All Covered IT Services</a>
+                                  <a class="btn btn-white btn-lg py-3 px-5 mb-2 ripple-surface-primary" data-ripple-color="primary" href="https://solutionsguide.mykonicaminolta.com/supported-solutions/document-management-legal/" role="button" aria-controls="#picker-editor" draggable="false" style="min-width: auto;" target="_blank">Legal Document Management </a>
+                                  Hide Buttons End -->
+                      </div>
+                      <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div
+                          class="ratio ratio-16x9"
+                          data-mdb-toggle="animation"
+                          data-mdb-animation-start="onScroll"
+                          data-mdb-animation-on-scroll="repeat"
+                          data-mdb-animation="fade-in"
+                          data-mdb-animation-delay="300"
+                        >
+                          <iframe
+                            width="560"
+                            height="315"
+                            src="https://bcove.video/33erZUK"
+                            title="Legal Playbook Tour"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Intro Ends Ends -->
+
+    <!-- Video Playlist Begins-->
+
+    <section
+      class="container col-12 mb-10"
+      style="padding-top: 15px; padding-bottom: 0px"
+      id="ambulatoryhipaavideos"
+    >
+      <div
+        class="row justify-content-center border-0"
+        style="margin-bottom: px; border-style: groove; padding: 5px"
+        data-mdb-toggle="animation"
+        data-mdb-animation-start="onScroll"
+        data-mdb-animation-on-scroll="repeat"
+        data-mdb-animation="fade-in"
+        data-mdb-animation-delay="900"
+      >
+        <div class="row">
+          <h2
+            class="my-5 display-5 fw-bold ls-tight"
+            style="text-align: center"
+          >
+            HIPAA Compliance <br />
+            <span class="text-primary">Challenges in Healthcare</span>
+          </h2>
+        </div>
+
+        <iframe
+          src="https://bcove.video/3UuyVpx"
+          allowfullscreen=""
+          allow="encrypted-media"
+          width="960"
+          height="540"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Video Playlist Ends -->
+
+    <!-- Embed Accordian Begin -->
+
+    <section
+      class="container col-12"
+      style="padding-top: 15px; padding-bottom: 0px"
+      id="ambulatoryhipaaaccordian"
+    >
+      <div
+        class="row justify-content-center border-0"
+        style="margin-bottom: px; border-style: groove; padding: 5px"
+        data-mdb-toggle="animation"
+        data-mdb-animation-start="onScroll"
+        data-mdb-animation-on-scroll="repeat"
+        data-mdb-animation="fade-in"
+        data-mdb-animation-delay="900"
+      >
+        <div class="row">
+          <h2
+            class="my-5 display-5 fw-bold ls-tight"
+            style="text-align: center"
+          >
+            Prospecting Readiness
+          </h2>
+        </div>
+
+        <div id="preview" class="preview">
+          <div style="display: none"></div>
+          <div>
+            <div
+              data-draggable="true"
+              class=""
+              style="position: relative"
+              draggable="false"
+            >
+              <!----><!---->
+              <section
+                draggable="false"
+                class="container pt-5"
+                data-v-271253ee=""
+              >
+                <section class="mb-10 text-center text-lg-start">
+                  <style>
+                    .cascading-right {
+                      margin-right: -50px;
+                    }
+                    @media (max-width: 991.98px) {
+                      .cascading-right {
+                        margin-right: 0;
+                      }
+                    }
+                  </style>
+                  <!-- Jumbotron -->
+                  <div class="container py-4">
+                    <div class="row g-0 align-items-center">
+                      <div
+                        class="col-lg-6 mb-5 mb-lg-0"
+                        data-mdb-toggle="animation"
+                        data-mdb-animation-start="onScroll"
+                        data-mdb-animation-on-scroll="repeat"
+                        data-mdb-animation="fade-in-"
+                        data-mdb-animation-delay="900"
+                      >
+                        <div
+                          class="card cascading-right"
+                          style="
+                            background: hsla(0, 0%, 100%, 0.55);
+                            backdrop-filter: blur(30px);
+                          "
+                        >
+                          <div class="card-body py-5 px-md-5 shadow-5">
+                            <h3 class="fw-bold" spellcheck="false">
+                              Prospecting Readiness
+                            </h3>
+                            <h5 class="mb-5">
+                              Use the information below to get started!
+                            </h5>
+
+                            <!-- Accordian Begin -->
+
+                            <div id="preview2" class="preview">
+                              <div style="display: none"></div>
+                              <div>
+                                <div
+                                  data-draggable="true"
+                                  style="position: relative"
+                                >
+                                  <section
+                                    draggable="false"
+                                    class="container pt-5"
+                                    data-v-271253ee=""
+                                  >
+                                    <section
+                                      class="mb-10 text-center text-lg-start"
+                                    >
+                                      <div
+                                        class="row gx-lg-5"
+                                        style="text-align: left"
+                                      >
+                                        <div
+                                          class="accordion accordion-borderless"
+                                          id="accordionFlushExampleX"
+                                        >
+                                          <!-- Dropdown Begin -->
+                                          <div class="accordion-item">
+                                            <h2
+                                              class="accordion-header"
+                                              id="flush-headingOneX"
+                                            >
+                                              <button
+                                                class="accordion-button"
+                                                type="button"
+                                                data-mdb-toggle="collapse"
+                                                data-mdb-target="#flush-collapseOneX"
+                                                aria-expanded="true"
+                                                aria-controls="flush-collapseOneX"
+                                              >
+                                                <h5>
+                                                  Buyer Personas: Decision
+                                                  Makers You Should Target
+                                                </h5>
+                                              </button>
+                                            </h2>
+                                            <hr />
+                                            <div
+                                              id="flush-collapseOneX"
+                                              class="accordion-collapse collapse"
+                                              aria-labelledby="flush-headingOneX"
+                                              data-mdb-parent="#accordionFlushExampleX"
+                                            >
+                                              <div class="accordion-body">
+                                                <ul>
+                                                  <li>
+                                                    Chief Information Officer
+                                                  </li>
+                                                  <li>
+                                                    Chief Information Security
+                                                    Officer
+                                                  </li>
+                                                  <li>
+                                                    Chief Technology Officer
+                                                  </li>
+                                                  <li>
+                                                    Compliance Officer or
+                                                    Director
+                                                  </li>
+                                                  <li>
+                                                    Privacy Officer or Director
+                                                  </li>
+                                                  <li>
+                                                    Director of Administration
+                                                  </li>
+                                                  <li>Operations Director</li>
+                                                  <li>Owner/Principal</li>
+                                                </ul>
+                                                <h5>
+                                                  Personas&#8219;
+                                                  Top&#8211;of&#8211;Mind
+                                                  Concerns
+                                                </h5>
+                                                <ul>
+                                                  <li>
+                                                    Vulnerability of
+                                                    Patient/Resident Health
+                                                    Information
+                                                  </li>
+                                                  <li>
+                                                    Keeping policies and
+                                                    procedures in alignment with
+                                                    regulations
+                                                  </li>
+                                                  <li>
+                                                    Preventing breaches of
+                                                    patient/resident records
+                                                  </li>
+                                                  <li>
+                                                    Avoiding fines for violating
+                                                    HIPAA regulations
+                                                  </li>
+                                                  <li>
+                                                    Employee training to ensure
+                                                    compliance with HIPAA
+                                                  </li>
+                                                </ul>
+                                                <p>
+                                                  Use the Prospect Planning
+                                                  Worksheet, or PPW, to plan
+                                                  your prospecting messages to
+                                                  the Buyer Personas you will
+                                                  target.
+                                                </p>
+                                                <p>
+                                                  Click
+                                                  <a
+                                                    href="forms/Prospecting Planning Worksheet_v5.docx"
+                                                    target="_blank"
+                                                    id="extendedhipaapersonaworheetdownload"
+                                                  >
+                                                    here
+                                                  </a>
+                                                  to download the PPW template.
+                                                </p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <!-- Dropdown End -->
+
+                                          <!-- Dropdown Begin -->
+                                          <div class="accordion-item">
+                                            <h2
+                                              class="accordion-header"
+                                              id="flush-headingTwoX"
+                                            >
+                                              <button
+                                                class="accordion-button collapsed"
+                                                type="button"
+                                                data-mdb-toggle="collapse"
+                                                data-mdb-target="#flush-collapseTwoX"
+                                                aria-expanded="false"
+                                                aria-controls="flush-collapseTwoX"
+                                              >
+                                                <h5>
+                                                  How You Can Provide Value
+                                                </h5>
+                                              </button>
+                                            </h2>
+                                            <hr />
+                                            <div
+                                              id="flush-collapseTwoX"
+                                              class="accordion-collapse collapse"
+                                              aria-labelledby="flush-headingTwoX"
+                                              data-mdb-parent="#accordionFlushExampleX"
+                                            >
+                                              <div class="accordion-body">
+                                                <h5>
+                                                  How You Can Provide Value
+                                                </h5>
+                                                <h6>
+                                                  HIPAA Compliance Services from
+                                                  All Covered
+                                                </h6>
+                                                <p>
+                                                  We provide value by conducting
+                                                  a thorough and ongoing risk
+                                                  assessment to measure
+                                                  compliance with HIPAA and
+                                                  HITECH regulations.
+                                                </p>
+                                                <p>
+                                                  Our assessment service can
+                                                  show clients the
+                                                  vulnerabilities that put their
+                                                  electronic protected health
+                                                  information, or ePHI, at risk.
+                                                  Your message to acute care
+                                                  organizations is that Risk
+                                                  Assessment should be an
+                                                  ongoing process.
+                                                </p>
+                                                <br />
+                                                <h5>
+                                                  How often should they assess
+                                                  risk?
+                                                </h5>
+                                                <p>
+                                                  Acute care organizations and
+                                                  their third party suppliers
+                                                  should conduct their risk
+                                                  assessments annually. They
+                                                  should revisit their analysis
+                                                  any time there is a change in
+                                                  the operating or technical
+                                                  environment.
+                                                </p>
+                                                <h5>
+                                                  How our HIPAA expertise adds
+                                                  value
+                                                </h5>
+                                                <p>
+                                                  We evaluate the effectiveness
+                                                  of security measures in place
+                                                </p>
+                                                <ul>
+                                                  <li>
+                                                    We track access to ePHI to
+                                                    verify that access aligns
+                                                    with regulations and policy
+                                                  </li>
+                                                  <li>
+                                                    We detect security incidents
+                                                    that put ePHI at risk
+                                                  </li>
+                                                  <li>
+                                                    We can provide guidance on
+                                                    HIPAA policy development
+                                                  </li>
+                                                  <li>
+                                                    We can deliver security
+                                                    awareness training for
+                                                    employees
+                                                  </li>
+                                                  <li>
+                                                    We can maximize the security
+                                                    of documents at the MFP
+                                                  </li>
+                                                </ul>
+                                                <p>
+                                                  Use any of the ideas above to
+                                                  create value statements for
+                                                  your prospecting phone calls
+                                                  and email messages. Use the
+                                                  Persona Worksheet.
+                                                </p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <!-- Dropdown End -->
+
+                                          <!-- Dropdown Begin -->
+                                          <div class="accordion-item">
+                                            <h2
+                                              class="accordion-header"
+                                              id="flush-headingThreeX"
+                                            >
+                                              <button
+                                                class="accordion-button collapsed"
+                                                type="button"
+                                                data-mdb-toggle="collapse"
+                                                data-mdb-target="#flush-collapseThreeX"
+                                                aria-expanded="false"
+                                                aria-controls="flush-collapseThreeX"
+                                              >
+                                                <h5>Risk Assessment</h5>
+                                              </button>
+                                            </h2>
+                                            <hr />
+                                            <div
+                                              id="flush-collapseThreeX"
+                                              class="accordion-collapse collapse"
+                                              aria-labelledby="flush-headingThreeX"
+                                              data-mdb-parent="#accordionFlushExampleX"
+                                            >
+                                              <div class="accordion-body">
+                                                <h5>Risk Assessment</h5>
+                                                <p>
+                                                  HIPAA Compliance Services from
+                                                  All Covered provides value to
+                                                  both the acute care
+                                                  organization, and its business
+                                                  associates, by conducting a
+                                                  thorough and ongoing risk
+                                                  assessment to measure
+                                                  compliance with HIPAA and
+                                                  HITECH regulations.
+                                                </p>
+                                                <br />
+                                                <p>
+                                                  Our assessment service can
+                                                  show the client the
+                                                  vulnerabilities that put their
+                                                  electronic protected health
+                                                  information at risk.
+                                                </p>
+                                                <br />
+                                                <p>
+                                                  To be compliant, acute care
+                                                  organizations and their third
+                                                  party suppliers should conduct
+                                                  their risk assessment annually
+                                                  and revisit their analysis any
+                                                  time there is a change in the
+                                                  operating or technical
+                                                  environment.
+                                                </p>
+                                                <br />
+                                                <p>
+                                                  Your message to acute care
+                                                  organizations is that Risk
+                                                  Assessment should be an
+                                                  ongoing process.
+                                                </p>
+                                                <br />
+                                                <p>
+                                                  &#91;Konica Minolta/All
+                                                  Covered&#93; HIPAA expertise
+                                                  can provide value in these
+                                                  ways:
+                                                </p>
+                                                <ul style="text-align: left">
+                                                  <li>
+                                                    We evaluate the
+                                                    effectiveness of security
+                                                    measures in place.
+                                                  </li>
+                                                  <li>
+                                                    We track access to
+                                                    e&#8211;PHI to verify that
+                                                    access aligns with
+                                                    regulation and policy.
+                                                  </li>
+                                                  <li>
+                                                    We detect security incidents
+                                                    that put e&#8211;PHI at
+                                                    risk.
+                                                  </li>
+                                                  <li>
+                                                    We can provide guidance on
+                                                    HIPAA policy development.
+                                                  </li>
+                                                  <li>
+                                                    We can deliver security
+                                                    awareness training for your
+                                                    employees.
+                                                  </li>
+                                                  <li>
+                                                    We can maximize the security
+                                                    of your documents at the
+                                                    MFP.
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <!-- Dropdown End -->
+
+                                          <!-- Dropdown Begin -->
+                                          <div class="accordion-item">
+                                            <h2
+                                              class="accordion-header"
+                                              id="flush-headingFourX"
+                                            >
+                                              <button
+                                                class="accordion-button collapsed"
+                                                type="button"
+                                                data-mdb-toggle="collapse"
+                                                data-mdb-target="#flush-collapseFourX"
+                                                aria-expanded="false"
+                                                aria-controls="flush-collapseFourX"
+                                              >
+                                                <h5>Overcoming Objections</h5>
+                                              </button>
+                                            </h2>
+                                            <hr />
+                                            <div
+                                              id="flush-collapseFourX"
+                                              class="accordion-collapse collapse"
+                                              aria-labelledby="flush-headingFourX"
+                                              data-mdb-parent="#accordionFlushExampleX"
+                                            >
+                                              <div class="accordion-body">
+                                                <h5>Overcoming Objections</h5>
+                                                <p>
+                                                  <b>
+                                                    Objection 1: &#8220;I have
+                                                    no time&#8211;I&#39;m too
+                                                    busy now.&#8221;
+                                                  </b>
+                                                </p>
+                                                <br />
+                                                <p><i> Response </i></p>
+                                                <p>
+                                                  Thanks for sharing your
+                                                  concern about time. I know
+                                                  your time is valuable. In only
+                                                  20 minutes, I can share
+                                                  information about how we
+                                                  assure that our customers
+                                                  comply with all HIPAA
+                                                  regulations. I believe you
+                                                  will find this to be time well
+                                                  spent. Which day and time will
+                                                  work for you?
+                                                </p>
+                                                <br />
+                                                <p>
+                                                  <b>
+                                                    Objection 2: I have a vendor
+                                                    &#8211; I&#39;m all set...
+                                                  </b>
+                                                </p>
+                                                <br />
+                                                <p><i> Response </i></p>
+                                                <p>
+                                                  Thanks for sharing that with
+                                                  me. How is your vendor helping
+                                                  you assess your current
+                                                  compliance with HIPAA? How is
+                                                  your vendor helping you assess
+                                                  any vulnerabilities that may
+                                                  put your patient information
+                                                  at risk? I can offer you our
+                                                  vast experience and deep
+                                                  expertise in services to
+                                                  assess and support HIPAA
+                                                  compliance. Which day and time
+                                                  will work for you to learn
+                                                  more?
+                                                </p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <!-- Dropdown End -->
+
+                                          <!-- Dropdown Begin -->
+                                          <div class="accordion-item">
+                                            <h2
+                                              class="accordion-header"
+                                              id="flush-headingFiveX"
+                                            >
+                                              <button
+                                                class="accordion-button collapsed"
+                                                type="button"
+                                                data-mdb-toggle="collapse"
+                                                data-mdb-target="#flush-collapseFiveX"
+                                                aria-expanded="false"
+                                                aria-controls="flush-collapseFiveX"
+                                              >
+                                                <h5>Engage</h5>
+                                              </button>
+                                            </h2>
+                                            <hr />
+                                            <div
+                                              id="flush-collapseFiveX"
+                                              class="accordion-collapse collapse"
+                                              aria-labelledby="flush-headingFiveX"
+                                              data-mdb-parent="#accordionFlushExampleX"
+                                            >
+                                              <div class="accordion-body">
+                                                <h5>Engage</h5>
+                                                <p>
+                                                  Make a plan for your
+                                                  appointment:
+                                                </p>
+                                                <ul>
+                                                  <li>
+                                                    Discover current business
+                                                    goals and current state
+                                                  </li>
+                                                  <li>
+                                                    Listen actively for Prospect
+                                                    remarks about the following:
+                                                  </li>
+                                                  <ol>
+                                                    <li>
+                                                      Vulnerability of
+                                                      Patient/Resident Health
+                                                      Information
+                                                    </li>
+                                                    <li>
+                                                      Keeping policies and
+                                                      procedures in alignment
+                                                      with regulations
+                                                    </li>
+                                                    <li>
+                                                      Preventing breaches of
+                                                      patient/resident records
+                                                    </li>
+                                                    <li>
+                                                      Avoiding fines for
+                                                      violating HIPAA
+                                                      regulations
+                                                    </li>
+                                                    <li>
+                                                      Employee training to
+                                                      ensure compliance with
+                                                      HIPAA
+                                                    </li>
+                                                  </ol>
+                                                </ul>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <!-- Dropdown End -->
+                                        </div>
+                                      </div>
+                                    </section>
+                                  </section>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Accordian End -->
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="col-lg-6 mb-5 mb-lg-0"
+                        data-mdb-toggle="animation"
+                        data-mdb-animation-start="onScroll"
+                        data-mdb-animation-on-scroll="repeat"
+                        data-mdb-animation="fade-in"
+                        data-mdb-animation-delay="900"
+                      >
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/HealthcareHIPAAAccordian.jpg"
+                          class="w-100 rounded-5 shadow-4"
+                          alt=""
+                          aria-controls="#picker-editor"
+                          draggable="false"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Embed Accordian End -->
+
+    <!-- Resources Card Begin -->
+
+    <!-- Start Cards here -->
+
+    <section
+      class="container col-12"
+      style="padding-top: 15px; padding-bottom: 0px"
+      id="ambulatoryhipaacards"
+    >
+      <div
+        class="row justify-content-center border-0"
+        style="margin-bottom: px; border-style: groove; padding: 5px"
+      >
+        <div class="container my-5 py-5">
+          <!-- Section: Design Block -->
+          <section class="mb-10 text-center text-lg-start">
+            <div class="row">
+              <h2
+                class="my-5 display-5 fw-bold ls-tight"
+                style="text-align: center"
+              >
+                <span> Effective Prospecting Tools </span>
+              </h2>
+            </div>
+
+            <div
+              class="row gx-lg-5"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <!-- Card Begin -->
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-4">
+                <div class="card">
+                  <div
+                    class="bg-image hover-overlay ripple"
+                    data-ripple-color="light"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Legal_Vertical_Playbook_Images/Emails.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+
+                  <div class="card-body" style="text-align: left">
+                    <h5 class="card-title">Email Scripts</h5>
+                    <p class="card-text">
+                      Learn to script an email message that targets a specific
+                      buyer persona, provides education or new information for
+                      the target, and gives the target a call to action. Use
+                      this information to get more appointments and engagement.
+                    </p>
+
+                    <!-- Button Begin -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#resources1"
+                    >
+                      Learn More
+                    </button>
+                    <!-- Button End -->
+
+                    <!-- Modal Begin  -->
+                    <div
+                      class="modal fade"
+                      id="resources1"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              Email Scripts
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-mdb-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <h5>Email Scripts</h5>
+                            <p><b> TARGETs: CIO/CISO </b></p>
+                            <br />
+                            <p>
+                              <i> SUBJECT: HIPAA and Security Readiness </i>
+                            </p>
+                            <br />
+                            <p>Hello __________,</p>
+                            <br />
+                            <p>
+                              HIPAA compliance and ensuring secure PHI is
+                              becoming a bigger and bigger challenge.
+                            </p>
+                            <br />
+                            <p>
+                              &#91;Konica Minolta/All Covered&#93; has been
+                              helping organizations like yours execute a
+                              5&#8211;step approach to stay on top of HIPAA
+                              compliance.
+                            </p>
+                            <br />
+                            <p>
+                              By partnering with us, our customers obtain an
+                              easy&#8211;to&#8211;use compliance portal,
+                              complete with a dashboard that helps with
+                              reporting on HIPAA and Security readiness.
+                            </p>
+                            <br />
+                            <p>
+                              I believe you would find great value from learning
+                              more about our expertise.
+                            </p>
+                            <br />
+                            <p>
+                              With a 20&#8211;minute conversation, you and I can
+                              figure out if this service is a good fit for your
+                              organization.
+                            </p>
+                            <br />
+                            <p>
+                              I have time available next &#91;Insert Day and
+                              Time&#93; or &#91;Insert Day and Time&#93; for a
+                              meeting. I&#8219;m happy to
+                            </p>
+                            <p>
+                              &#91;insert your chosen call to action from below
+                              here&#93;
+                            </p>
+                            <ul style="text-align: left">
+                              <li>arrange a virtual meeting.</li>
+                              <li>set up a call.</li>
+                              <li>meet at your offices.</li>
+                            </ul>
+                            <br />
+                            <p>Let me know what works best for you.</p>
+                            <br />
+                            <p>Best wishes,</p>
+                            <p>
+                              &#91;insert Konica Minolta or All Covered email
+                              signature&#93;
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-mdb-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+                  </div>
+                </div>
+              </div>
+              <!-- Card End -->
+
+              <!-- Card Begin -->
+              <div class="col-lg-4 mb-4 mb-lg-4">
+                <div class="card">
+                  <div
+                    class="bg-image hover-overlay ripple"
+                    data-ripple-color="light"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Legal_Vertical_Playbook_Images/Phone.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-body" style="text-align: left">
+                    <h5 class="card-title">Phone Scripts</h5>
+                    <p class="card-text">
+                      Use phone scripts to stay focused on what is important to
+                      the prospect, to be consistent in what you say, to remain
+                      in control of the conversation, and to provide information
+                      to help a prospect decide to meet with you.
+                    </p>
+
+                    <!-- Button Begin -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#resources2"
+                    >
+                      Learn More
+                    </button>
+                    <!-- Button End -->
+
+                    <!-- Modal Begin  -->
+                    <div
+                      class="modal fade"
+                      id="resources2"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              Phone Scripts
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-mdb-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <h5>Phone Scripts</h5>
+                            <p><b> TARGETS: CIO / CISO </b></p>
+                            <br />
+                            <hr />
+                            <p><i> Phone Script 1 </i></p>
+                            <br />
+                            <p>Hello ________,</p>
+                            <br />
+                            <p>
+                              I would like to help you combat threats to your
+                              patient information.
+                            </p>
+                            <br />
+                            <p>
+                              My name is _____ and I&#8219;m with &#91;Konica
+                              Minolta/All Covered&#93;.
+                            </p>
+                            <br />
+                            <p>
+                              We have demonstrated to our customers that
+                              protecting patient health information is not an
+                              impossible challenge. You can combat threats,
+                              follow HIPAA requirements, and alleviate stress by
+                              working with our team on an assessment of your
+                              vulnerabilities and risks.
+                            </p>
+                            <br />
+                            <p>
+                              I would like to meet with you to share valuable
+                              information about our assessments and our
+                              expertise. I have some time available next
+                              Thursday or Friday. Which day works better for
+                              you?
+                            </p>
+                            <br />
+                            <br />
+                            <hr />
+                            <p><i> Voicemail Script 1 </i></p>
+                            <br />
+                            <p>Hello ________,</p>
+                            <br />
+                            <p>
+                              My name is _____ and I&#39;m with &#91;Konica
+                              Minolta/All Covered&#93;.
+                            </p>
+                            <br />
+                            <p>
+                              I would like to share valuable information with
+                              you about our HIPAA compliance assessments and our
+                              expertise in protecting patient health
+                              information.
+                            </p>
+                            <br />
+                            <p>
+                              I believe you would find value in learning about
+                              how we assess vulnerabilities that put patient
+                              information at risk.
+                            </p>
+                            <br />
+                            <p>
+                              I suggest we schedule some time to meet next
+                              Thursday or Friday. You can call me at
+                              xxx&#8211;xxx&#8211;xxxx. Again &#8211; my name is
+                              _____ and you can reach me at
+                              xxx&#8211;xxx&#8211;xxxx.
+                            </p>
+                            <br />
+                            <p>Thank you!</p>
+                            <br />
+                            <br />
+                            <hr />
+                            <p><i> Phone Script 2 </i></p>
+                            <br />
+                            <p>Hello __________,</p>
+                            <br />
+                            <p>
+                              HIPAA compliance and ensuring secure PHI is
+                              becoming a bigger and bigger challenge.
+                            </p>
+                            <br />
+                            <p>
+                              My name is _____ and I&#8219;m with &#91;Konica
+                              Minolta/All Covered&#93;.
+                            </p>
+                            <br />
+                            <p>
+                              I have valuable information to share about how we
+                              help organizations like yours execute a
+                              5&#8211;step approach to stay on top of HIPAA
+                              compliance.
+                            </p>
+                            <br />
+                            <p>
+                              By partnering with us, our customers obtain an
+                              easy&#8211;to&#8211;use compliance portal,
+                              complete with a dashboard that helps with
+                              reporting on HIPAA and Security readiness.
+                            </p>
+                            <br />
+                            <p>
+                              With a 20&#8211;minute conversation, you and I can
+                              figure out if this service is a good fit for your
+                              organization.
+                            </p>
+                            <br />
+                            <p>
+                              I have time available next &#91;Insert Day and
+                              Time&#93; or &#91;Insert Day and Time&#93; for a
+                              meeting. Which day and time works best for you?
+                            </p>
+                            <br />
+                            <br />
+                            <hr />
+                            <p><i> Voicemail Script 2 </i></p>
+                            <br />
+                            <p>Hello __________,</p>
+                            <br />
+                            <p>
+                              HIPAA compliance and ensuring secure PHI is
+                              becoming a bigger and bigger challenge.
+                            </p>
+                            <br />
+                            <p>
+                              My name is _____ and I&#8219;m with &#91;Konica
+                              Minolta/All Covered&#93;.
+                            </p>
+                            <br />
+                            <p>
+                              I have valuable information to share about how we
+                              help organizations like yours execute a
+                              5&#8211;step approach to stay on top of HIPAA
+                              compliance.
+                            </p>
+                            <br />
+                            <p>
+                              I suggest we meet sometime next week to discuss if
+                              our service is a good fit for your organization.
+                            </p>
+                            <br />
+                            <p>
+                              You can call me at xxx&#8211;xxx&#8211;xxxx. Again
+                              &#8211; my name is _____ and you can reach me at
+                              xxx&#8211;xxx&#8211;xxxx.
+                            </p>
+                            <br />
+                            <p>Thank you!</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-mdb-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+                  </div>
+                </div>
+              </div>
+              <!-- Card End -->
+
+              <!-- Card Begin -->
+              <div class="col-lg-4 mb-4 mb-lg-4">
+                <div class="card">
+                  <div
+                    class="bg-image hover-overlay ripple"
+                    data-ripple-color="light"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Legal_Vertical_Playbook_Images/QualifyingQuestions.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-body" style="text-align: left">
+                    <h5 class="card-title">Qualifying Questions</h5>
+                    <p class="card-text">
+                      Use this information when you: 1. Prepare for your
+                      appointments 2. Prepare your Value Statements 3. Choose
+                      Konica Minolta and All Covered content to share with
+                      prospects.
+                    </p>
+
+                    <!-- Button Begin -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#resources3"
+                    >
+                      Learn More
+                    </button>
+                    <!-- Button End -->
+
+                    <!-- Modal Begin  -->
+                    <div
+                      class="modal fade"
+                      id="resources3"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              Qualifying Questions
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-mdb-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <h5>Qualifying Questions</h5>
+                            <ol style="text-align: left">
+                              <li>
+                                Do you have a compliance portal with a dashboard
+                                that shows a view of the current state of both
+                                privacy and security HIPAA risk assessments of
+                                your organization?
+                              </li>
+                              <li>
+                                Do you have ongoing scheduled technical
+                                vulnerability assessments for your network?
+                              </li>
+                              <li>
+                                Do you know the vulnerabilities in your network
+                                at this time?
+                              </li>
+                              <li>
+                                Do you know all the assets connected to your
+                                network, wired and wireless, including medical
+                                devices and what their vulnerabilities are?
+                              </li>
+                              <li>
+                                If you engage with third party suppliers, do you
+                                have documentation that they are complying with
+                                HIPAA per your Business Associate Agreement
+                                (BAA)?
+                              </li>
+                              <li>
+                                Does your current system provide alerts when it
+                                is time to renew BAAs with third party
+                                suppliers?
+                              </li>
+                              <li>
+                                If a data breach does occur, can you demonstrate
+                                that appropriate security controls, policies,
+                                and procedures were in place?
+                              </li>
+                              <li>
+                                Do you have documented ongoing HIPAA and
+                                security awareness training?
+                              </li>
+                              <li>
+                                Do you monitor your policies and procedures
+                                updates with audit log changes?
+                              </li>
+                              <li>
+                                If a breach occurs, do you have a reliable and
+                                tested mechanism to contact patients and execute
+                                a breach notification?
+                              </li>
+                              <li>
+                                Do you need to protect against unauthorized use
+                                by authorized users at your MFP?
+                              </li>
+                              <li>
+                                Do you need essential security at your MFP to
+                                alert you to security breaches?
+                              </li>
+                              <li>
+                                How can you make sure that only authorized
+                                personnel are using your MFPs for patient
+                                documents?
+                              </li>
+                              <li>
+                                May I show you how Konica Minolta office
+                                technology has better security than devices from
+                                other companies?
+                              </li>
+                            </ol>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-mdb-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+                  </div>
+                </div>
+              </div>
+              <!-- Card End -->
+
+              <!-- Card Begin -->
+              <div class="col-lg-4 mb-4 mb-lg-4">
+                <div class="card">
+                  <div
+                    class="bg-image hover-overlay ripple"
+                    data-ripple-color="light"
+                  >
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Legal_Vertical_Playbook_Images/MoreResources.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="card-body" style="text-align: left">
+                    <h5 class="card-title">More Sales Tools</h5>
+                    <p class="card-text">
+                      Sales Tools such as Brochures, Battle Cards, and other
+                      resources.
+                    </p>
+
+                    <!-- Button Begin -->
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#resources4"
+                    >
+                      Learn More
+                    </button>
+                    <!-- Button End -->
+
+                    <!-- Modal Begin  -->
+                    <div
+                      class="modal fade"
+                      id="resources4"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                              More Sales Tools
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-mdb-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <h5>More Sales Tools</h5>
+                            <p>
+                              <a
+                                href="https://www.mykonicaminolta.com/wps/myportal/mkm/home/marketing/channel/productmaterials/brochures/sa_documents/risk%20management%20program/!ut/p/z1/tVTLcoIwFP0VN10yCUZ5LKml4gO1qCjZOCGA0srDGLX26xucOqOdCtNxZJPJzT3n5tzLCcBgDnBK9vGS8DhLyVrsPawsYOelZRlj2G-_6io0pu1hZ2LaTmfcALOyBDhSAL59_ObKZ_yNz4BVeBdggHMaB8CDGpWbWkglheiR1AgCIpFIQZKOIhoh6gdyFBXZNOU5XwEvZ1mwo3yREB6ymKy3T3BLFj_R66DPMrrasfC0CTK6S8KUiyMWbz9qCUnJMiwiNQFeMpKUd6VoGy4X3a2SLeZSZ3bLXgrxhK-kOI0yMM9ZuI_DgyiPywjqI1SeAJ2qhGKwVSI80QT1gsEdFgzDhq4PXNTqQzA7XXaaZiwRv9r4n5O0zhV6lm7AooKm9kxoqF1jglS7riF0Z4Xf9FATutS3luXIsNu-W0A5_ejB9PXH0j-29817b19qsMKgwmDx-2aDDfFeZCkPP3lhr4c9GH_7-RIL5reweTKdJho6SthXHDOyTdTwuvuv54F0vWD_ePgGTEvVXQ!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/"
+                                target="_blank"
+                              >
+                                Risk Management Program Through HIPAA Consulting
+                                Services From Konica Minolta
+                              </a>
+                            </p>
+                            <p>
+                              <a
+                                href="https://www.mykonicaminolta.com/wps/myportal/mkm/home/marketing/channel/productmaterials/infographics/sa_documents/hipaa%20risk%20assessment%20infographic/!ut/p/z1/tVRdb4IwFP0r-rBH0gtUwEdEB6JOwaHSF1MBpZl8BFCz_fqBm8nUKFmMfWl6eu85t-e2RQQtEInpnm1owZKYbsu1S6Ql9LuaoU5hqLcsDVTe1Lu2oYGuAZpfBLy2ZVAdfdx_741smEiI3N62Zvwp_8ZQoS5_hggiqcd85EJLxp4vBNwK6JrDCl5xFKDN-aIsBGslUHypVUV7cZEWIXLTLPF3XrGMaBFkjG7zF8jp8hc9B1m8TjYZTUPm_QB-4u2iIC7KVchSShsZyz8aNM-DPK_wxp-MK4-uTCT3LTDrTCi7JGQjbbQpraBFyFXiaJFmwZ4Fh1Ke3CMQJuL9ALDrAqo21x3CLU2Qb5ogYDQ_FuvESRaVF2_6z74aJ4WB0VbhqKDzpbBszrA5tgUYig8qXNAroFT0lmbYPJjKVHgqvSI_lX6Mn0vfeio9frT6ywd2_csNOsgdu3izPSDCozRynEgRPzmykuzeetQTsWvuvzpv3PlErGbzGy3chwk!/dz/d5/L2dBISEvZ0FBIS9nQSEh/"
+                                target="_blank"
+                              >
+                                HIPAA Risk Assessment Infographic
+                              </a>
+                            </p>
+                            <p>
+                              <a
+                                href="https://www.mykonicaminolta.com/wps/myportal/mkm/home/marketing/channel/productmaterials/salestools/sa_documents/hipaa%20compliance%20battle%20card/!ut/p/z1/tVRdb4IwFP0rvuyRtPLtI1MnMp0OP-mLKaVqF6CIVed-_YrRZC4Tsxh4Kbe9Paf33J4CBOYApXjPVlgwnuJYxgEyF7DbarrOCPY6Lw0LOpPOoDtu9_22BsGsLAEOTYBuL79P65f9Nz4H3ts_BQigjLAIBEsDNnRNo4qtEl3RtWUk_8JQ0VUrJBSadSOCRTZJRSbWIMhyHu2IWCRY0JzhePsEt3hxnr2e3OKYbgXn5zDiZJfQVMhozTKMa4QnWcxwSmgtxELEtEZwHpWLU6iHymv37lUv26Pm_WZ_JTXAYq2wdMnBPMvpntGDpEdlAOpQK0-A_r2Eor_3igikCNZtESwwOx12kvI8kTdu9M-GuheGV7fhwBNDpy6JLW-qewNfhWP4IMMveBvaBfx70_Xr0LNbZqXwRsXwRqXwPb1a-EdPX2qwwqDSYOxjs0GOfDZ4KuinKOxV9bvxt61_AoB5KUCWTCaJrR0VFJp-e9lva3rg7b-e35TrAYXHwzfExWx6/dz/d5/L2dBISEvZ0FBIS9nQSEh/"
+                                target="_blank"
+                              >
+                                HIPAA Compliance Battle Card
+                              </a>
+                            </p>
+                            <p>
+                              <a
+                                href="https://www.mykonicaminolta.com/wps/myportal/mkm/home/marketing/channel/productmaterials/white-papers/sa_documents/hipaa%20and%20hitech%20compliance/!ut/p/z1/tVRNU8IwEP0rXDx2kqahhWNFoKKgglWaC7OkwcahaawR1F9v6seMiMA4TnvJbPL2bfZtXxBDU8QUrOQdGFkoWNo4Yf4Mn550onCCz1sDSnA46owDTCimGKPbTUC_1w5wGPcvTq-7wzG-9BHbfXx1437l7_hCfCj_BjHENJcpSqg_T4loLxzCBTjU5-AApeC0XSBpc-4GQdCq0FwZbTKU6LJIn7iZ5WBEKWH5eIQfYfa5u7m5zqQRGrQoP-K04E-5UMZGmdQADVBpo8LwrMGLXC8lKC5-irOtHtvf--BQ93Y8pBx2hndWAzCZI9WiQFNdipUUa1ue7SMgl95-AB4fAlTzPdREYkUIdorQb6Lb98vGqihz-8dN_jjQaKtCfxLbwiO_eT3xI-_cp_-s8EF_FrVDXNFf4FbP0hPa60ZnBEderfRxvfQuqZferVd7_E_6HwbbNqg1mLx_eGChfTYKZcSzqexV97vxu62_56Ppvnydx3He8l4cNvfH3cWw69FksHo9HjmbC5u_rN8ACUy3tg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/"
+                                target="_blank"
+                              >
+                                Konica&#8211;Minolta&#8211;HIPAA&#8211;HITECH&#8211;Compliance&#8211;Whitepaper.pdf
+                              </a>
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-mdb-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+                  </div>
+                </div>
+              </div>
+              <!-- Card End -->
+            </div>
+          </section>
+          <!-- Section: Design Block -->
+        </div>
+
+        <!-- Modal Popup Sections Begin -->
+      </div>
+    </section>
+
+    <!-- End Cards here -->
+
+    <!-- Resources Cards End -->
+
+    <!-- Start Footer Section here -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+
+      <div class="container p-4">
+        <!-- Section: Form -->
+
+        <!-- Section: Form -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column 1 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="index.html" style="color: inherit">
+                <h5 class="text-uppercase">Home</h5>
+              </a>
+            </div>
+            <!--Grid column 1 End -->
+
+            <!--Grid column 2 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="dxhealthcare.html" style="color: inherit">
+                <h5 class="text-uppercase">DX in Healthcare</h5>
+              </a>
+            </div>
+            <!--Grid column 2 End -->
+
+            <!--Grid column 3 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="salespractices.html" style="color: inherit">
+                <h5 class="text-uppercase">Sales Practices</h5>
+              </a>
+            </div>
+            <!--Grid column 3 End -->
+
+            <!--Grid column 4 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="acutecaremarket.html" style="color: inherit">
+                <h5 class="text-uppercase">Acute Care</h5>
+              </a>
+            </div>
+            <!--Grid column 4 End -->
+
+            <!--Grid column 5 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="ambulatorymarket.html" style="color: inherit">
+                <h5 class="text-uppercase">Ambulatory Care</h5>
+              </a>
+            </div>
+            <!--Grid column 5 End -->
+
+            <!--Grid column 6 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="extendedcaremarket.html" style="color: inherit">
+                <h5 class="text-uppercase">Extended Care</h5>
+              </a>
+            </div>
+            <!--Grid column 6 End -->
+
+            <!--Grid column 7 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="keyresources.html" style="color: inherit">
+                <h5 class="text-uppercase">Key Resources</h5>
+              </a>
+            </div>
+            <!--Grid column 7 End -->
+
+            <!--Grid column 8 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a
+                href="http://site-751160.bcvp0rtal.com/"
+                target="_blank"
+                style="color: inherit"
+              >
+                <h5 class="text-uppercase">Multimedia Resources</h5>
+              </a>
+            </div>
+            <!--Grid column 8 End -->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        &copy; 2025 Konica Minolta Business Solutions USA
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- End Footer Section here -->
+
+    <!-- End your project here-->
+  </body>
+
+  <!-- MDB ESSENTIAL -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- MDB PLUGINS -->
+  <script type="text/javascript" src="plugins/js/all.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</html>
