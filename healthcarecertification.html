@@ -231,6 +231,164 @@
           font-size: 16px;
         }
       }
+
+      /* Parallax Section Styles */
+      .parallax-section {
+        position: relative;
+        min-height: 120vh; /* Increased height for cards */
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        margin: 60px 0;
+      }
+
+      .parallax-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 120%;
+        background-image: url("https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        transform: translateZ(0);
+        will-change: transform;
+      }
+
+      .parallax-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          135deg,
+          rgba(102, 126, 234, 0.85) 0%,
+          rgba(118, 75, 162, 0.85) 50%,
+          rgba(0, 0, 0, 0.7) 100%
+        );
+        z-index: 1;
+      }
+
+      .parallax-content {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+      }
+
+      /* NEW: Process Card Styles for Parallax */
+      .parallax-process-card {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 30px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        transition: all 0.3s ease;
+        height: 100%;
+      }
+
+      .parallax-process-card:hover {
+        transform: translateY(-10px);
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      }
+
+      .parallax-process-card h5 {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      .parallax-process-card p {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+
+      .parallax-process-card .btn-light {
+        background: rgba(255, 255, 255, 0.9);
+        border: none;
+        color: #333;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+
+      .parallax-process-card .btn-light:hover {
+        background: white;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Parallax scroll effect - FIXED */
+      @media (min-width: 768px) {
+        .parallax-background {
+          background-attachment: fixed;
+        }
+      }
+
+      /* Mobile optimization */
+      @media (max-width: 767px) {
+        .parallax-section {
+          min-height: auto;
+          padding: 60px 0;
+        }
+
+        .parallax-background {
+          background-attachment: scroll;
+          background-size: cover;
+        }
+
+        .parallax-process-card {
+          padding: 20px;
+          margin-bottom: 20px;
+        }
+
+        #healthcarecertificationprocessintroparagraph {
+          font-size: 1.1rem !important;
+        }
+      }
+
+      /* Text styling for parallax section */
+      .parallax-section h1 {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 3rem;
+      }
+
+      .parallax-section h3 {
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        font-size: 1.5rem;
+      }
+
+      .parallax-section p {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        border-radius: 15px;
+        backdrop-filter: blur(5px);
+      }
+
+      /* Responsive text sizing */
+      @media (max-width: 992px) {
+        .parallax-section h1 {
+          font-size: 2.5rem;
+        }
+
+        .parallax-section h3 {
+          font-size: 1.3rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .parallax-section h1 {
+          font-size: 2rem;
+        }
+
+        .parallax-section h3 {
+          font-size: 1.2rem;
+        }
+
+        .parallax-section p {
+          padding: 20px;
+        }
+      }
     </style>
   </head>
 
@@ -1117,64 +1275,383 @@
     </div>
     <!-- Healthcare Certification Cards End -->
 
-    <!-- Healthcare Certification Process Begin -->
+    <!-- Healthcare Certification Process Intro Begin -->
     <div
-      class="container my-0 py-0"
-      id="healthcarecertificationprocesssection"></div>
-    <section class="mb-5" id="healthcarecertificationprocess">
-      <h3 class="fw-bold text-center mb-4">Healthcare Certification Process</h3>
+      class="parallax-section"
+      id="healthcarecertificationprocessintrosection">
+      <div class="parallax-background"></div>
+      <div class="parallax-overlay"></div>
+      <div class="parallax-content">
+        <div class="container my-5 py-5">
+          <!-- Section: Design Block -->
+          <section class="mb-5" id="healthcarecertificationprocessintro">
+            <h1 class="fw-bold text-white text-center mb-4">
+              🎓 Ready to Earn Your Healthcare Certification?
+            </h1>
+            <h3 class="text-white text-center mb-4" style="font-weight: 300">
+              Transform your knowledge into recognized expertise
+            </h3>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <img
-              src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
-              alt="Step 1"
-              class="img-fluid mb-3"
-              style="height: 150px; object-fit: cover" />
-            <h5>
-              Healthcare Certification Program Acknowledgment &amp; Checklist
-            </h5>
-            <p>
-              Click the "Enroll Now" button on each course card to register for
-              the Healthcare Certification courses through our learning
-              platform.
-            </p>
+            <div class="row justify-content-center mb-5">
+              <div class="col-lg-10">
+                <p
+                  id="healthcarecertificationprocessintroparagraph"
+                  class="text-white text-center lead"
+                  style="font-size: 1.2rem; line-height: 1.6">
+                  You've completed the coursework and gained valuable healthcare
+                  industry knowledge – now it's time to put that expertise to
+                  the test! 🎯
+                  <br /><br />
+                  Your journey to becoming a
+                  <strong>Healthcare Certified Professional</strong> involves
+                  three simple steps that will showcase your understanding and
+                  officially recognize your achievement. From completing your
+                  acknowledgment checklist to delivering a final presentation
+                  and receiving your official certification, we'll guide you
+                  through each step of this exciting process. <br /><br />
+                  <span class="text-warning fw-bold"
+                    >Ready to demonstrate your healthcare knowledge and earn
+                    your certification? Let's get started! 🚀</span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <!-- Healthcare Certification Process Cards Inside Parallax -->
+            <div class="container" id="healthcarecertificationprocesssection">
+              <h3 class="fw-bold text-center mb-5 text-white">
+                Healthcare Certification Process
+              </h3>
+
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="parallax-process-card">
+                    <div class="text-center mb-3">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                        alt="Step 1"
+                        class="img-fluid"
+                        style="
+                          height: 150px;
+                          object-fit: cover;
+                          border-radius: 10px;
+                        " />
+                    </div>
+                    <h5 class="text-white mb-3">
+                      Healthcare Certification Program Acknowledgment &amp;
+                      Checklist
+                    </h5>
+                    <p class="text-white mb-4" style="opacity: 0.9">
+                      Review the program requirements, acknowledgment process,
+                      and complete the certification checklist to begin your
+                      healthcare certification journey.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-light btn-lg w-100"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#healthcareCertificationAcknowledgmentModal">
+                      <i class="fas fa-clipboard-check me-2"></i>View Details
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <div class="parallax-process-card">
+                    <div class="text-center mb-3">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                        alt="Step 2"
+                        class="img-fluid"
+                        style="
+                          height: 150px;
+                          object-fit: cover;
+                          border-radius: 10px;
+                        " />
+                    </div>
+                    <h5 class="text-white mb-3">
+                      KMBS Healthcare Certification Final Presentation Scenarios
+                    </h5>
+                    <p class="text-white mb-4" style="opacity: 0.9">
+                      Prepare for your final certification presentation with
+                      comprehensive scenarios, evaluation criteria, and
+                      presentation resources.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-light btn-lg w-100"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#healthcareCertificationPresentationModal">
+                      <i class="fas fa-presentation me-2"></i>View Details
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <div class="parallax-process-card">
+                    <div class="text-center mb-3">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                        alt="Step 3"
+                        class="img-fluid"
+                        style="
+                          height: 150px;
+                          object-fit: cover;
+                          border-radius: 10px;
+                        " />
+                    </div>
+                    <h5 class="text-white mb-3">
+                      Healthcare Sales Certification Certificate and Business
+                      Card Process
+                    </h5>
+                    <p class="text-white mb-4" style="opacity: 0.9">
+                      Complete your certification journey by obtaining your
+                      official certificate and updating your business cards with
+                      your new credentials.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-light btn-lg w-100"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#healthcareCertificationCertificateModal">
+                      <i class="fas fa-certificate me-2"></i>View Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Section: Design Block -->
+        </div>
+      </div>
+    </div>
+    <!-- Healthcare Certification Process Intro End -->
+
+    <!-- Healthcare Certification Process Modals Begin -->
+
+    <!-- Modal 1: Healthcare Certification Program Acknowledgment & Checklist -->
+    <div
+      class="modal fade"
+      id="healthcareCertificationAcknowledgmentModal"
+      tabindex="-1"
+      aria-labelledby="healthcareCertificationAcknowledgmentModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4
+              class="modal-title"
+              id="healthcareCertificationAcknowledgmentModalLabel">
+              <i class="fas fa-clipboard-check text-primary me-2"></i>
+              Healthcare Certification Program Acknowledgment & Checklist
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"></button>
           </div>
-          <div class="col-md-4 text-center">
-            <img
-              src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
-              alt="Step 2"
-              class="img-fluid mb-3"
-              style="height: 150px; object-fit: cover" />
-            <h5>KMBS Healthcare Certification Final Presentation Scenarios</h5>
-            <p>
-              Progress through each of the nine comprehensive modules at your
-              own pace, ensuring you understand the key concepts and solutions
-              presented.
-            </p>
+          <div class="modal-body">
+            <!-- Content will be added here -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <p class="lead">
+                    Welcome to the Healthcare Certification Program! This
+                    checklist will guide you through the acknowledgment process
+                    and requirements.
+                  </p>
+
+                  <h5>
+                    <i class="fas fa-info-circle text-info me-2"></i>Program
+                    Overview
+                  </h5>
+                  <p>Content about the program overview will go here...</p>
+
+                  <h5>
+                    <i class="fas fa-tasks text-success me-2"></i>Checklist
+                    Requirements
+                  </h5>
+                  <p>Detailed checklist items will be listed here...</p>
+
+                  <h5>
+                    <i class="fas fa-download text-warning me-2"></i>Required
+                    Documents
+                  </h5>
+                  <p>Information about required documents and downloads...</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-4 text-center">
-            <img
-              src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
-              alt="Step 3"
-              class="img-fluid mb-3"
-              style="height: 150px; object-fit: cover" />
-            <h5>
-              Healthcare Sales Certification Certificate and Business Card
-              Process
-            </h5>
-            <p>
-              After successfully completing all courses, you will receive your
-              Healthcare Certification, enhancing your expertise and sales
-              potential in the healthcare industry.
-            </p>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">
+              <i class="fas fa-download me-2"></i>Download Checklist
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-mdb-dismiss="modal">
+              Close
+            </button>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Healthcare Certification Process End -->
+    <!-- Modal 2: KMBS Healthcare Certification Final Presentation Scenarios -->
+    <div
+      class="modal fade"
+      id="healthcareCertificationPresentationModal"
+      tabindex="-1"
+      aria-labelledby="healthcareCertificationPresentationModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4
+              class="modal-title"
+              id="healthcareCertificationPresentationModalLabel">
+              <i class="fas fa-presentation text-primary me-2"></i>
+              KMBS Healthcare Certification Final Presentation Scenarios
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Content will be added here -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <p class="lead">
+                    Prepare for your final presentation with these comprehensive
+                    scenarios and guidelines.
+                  </p>
+
+                  <h5>
+                    <i class="fas fa-lightbulb text-warning me-2"></i
+                    >Presentation Scenarios
+                  </h5>
+                  <p>
+                    Detailed presentation scenarios will be outlined here...
+                  </p>
+
+                  <h5>
+                    <i class="fas fa-clipboard-list text-info me-2"></i
+                    >Evaluation Criteria
+                  </h5>
+                  <p>
+                    Information about how presentations will be evaluated...
+                  </p>
+
+                  <h5>
+                    <i class="fas fa-tools text-success me-2"></i>Resources &
+                    Templates
+                  </h5>
+                  <p>Available resources and presentation templates...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">
+              <i class="fas fa-download me-2"></i>Download Presentation Guide
+            </button>
+            <button type="button" class="btn btn-info">
+              <i class="fas fa-file-powerpoint me-2"></i>Download Templates
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3: Healthcare Sales Certification Certificate and Business Card Process -->
+    <div
+      class="modal fade"
+      id="healthcareCertificationCertificateModal"
+      tabindex="-1"
+      aria-labelledby="healthcareCertificationCertificateModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4
+              class="modal-title"
+              id="healthcareCertificationCertificateModalLabel">
+              <i class="fas fa-certificate text-primary me-2"></i>
+              Healthcare Sales Certification Certificate and Business Card
+              Process
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Content will be added here -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <p class="lead">
+                    Learn about the certification completion process and how to
+                    obtain your official certificate and business card updates.
+                  </p>
+
+                  <h5>
+                    <i class="fas fa-award text-warning me-2"></i>Certificate
+                    Process
+                  </h5>
+                  <p>
+                    Step-by-step process for receiving your certification...
+                  </p>
+
+                  <h5>
+                    <i class="fas fa-id-card text-info me-2"></i>Business Card
+                    Updates
+                  </h5>
+                  <p>
+                    How to update your business cards with certification
+                    credentials...
+                  </p>
+
+                  <h5>
+                    <i class="fas fa-handshake text-success me-2"></i>Next Steps
+                  </h5>
+                  <p>What to do after completing your certification...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">
+              <i class="fas fa-download me-2"></i>Download Certificate Request
+              Form
+            </button>
+            <button type="button" class="btn btn-info">
+              <i class="fas fa-download me-2"></i>Download Business Card
+              Template
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Healthcare Certification Process Modals End -->
 
     <!-- Start Footer Section here -->
     <!-- Footer -->
