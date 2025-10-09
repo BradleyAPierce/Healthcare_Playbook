@@ -178,60 +178,6 @@
         font-size: 20px;
       }
 
-      /* Slide Indicators */
-      .slider-indicators {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 30px;
-      }
-
-      .indicator {
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        border: none;
-        background: #ddd;
-        cursor: pointer;
-        transition: all 0.3s ease;
-      }
-
-      .indicator.active,
-      .indicator:hover {
-        background: #667eea;
-        transform: scale(1.2);
-      }
-
-      /* Responsive Design */
-      @media (max-width: 992px) {
-        .slider-card {
-          flex: 0 0 calc(50% - 10px);
-        }
-
-        .card-slider-container {
-          padding: 0 70px;
-        }
-      }
-
-      @media (max-width: 768px) {
-        .slider-card {
-          flex: 0 0 calc(100% - 0px);
-        }
-
-        .card-slider-container {
-          padding: 0 60px;
-        }
-
-        .slider-nav {
-          width: 50px;
-          height: 50px;
-        }
-
-        .slider-nav i {
-          font-size: 16px;
-        }
-      }
-
       /* Parallax Section Styles */
       .parallax-section {
         position: relative;
@@ -388,6 +334,12 @@
         .parallax-section p {
           padding: 20px;
         }
+      }
+
+      /* Badge spacing */
+      .card-title .badge {
+        margin-bottom: 8px;
+        display: inline-block;
       }
     </style>
   </head>
@@ -848,7 +800,8 @@
                 id="hccertalldeeplink"
                 href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHCFW%26componentTypeID%3dONLINE%26revisionDate%3d1450112400000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
                 role="button"
-                target="_blank">
+                target="_blank"
+                style="display: none">
                 Review Certification Courses!
               </a>
             </div>
@@ -916,7 +869,7 @@
 
         <!-- Card Slider Container -->
         <div class="card-slider-container">
-          <!-- Navigation Arrows -->
+          <!-- Navigation Arrows - FIX WITH FONTAWESOME ICONS -->
           <button class="slider-nav slider-prev" id="sliderPrev">
             <i class="fas fa-chevron-left"></i>
           </button>
@@ -950,12 +903,14 @@
                       solutions.
                     </p>
                     <div class="mt-auto">
-                      <a
-                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHC%5fIPPE%5fV2%26componentTypeID%3dONLINE%26revisionDate%3d1753898280000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
-                        target="_blank"
-                        class="btn btn-primary w-100">
-                        Enroll Now
-                      </a>
+                      <!-- Card 1 Button - REMOVE ICON -->
+                      <button
+                        type="button"
+                        class="btn btn-light btn-lg w-100"
+                        data-mdb-toggle="modal"
+                        data-mdb-target="#healthcareCertificationAcknowledgmentModal">
+                        View Details
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -989,12 +944,14 @@
                       across the Acute, Ambulatory and Extended Care settings.
                     </p>
                     <div class="mt-auto">
-                      <a
-                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHC%5fPlaybook%26componentTypeID%3dONLINE%26revisionDate%3d1619794500000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
-                        target="_blank"
-                        class="btn btn-primary w-100">
-                        Enroll Now
-                      </a>
+                      <!-- Card 2 Button - REMOVE ICON -->
+                      <button
+                        type="button"
+                        class="btn btn-light btn-lg w-100"
+                        data-mdb-toggle="modal"
+                        data-mdb-target="#healthcareCertificationPresentationModal">
+                        View Details
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -1028,12 +985,14 @@
                       and Security, Healthcare
                     </p>
                     <div class="mt-auto">
-                      <a
-                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHCFHH%26componentTypeID%3dONLINE%26revisionDate%3d1450112400000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
-                        target="_blank"
-                        class="btn btn-primary w-100">
-                        Enroll Now
-                      </a>
+                      <!-- Card 3 Button - REMOVE ICON -->
+                      <button
+                        type="button"
+                        class="btn btn-light btn-lg w-100"
+                        data-mdb-toggle="modal"
+                        data-mdb-target="#healthcareCertificationCertificateModal">
+                        View Details
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -1297,10 +1256,19 @@
                 <p
                   id="healthcarecertificationprocessintroparagraph"
                   class="text-white lead"
-                  style="font-size: 1.2rem; line-height: 1.6; text-align: left">
+                  style="
+                    font-size: 1.2rem;
+                    line-height: 1.6;
+                    text-align: left !important;
+                    background: rgba(0, 0, 0, 0.2);
+                    padding: 30px;
+                    border-radius: 15px;
+                    backdrop-filter: blur(5px);
+                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+                  ">
                   You've completed the coursework and gained valuable healthcare
-                  industry knowledge &#45; now it's time to put that expertise
-                  to the test!
+                  industry knowledge – now it's time to put that expertise to
+                  the test! 🎯
                   <br /><br />
                   Your journey to becoming a
                   <strong>Healthcare Certified Professional</strong> involves
@@ -1311,7 +1279,7 @@
                   through each step of this exciting process. <br /><br />
                   <span class="text-warning fw-bold"
                     >Ready to demonstrate your healthcare knowledge and earn
-                    your certification? Let's get started!</span
+                    your certification? Let's get started! 🚀</span
                   >
                 </p>
               </div>
@@ -1351,7 +1319,7 @@
                       class="btn btn-light btn-lg w-100"
                       data-mdb-toggle="modal"
                       data-mdb-target="#healthcareCertificationAcknowledgmentModal">
-                      </i>View Details
+                      <i class="fas fa-clipboard-check me-2"></i>View Details
                     </button>
                   </div>
                 </div>
@@ -1382,7 +1350,7 @@
                       class="btn btn-light btn-lg w-100"
                       data-mdb-toggle="modal"
                       data-mdb-target="#healthcareCertificationPresentationModal">
-                      </i>View Details
+                      <i class="fas fa-presentation me-2"></i>View Details
                     </button>
                   </div>
                 </div>
@@ -1413,7 +1381,7 @@
                       class="btn btn-light btn-lg w-100"
                       data-mdb-toggle="modal"
                       data-mdb-target="#healthcareCertificationCertificateModal">
-                      </i>View Details
+                      <i class="fas fa-certificate me-2"></i>View Details
                     </button>
                   </div>
                 </div>
@@ -1438,6 +1406,7 @@
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
+            <!-- Modal 1 Header - REMOVE ICON -->
             <h4
               class="modal-title"
               id="healthcareCertificationAcknowledgmentModalLabel">
@@ -1520,7 +1489,13 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a href="certdocs/Healthcare_Certification_Program_Acknowledgment.pdf" download class="btn btn-success" target="_blank">Download Checklist</a>
+            <a
+              href="certdocs/Healthcare_Certification_Program_Acknowledgment.pdf"
+              download
+              class="btn btn-success"
+              target="_blank"
+              >Download Checklist</a
+            >
             <button
               type="button"
               class="btn btn-secondary"
@@ -1542,6 +1517,7 @@
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
+            <!-- Modal 2 Header - REMOVE ICON -->
             <h4
               class="modal-title"
               id="healthcareCertificationPresentationModalLabel">
@@ -1620,9 +1596,12 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-success">
+            <a
+              href="certdocs/Healthcare_Certification_Presentation_Guidelines.pdf"
+              download
+              class="btn btn-success">
               Download Presentation Guidelines
-            </button>
+            </a>
             <button
               type="button"
               class="btn btn-secondary"
@@ -1644,10 +1623,10 @@
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
+            <!-- Modal 3 Header - REMOVE ICON -->
             <h4
               class="modal-title"
               id="healthcareCertificationCertificateModalLabel">
-              <i class="fas fa-certificate text-primary me-2"></i>
               Healthcare Certification Program Assets
             </h4>
             <button
@@ -1666,34 +1645,38 @@
                     obtain your official certificate and business card updates.
                   </p>
 
-                  <h5>
-                    Certificate of Completion
-                  </h5>
+                  <h5>Certificate of Completion</h5>
+                  <p>Satisfy the requirements of the certification program:</p>
+                  <ol>
+                    <li>
+                      Complete the certification learn track in KM Learning
+                    </li>
+                    <li>Submit your final video presentation</li>
+                  </ol>
                   <p>
-                    Satisfy the requirements of the certification program:
-                    </p>
-                    <ol>
-                      <li>Complete the certification learn track in KM Learning</li>
-                      <li>Submit your final video presentation</li>
-                    </ol>
-                    <p>
-                      You will receive an email with your official "Healthcare Certified Professional" certificate.
-                    </p>
+                    You will receive an email with your official "Healthcare
+                    Certified Professional" certificate.
+                  </p>
 
-                  <h5>
-                    Business Card Updates
-                  </h5>
+                  <h5>Business Card Updates</h5>
                   <p>
-                    The Healthcare Sales Certified Logo is an option in the Business Card Services Incorporated within Ariba. Begin your order as you normally would , and select the Standard Business Card. Follow the process in the next few slides to select the Healthcare Logo Option.
+                    The Healthcare Sales Certified Logo is an option in the
+                    Business Card Services Incorporated within Ariba. Begin your
+                    order as you normally would , and select the Standard
+                    Business Card. Follow the process in the next few slides to
+                    select the Healthcare Logo Option.
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-success">
+            <a
+              href="certdocs/Healthcare_Business_Card_Template.pdf"
+              download
+              class="btn btn-success">
               Download Business Card Template
-            </button>
+            </a>
             <button
               type="button"
               class="btn btn-secondary"
