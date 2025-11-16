@@ -1,0 +1,620 @@
+/* Enhanced Navigation Styles - Override MDB Framework */
+.navbar.modern-navbar {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.37) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+  transition: all 0.3s ease !important;
+  padding: 0.5rem 1rem !important;
+  z-index: 1050 !important;
+  /* Add these lines to remove any borders */
+  border: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+/* Also add this to remove borders from navbar elements */
+.navbar.modern-navbar,
+.navbar.modern-navbar .navbar-nav,
+.navbar.modern-navbar .navbar-collapse,
+.navbar.modern-navbar .navbar-toggler {
+  border: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  outline: none !important;
+}
+
+.navbar.modern-navbar.scrolled {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 126, 234, 0.95) 0%,
+    rgba(118, 75, 162, 0.95) 100%
+  ) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+.navbar.modern-navbar .navbar-brand img {
+  height: 80px !important; /* Doubled from 40px to 80px */
+  transition: all 0.3s ease !important;
+  max-width: none !important;
+  width: auto !important;
+  object-fit: contain !important;
+}
+
+.navbar.modern-navbar .navbar-brand:hover img {
+  opacity: 0.9 !important;
+  transition: opacity 0.3s ease !important;
+}
+
+.navbar.modern-navbar .modern-nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 500 !important;
+  padding: 12px 20px !important;
+  margin: 0 5px !important;
+  border-radius: 25px !important;
+  transition: all 0.3s ease !important;
+  display: flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+.navbar.modern-navbar .modern-nav-link:hover,
+.navbar.modern-navbar .modern-nav-link:focus {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+  text-decoration: none !important;
+}
+
+/* REMOVE THESE ICON STYLES - Comment out or delete */
+/*
+.navbar.modern-navbar .modern-nav-link i {
+  margin-right: 8px !important;
+  font-size: 16px !important;
+  transition: all 0.3s ease !important;
+}
+
+.navbar.modern-navbar .modern-nav-link:hover i {
+  transform: scale(1.2) !important;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important;
+}
+*/
+
+/* Mega Menu Styles - Override Bootstrap Dropdown */
+.navbar.modern-navbar .mega-menu {
+  position: relative !important;
+}
+
+.navbar.modern-navbar .mega-menu .dropdown-menu {
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  min-width: 800px !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: none !important;
+  border-radius: 15px !important;
+  padding: 30px !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2) !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transform: translateY(-20px) !important;
+  transition: all 0.3s ease !important;
+  z-index: 1000 !important;
+  margin-top: 0 !important;
+}
+
+.navbar.modern-navbar .mega-menu:hover .dropdown-menu {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0) !important;
+}
+
+.navbar.modern-navbar .mega-menu-content {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) !important;
+  gap: 30px !important;
+}
+
+.navbar.modern-navbar .mega-menu-section h6 {
+  color: #667eea !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  margin-bottom: 15px !important;
+  padding-bottom: 8px !important;
+  border-bottom: 2px solid #667eea !important;
+}
+
+.navbar.modern-navbar .mega-menu-item {
+  display: block !important;
+  padding: 8px 15px !important;
+  color: #333 !important;
+  text-decoration: none !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+}
+
+.navbar.modern-navbar .mega-menu-item:hover {
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+  color: white !important;
+  transform: translateX(5px) !important;
+  text-decoration: none !important;
+}
+
+/* Search Bar - HIDDEN FOR NOW */
+.navbar.modern-navbar .nav-search {
+  display: none !important; /* Hide the entire search container */
+  position: relative !important;
+  margin: 0 15px !important;
+}
+
+.navbar.modern-navbar .nav-search input {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: white !important;
+  padding: 8px 40px 8px 15px !important;
+  border-radius: 25px !important;
+  width: 250px !important;
+  transition: all 0.3s ease !important;
+  font-size: 14px !important;
+}
+
+.navbar.modern-navbar .nav-search input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.navbar.modern-navbar .nav-search input:focus {
+  outline: none !important;
+  background: rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3) !important;
+  width: 300px !important;
+}
+
+.navbar.modern-navbar .nav-search button {
+  position: absolute !important;
+  right: 8px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  background: none !important;
+  border: none !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  cursor: pointer !important;
+  padding: 5px !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease !important;
+}
+
+.navbar.modern-navbar .nav-search button:hover {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Progress Indicator - HIDE THIS */
+.nav-progress {
+  display: none !important; /* Hide the progress indicator */
+  position: fixed !important;
+  top: 70px !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 3px !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  z-index: 1049 !important;
+}
+
+.nav-progress::before {
+  display: none !important; /* Hide the progress bar */
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  height: 100% !important;
+  background: linear-gradient(90deg, #667eea, #764ba2) !important;
+  width: var(--scroll-progress, 0%) !important;
+  transition: width 0.1s ease !important;
+  animation: progressMove 2s infinite !important;
+}
+
+/* Mobile Enhancements */
+@media (max-width: 991.98px) {
+  .navbar.modern-navbar .mega-menu .dropdown-menu {
+    min-width: 100vw !important;
+    left: -15px !important;
+    right: -15px !important;
+    border-radius: 0 !important;
+    padding: 20px !important;
+  }
+
+  .navbar.modern-navbar .mega-menu-content {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .navbar.modern-navbar .nav-search input {
+    width: 200px !important;
+  }
+
+  .navbar.modern-navbar .nav-search input:focus {
+    width: 220px !important;
+  }
+}
+
+/* Dropdown Item Animations */
+.navbar.modern-navbar .dropdown-item {
+  transition: all 0.3s ease !important;
+  border-radius: 8px !important;
+  margin: 2px 0 !important;
+}
+
+.navbar.modern-navbar .dropdown-item:hover {
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+  color: white !important;
+  transform: translateX(5px) !important;
+}
+
+/* Notification Badge */
+.navbar.modern-navbar .nav-notification {
+  position: relative !important;
+}
+
+.navbar.modern-navbar .nav-notification::after {
+  content: "" !important;
+  position: absolute !important;
+  top: 8px !important;
+  right: 15px !important;
+  width: 8px !important;
+  height: 8px !important;
+  background: #ff4757 !important;
+  border-radius: 50% !important;
+  animation: pulse 2s infinite !important;
+}
+
+/* Floating Action Button */
+.fab-container {
+  position: fixed !important;
+  bottom: 30px !important;
+  right: 30px !important;
+  z-index: 1000 !important;
+  transition: all 0.3s ease !important;
+}
+
+.fab-container.hidden {
+  transform: translateY(100px) !important;
+  opacity: 0 !important;
+}
+
+.fab-main {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+  color: white !important;
+  border: none !important;
+  font-size: 24px !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+  transition: all 0.3s ease !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.fab-main:hover {
+  transform: scale(1.1) !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4) !important;
+}
+
+.fab-options {
+  position: absolute !important;
+  bottom: 70px !important;
+  right: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 15px !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transform: scale(0.8) !important;
+  transition: all 0.3s ease !important;
+}
+
+.fab-container.active .fab-options {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: scale(1) !important;
+}
+
+.fab-option {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+  color: #667eea !important;
+  text-decoration: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 18px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s ease !important;
+}
+
+.fab-option:hover {
+  background: #667eea !important;
+  color: white !important;
+  transform: scale(1.1) !important;
+  text-decoration: none !important;
+}
+
+/* Quick Navigation Panel */
+.quick-nav-panel {
+  position: fixed !important;
+  top: 80px !important;
+  left: 50% !important;
+  transform: translateX(-50%) translateY(-20px) !important;
+  max-width: 800px !important;
+  width: 90% !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(15px) !important;
+  -webkit-backdrop-filter: blur(15px) !important;
+  border-radius: 20px !important;
+  padding: 30px !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3) !important;
+  z-index: 1060 !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transition: all 0.3s ease !important;
+}
+
+.quick-nav-panel.active {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateX(-50%) translateY(0) !important;
+}
+
+.quick-nav-close {
+  position: absolute !important;
+  top: 15px !important;
+  right: 15px !important;
+  background: rgba(102, 126, 234, 0.1) !important;
+  border: none !important;
+  color: #667eea !important;
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 16px !important;
+}
+
+.quick-nav-close:hover {
+  background: #667eea !important;
+  color: white !important;
+  transform: rotate(90deg) !important;
+}
+
+.quick-nav-sections {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) !important;
+  gap: 25px !important;
+  margin-top: 20px !important;
+}
+
+.quick-nav-section h6 {
+  color: #667eea !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  margin-bottom: 15px !important;
+  padding-bottom: 8px !important;
+  border-bottom: 2px solid #667eea !important;
+}
+
+.quick-nav-link {
+  display: block !important;
+  padding: 8px 15px !important;
+  color: #333 !important;
+  text-decoration: none !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+}
+
+.quick-nav-link:hover {
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+  color: white !important;
+  transform: translateX(5px) !important;
+  text-decoration: none !important;
+}
+
+.quick-nav-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  z-index: 1055 !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transition: all 0.3s ease !important;
+}
+
+.quick-nav-overlay.active {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Mobile adjustments for quick nav */
+@media (max-width: 991.98px) {
+  .quick-nav-panel {
+    width: 95% !important;
+    padding: 20px !important;
+    top: 70px !important;
+  }
+
+  .quick-nav-sections {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Care Settings Mega Menu Specific Styles */
+.navbar.modern-navbar .care-settings-menu {
+  min-width: 1000px !important;
+  max-width: 1200px !important;
+  padding: 40px !important;
+}
+
+.navbar.modern-navbar .care-title {
+  color: #667eea !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  margin-bottom: 20px !important;
+  padding-bottom: 10px !important;
+  border-bottom: 3px solid #667eea !important;
+  text-align: center !important;
+}
+
+.navbar.modern-navbar .care-subsection {
+  margin: 20px 0 !important;
+  padding: 15px 0 !important;
+  border-top: 1px solid #f0f0f0 !important;
+}
+
+.navbar.modern-navbar .care-subsection:first-child {
+  border-top: none !important;
+  margin-top: 10px !important;
+}
+
+.navbar.modern-navbar .subsection-title {
+  display: block !important;
+  color: #764ba2 !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  margin-bottom: 10px !important;
+  padding-bottom: 5px !important;
+  border-bottom: 1px solid #e9ecef !important;
+}
+
+.navbar.modern-navbar .care-settings-menu .mega-menu-item {
+  font-size: 13px !important;
+  padding: 6px 10px !important;
+  margin-bottom: 3px !important;
+}
+
+/* Two-Level Care Settings Mega Menu */
+.navbar.modern-navbar .care-settings-mega {
+  position: relative !important; /* Make sure parent is positioned */
+}
+
+.navbar.modern-navbar .care-settings-mega .care-settings-main-menu {
+  position: absolute !important;
+  top: 100% !important;
+  left: 50% !important; /* Center under the Care Settings button */
+  transform: translateX(-50%) !important; /* Center alignment */
+  min-width: 250px !important;
+  max-width: 250px !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: none !important;
+  border-radius: 15px !important;
+  padding: 20px 0 !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2) !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  margin-top: 10px !important;
+  transition: all 0.3s ease !important;
+  z-index: 1000 !important;
+}
+
+.navbar.modern-navbar .care-settings-mega:hover .care-settings-main-menu {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Fix for sub-menus positioning */
+.navbar.modern-navbar .care-sub-menu {
+  position: absolute !important;
+  top: 0 !important;
+  left: 100% !important;
+  min-width: 600px !important;
+  background: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(15px) !important;
+  -webkit-backdrop-filter: blur(15px) !important;
+  border-radius: 15px !important;
+  padding: 30px !important;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.25) !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transform: translateX(-20px) !important;
+  transition: all 0.3s ease !important;
+  z-index: 1001 !important;
+  margin-left: 10px !important;
+}
+
+.navbar.modern-navbar .care-main-item:hover .care-sub-menu {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateX(0) !important;
+}
+
+/* Remove any conflicting styles from existing mega-menu */
+.navbar.modern-navbar .care-settings-mega .dropdown-menu {
+  position: static !important;
+  transform: none !important;
+  left: auto !important;
+  right: auto !important;
+}
+
+/* Ensure proper stacking order */
+.navbar.modern-navbar .care-settings-mega {
+  z-index: 999 !important;
+}
+
+.navbar.modern-navbar .care-settings-main-menu {
+  z-index: 1000 !important;
+}
+
+.navbar.modern-navbar .care-sub-menu {
+  z-index: 1001 !important;
+}
+
+/* Add smooth transitions for better UX */
+.navbar.modern-navbar .care-main-item,
+.navbar.modern-navbar .care-sub-menu {
+  will-change: transform, opacity !important;
+}

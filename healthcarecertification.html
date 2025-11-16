@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-28P21D5QN2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-28P21D5QN2");
+    </script>
+    <!-- Google Tag Manager -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-");
+    </script>
+
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+    <meta name="citation_date" content="2025-11-06" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Healthcare Playbook: Healthcare Certification</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB ESSENTIAL -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB PLUGINS -->
+    <link rel="stylesheet" href="plugins/css/all.min.css" />
+    <!-- Custom styles -->
+
+    <!-- Special DX Playbook CSS Sheet -->
+    <link rel="stylesheet" href="css/dxplaybook.css" />
+    <link rel="stylesheet" href="css/responsiveiframe.css" />
+    <style>
+      /* Card Slider Styles */
+      .card-slider-container {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 80px;
+      }
+
+      .card-slider-wrapper {
+        overflow: hidden;
+        border-radius: 20px;
+      }
+
+      .card-slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        gap: 20px;
+      }
+
+      .slider-card {
+        flex: 0 0 calc(33.333% - 13.333px);
+        height: 500px; /* Fixed height for consistency */
+      }
+
+      .slider-card .card {
+        border-radius: 15px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border: none;
+        height: 100%;
+      }
+
+      .slider-card .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+      }
+
+      .slider-card .card-img-top {
+        border-radius: 15px 15px 0 0;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .slider-card .card-body {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        height: calc(100% - 200px); /* Remaining space after image */
+      }
+
+      .slider-card .card-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: #333;
+      }
+
+      /* UPDATED: Simple scrollable card-text */
+      .slider-card .card-text {
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.5;
+        flex-grow: 1;
+        margin-bottom: 15px;
+        height: 140px; /* Fixed height for ~6 lines of text */
+        overflow-y: auto; /* Enable vertical scrolling */
+        padding-right: 8px; /* Space for scrollbar */
+        border: 1px solid #f0f0f0; /* Subtle border */
+        border-radius: 8px;
+        padding: 12px;
+        background-color: #fafafa; /* Light background */
+      }
+
+      /* Custom scrollbar styling */
+      .slider-card .card-text::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .slider-card .card-text::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 3px;
+      }
+
+      .slider-card .card-text::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        border-radius: 3px;
+      }
+
+      .slider-card .card-text::-webkit-scrollbar-thumb:hover {
+        background: #a8a8a8;
+      }
+
+      /* Navigation Arrows */
+      .slider-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        border: none;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        transition: all 0.3s ease;
+        z-index: 10;
+      }
+
+      .slider-nav:hover {
+        transform: translateY(-50%) scale(1.1);
+        box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+      }
+
+      .slider-nav:disabled {
+        opacity: 0.3;
+        cursor: not-allowed;
+        transform: translateY(-50%) scale(0.9);
+      }
+
+      .slider-prev {
+        left: 10px;
+      }
+
+      .slider-next {
+        right: 10px;
+      }
+
+      .slider-nav i {
+        color: white;
+        font-size: 20px;
+      }
+
+      /* Parallax Section Styles */
+      .parallax-section {
+        position: relative;
+        min-height: 120vh; /* Increased height for cards */
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        margin: 60px 0;
+      }
+
+      .parallax-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 120%;
+        background-image: url("https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        transform: translateZ(0);
+        will-change: transform;
+      }
+
+      .parallax-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          135deg,
+          rgba(102, 126, 234, 0.85) 0%,
+          rgba(118, 75, 162, 0.85) 50%,
+          rgba(0, 0, 0, 0.7) 100%
+        );
+        z-index: 1;
+      }
+
+      .parallax-content {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+      }
+
+      /* NEW: Process Card Styles for Parallax */
+      .parallax-process-card {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 30px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        transition: all 0.3s ease;
+        height: 100%;
+      }
+
+      .parallax-process-card:hover {
+        transform: translateY(-10px);
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      }
+
+      .parallax-process-card h5 {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      .parallax-process-card p {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+
+      .parallax-process-card .btn-light {
+        background: rgba(255, 255, 255, 0.9);
+        border: none;
+        color: #333;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+
+      .parallax-process-card .btn-light:hover {
+        background: white;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Parallax scroll effect - FIXED */
+      @media (min-width: 768px) {
+        .parallax-background {
+          background-attachment: fixed;
+        }
+      }
+
+      /* Mobile optimization */
+      @media (max-width: 767px) {
+        .parallax-section {
+          min-height: auto;
+          padding: 60px 0;
+        }
+
+        .parallax-background {
+          background-attachment: scroll;
+          background-size: cover;
+        }
+
+        .parallax-process-card {
+          padding: 20px;
+          margin-bottom: 20px;
+        }
+
+        #healthcarecertificationprocessintroparagraph {
+          font-size: 1.1rem !important;
+        }
+      }
+
+      /* Text styling for parallax section */
+      .parallax-section h1 {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 3rem;
+      }
+
+      .parallax-section h3 {
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        font-size: 1.5rem;
+      }
+
+      .parallax-section p {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        border-radius: 15px;
+        backdrop-filter: blur(5px);
+      }
+
+      /* Responsive text sizing */
+      @media (max-width: 992px) {
+        .parallax-section h1 {
+          font-size: 2.5rem;
+        }
+
+        .parallax-section h3 {
+          font-size: 1.3rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .parallax-section h1 {
+          font-size: 2rem;
+        }
+
+        .parallax-section h3 {
+          font-size: 1.2rem;
+        }
+
+        .parallax-section p {
+          padding: 20px;
+        }
+      }
+
+      /* Badge spacing */
+      .card-title .badge {
+        margin-bottom: 8px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Nav Begin -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarCenterExample"
+          aria-controls="navbarCenterExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarCenterExample">
+          <!-- Left links -->
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="https://cdn.jsdelivr.net/gh/BradleyAPierce/DX_Playbook_Images/kmlogostacked.png"
+              width="100px"
+              height="auto"
+              alt="KM Logo" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <ul class="navbar-nav justify-content-center mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="healthcarecertification.html">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/rocket_emoji.png"
+                  alt="Rocket emoji indicating new or featured content"
+                  style="width: 25px; height: auto" />
+                Healthcare Certification</a
+              >
+            </li>
+
+            <!-- Navbar Sales Practices Begin -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownWhat"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                Sales Practices
+              </a>
+
+              <!-- Dropdown Sales menu items begin -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="salespractices.html">
+                    Sales Practices Home
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="howtoresearch.html">
+                    Researching a Healthcare Account
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="buyerpersonas.html">
+                    Organizational Structures
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="communicatingvalue.html">
+                    Communicating Value
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="preparingforappointments.html">
+                    Preparing for Appointments
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="gpo.html">
+                    &#40;GPO&#41; Group Purchasing Organizations
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="knowthecompetition.html">
+                    Know the Competition
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="healthcareterms.html">
+                    Healthcare Terms
+                  </a>
+                </li>
+              </ul>
+              <!-- Dropdown Sales Practices menu items end -->
+            </li>
+            <!-- Nav Sales Practices End -->
+
+            <!-- Navbar Acute Care Begin -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                Acute Care
+              </a>
+
+              <!-- Dropdown Acute Care items begin -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="acutecaremarket.html">
+                    Acute Care Home
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="acutecaremarkethipaa.html">
+                    HIPAA
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketmps.html">
+                    &#40;MPS&#41; Managed Print Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketcybersecuritysolutions.html">
+                    Cybersecurity Solutions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketlayeredsecurity.html">
+                    Layered Security
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketworkflow.html">
+                    Workflow
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketprintmanagement.html">
+                    Print Management
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketenterprise.html">
+                    &#40;IIM&#41; Intelligent Information Management
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="acutecaremarketrpa.html">
+                    &#40;RPA&#41; Robotic Process Automation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketmanageditservices.html">
+                    Managed IT Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecarecmarketcloudservices.html">
+                    Cloud Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="acutecaremarketfaxmanagement.html">
+                    Fax Management
+                  </a>
+                </li>
+              </ul>
+              <!-- Dropdown Acute Care Items End -->
+            </li>
+            <!-- Nav Acute Care End -->
+
+            <!-- Navbar Ambulatory Care Begin -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                Ambulatory Care
+              </a>
+
+              <!-- Dropdown Ambulatory Care items begin -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarket.html">
+                    Ambulatory Care Home
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarkethipaa.html">
+                    HIPAA
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmps.html">
+                    &#40;MPS&#41; Managed Print Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketcybersecuritysolutions.html">
+                    Cybersecurity Solutions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketlayeredsecurity.html">
+                    Layered Security
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketworkflow.html">
+                    Workflow
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketmfp.html">
+                    Healthcare Enabled MFP Plus
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketprintmanagement.html">
+                    Print Management
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketenterprise.html">
+                    &#40;IIM&#41; Intelligent Information Management
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ambulatorymarketrpa.html">
+                    &#40;RPA&#41; Robotic Process Automation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketmanageditservices.html">
+                    Managed IT Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorymarketcloudservices.html">
+                    Cloud Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="ambulatorycaremarketfaxmanagement.html">
+                    Fax Management
+                  </a>
+                </li>
+              </ul>
+              <!-- Dropdown Ambulatory Care Items End -->
+            </li>
+            <!-- Nav Ambulatory Care End -->
+
+            <!-- Navbar Extended Care Begin -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarCoreComp"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                Extended Care
+              </a>
+
+              <!-- Dropdown Extended Care items begin -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarket.html">
+                    Extended Care Home
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarkethipaa.html">
+                    HIPAA
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmps.html">
+                    &#40;MPS&#41; Managed Print Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketcybersecuritysolutions.html">
+                    Cybersecurity Solutions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarkethworkflow.html">
+                    Workflow
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketmfp.html">
+                    Healthcare Enabled MFP Plus
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketprintmanagement.html">
+                    Print Management
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketenterprise.html">
+                    &#40;IIM&#41; Intelligent Information Management
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="extendedcaremarketrpa.html">
+                    &#40;RPA&#41; Robotic Process Automation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketmanageditservices.html">
+                    Managed IT Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketcloudservices.html">
+                    Cloud Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="extendedcaremarketfaxmanagement.html">
+                    Fax Management
+                  </a>
+                </li>
+              </ul>
+              <!-- Dropdown Extended Care Items End -->
+            </li>
+            <!-- Nav Extended Care End -->
+
+            <!-- Navbar Other Resources Begin -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownResources"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                Other Resources
+              </a>
+
+              <!-- Dropdown Other Resources items begin -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="keyresources.html">
+                    Key Resources
+                  </a>
+                </li>
+              </ul>
+              <!-- Dropdown Other Resources Items End -->
+            </li>
+            <!-- Nav Other Resources End -->
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Nav End -->
+
+    <!-- Banner Images Begin -->
+    <div
+      id="carouselBasicExample"
+      class="carousel slide carousel-fade"
+      data-mdb-ride="carousel"
+      style="margin-top: 70px">
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        style="
+          background-image: url('https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg');
+          height: 600px;
+        ">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="banner1">
+                Healthcare <br />
+                Certification
+              </h1>
+
+              <a
+                class="btn btn-danger btn-lg"
+                id="hccertalldeeplink"
+                href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHCFW%26componentTypeID%3dONLINE%26revisionDate%3d1450112400000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
+                role="button"
+                target="_blank"
+                style="display: none">
+                Review Certification Courses!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </div>
+    <!-- Banner Images End -->
+
+    <!-- Breadcrumbs Begin -->
+    <div class="container">
+      <nav aria-label="breadcrumb" style="padding-top: 15px">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="index.html"> Healthcare Playbook </a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="healthcarecertification.html">
+              Healthcare Certification
+            </a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Healthcare Certification
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <!-- Breadcrumbs End -->
+
+    <!-- Healthcare Certification Intro Begin -->
+    <div class="container my-3 py-3" id="healthcarecertificationsection">
+      <!-- Section: Design Block -->
+      <section class="mb-0" id="healthcarecertificationintro">
+        <h1 class="fw-bold">Become a Healthcare Certified Professional!</h1>
+        <h3>
+          Enhance your skills and advance your sales potential in healthcare.
+        </h3>
+
+        <p>
+          Earning your Healthcare Certification is a key step toward becoming a
+          trusted advisor in one of the most complex and rewarding industries we
+          serve. These nine courses are designed to give you a comprehensive
+          understanding of healthcare systems, regulations, workflows, and the
+          unique challenges your customers face. As you progress through each
+          module, you&#39;ll gain the insight needed to position Konica
+          Minolta&#39;s solutions with confidence and credibility. This
+          certification will help you identify and engage more qualified
+          healthcare prospects, uncover new opportunities, and align solutions
+          to their specific care environments. By mastering these topics,
+          you&#39;ll expand your expertise, accelerate your sales success, and
+          strengthen your role as a valued healthcare partner.
+        </p>
+      </section>
+      <!-- Section: Design Block -->
+    </div>
+    <!-- Healthcare Certification Intro End -->
+
+    <!-- Healthcare Certification Cards Begin -->
+    <div class="container my-0 py-0" id="healthcarecertificationcardssection">
+      <section class="mb-5" id="healthcarecertificationcards">
+        <h3 class="fw-bold text-center mb-4">
+          Healthcare Certification Courses
+        </h3>
+
+        <!-- Card Slider Container -->
+        <div class="card-slider-container">
+          <!-- Navigation Arrows - FIX WITH FONTAWESOME ICONS -->
+          <button class="slider-nav slider-prev" id="sliderPrev">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="slider-nav slider-next" id="sliderNext">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+          <div class="card-slider-wrapper">
+            <div class="card-slider" id="certificationSlider">
+              <!-- Card 1 - CLEANED UP -->
+              <div class="slider-card">
+                <div class="card h-100">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                    class="card-img-top"
+                    alt="Healthcare Basic Training Course"
+                    style="height: 200px; object-fit: cover" />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="text-transform: uppercase">
+                      <span
+                        class="badge rounded-pill bg-danger ms-2"
+                        style="margin-bottom: 8px; display: inline-block"
+                        >New!</span
+                      >
+                      <br />
+                      1. Healthcare Basic Training
+                    </h5>
+                    <p class="card-text">
+                      Introduction to healthcare industry, care providers,
+                      medical workflow, IT systems, and Konica Minolta
+                      solutions.
+                    </p>
+                    <div class="mt-auto">
+                      <a
+                        id="hccertcourse1"
+                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHC%5fIPPE%5fV2%26componentTypeID%3dONLINE%26revisionDate%3d1753898280000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
+                        target="_blank"
+                        class="btn btn-light btn-lg w-100">
+                        View Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 - CLEANED UP -->
+              <div class="slider-card">
+                <div class="card h-100">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                    class="card-img-top"
+                    alt="HIPAA Compliance Course"
+                    style="height: 200px; object-fit: cover" />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="text-transform: uppercase">
+                      <span
+                        class="badge rounded-pill bg-danger ms-2"
+                        style="margin-bottom: 8px; display: inline-block"
+                        >New!</span
+                      >
+                      <br />
+                      2. Navigating the Healthcare Digital Playbook
+                    </h5>
+                    <p class="card-text">
+                      This module will walk you through the value of the
+                      playbook, how to access it and use it to enhance your
+                      knowledge of this critical vertical market. The session
+                      includes a brief demo of the resource, how it is
+                      structured, and will introduce you to our portfolio of
+                      solutions and services addressing the key challenges
+                      across the Acute, Ambulatory and Extended Care settings.
+                    </p>
+                    <div class="mt-auto">
+                      <a
+                        id="hccertcourse2"
+                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHC%5fPlaybook%26componentTypeID%3dONLINE%26revisionDate%3d1619794500000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
+                        target="_blank"
+                        class="btn btn-light btn-lg w-100">
+                        View Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 - CLEANED UP -->
+              <div class="slider-card">
+                <div class="card h-100">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                    class="card-img-top"
+                    alt="Healthcare Workflow Course"
+                    style="height: 200px; object-fit: cover" />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="text-transform: uppercase">
+                      <span
+                        class="badge rounded-pill bg-danger ms-2"
+                        style="margin-bottom: 8px; display: inline-block"
+                        >New!</span
+                      >
+                      <br />
+                      3. Healthcare Foundations: HIPAA and HITECH Safeguarding
+                      Patient Data
+                    </h5>
+                    <p class="card-text">
+                      This module will introduce the importance of HIPAA and
+                      HITECH, provide relevant information on key components of
+                      the legislation and offer guidance on Konica Minolta's
+                      role as a Business Associate to our healthcare customers.
+                      Keywords: HIPAA, HITECH, Healthcare, Regulation, Privacy
+                      and Security, Healthcare
+                    </p>
+                    <div class="mt-auto">
+                      <a
+                        id="hccertcourse3"
+                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHCFHH%26componentTypeID%3dONLINE%26revisionDate%3d1450112400000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
+                        target="_blank"
+                        class="btn btn-light btn-lg w-100">
+                        View Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 4 -->
+              <div class="slider-card">
+                <div class="card h-100">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                    class="card-img-top"
+                    alt="Cybersecurity Solutions Course"
+                    style="height: 200px; object-fit: cover" />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="text-transform: uppercase">
+                      <span
+                        class="badge rounded-pill bg-danger ms-2"
+                        style="margin-bottom: 8px; display: inline-block"
+                        >New!</span
+                      >
+                      <br />
+                      4. Healthcare Foundations: Optimizing Workflow
+                    </h5>
+                    <p class="card-text grow">
+                      This module will provide an overview of the acute care
+                      environment and the many business and workflow challenges
+                      they face in their mission of delivering quality patient
+                      care, as well as positioning options for general
+                      categories of solutions to offer in addressing those
+                      critical business issues.
+                    </p>
+                    <div class="mt-auto">
+                      <a
+                        id="hccertcourse4"
+                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHCFW%26componentTypeID%3dONLINE%26revisionDate%3d1450112400000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
+                        target="_blank"
+                        class="btn btn-light btn-lg w-100">
+                        View Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 5 -->
+              <div class="slider-card">
+                <div class="card h-100">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                    class="card-img-top"
+                    alt="Managed Print Services Course"
+                    style="height: 200px; object-fit: cover" />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="text-transform: uppercase">
+                      5. Healthcare&#45;Enabled MFP Plus Sales Training
+                    </h5>
+                    <p class="card-text grow">
+                      The newest version of our Kno2 connectivity expands the
+                      value of the bundle to include Direct Messaging,
+                      EHR&#45;integrated scanning, HIPAA&#45;Compliant Cloud Fax
+                      and a newly designed and responsive user interface. During
+                      this module you will learn the customer challenges solved
+                      by the Healthcare&#45;Enabled MFP, the best segments of
+                      care and personas to approach, how to position it for
+                      success, discovery questions, as well as demos of the key
+                      workflows.
+                    </p>
+                    <div class="mt-auto">
+                      <a
+                        id="hccertcourse5"
+                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHEMFPPST%26componentTypeID%3dONLINE%26revisionDate%3d1656444180000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
+                        target="_blank"
+                        class="btn btn-light btn-lg w-100">
+                        View Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 6 -->
+              <div class="slider-card">
+                <div class="card h-100">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                    class="card-img-top"
+                    alt="Intelligent Information Management Course"
+                    style="height: 200px; object-fit: cover" />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="text-transform: uppercase">
+                      <span
+                        class="badge rounded-pill bg-danger ms-2"
+                        style="margin-bottom: 8px; display: inline-block"
+                        >New!</span
+                      >
+                      <br />
+                      6. Dispatcher Portfolio for Healthcare
+                    </h5>
+                    <p class="card-text grow">
+                      Discover how Dispatcher Phoenix, Stratus and Paragon can
+                      improve your healthcare customers' data capture, workflow
+                      and print management to drive HIPAA compliance, cost
+                      reduction and EHR integration.
+                    </p>
+                    <div class="mt-auto">
+                      <a
+                        id="hccertcourse6"
+                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHC%5fDSH%5f2025%26componentTypeID%3dONLINE%26revisionDate%3d1755630720000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
+                        target="_blank"
+                        class="btn btn-light btn-lg w-100">
+                        View Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 7 -->
+              <div class="slider-card">
+                <div class="card h-100">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                    class="card-img-top"
+                    alt="Robotic Process Automation Course"
+                    style="height: 200px; object-fit: cover" />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="text-transform: uppercase">
+                      <span
+                        class="badge rounded-pill bg-danger ms-2"
+                        style="margin-bottom: 8px; display: inline-block"
+                        >🚀 New!</span
+                      >
+                      <br />
+                      7. Device and Print Management Solutions for Healthcare
+                    </h5>
+                    <p class="card-text grow">
+                      The Print and Device Management Solutions for Healthcare
+                      course will introduce key components of the Konica Minolta
+                      Layered Security Model. This includes device security and
+                      secure print solutions designed to drive maximum security
+                      and compliance, while at the same time reducing the cost
+                      of care and improving staff and patient experience.
+                    </p>
+                    <div class="mt-auto">
+                      <a
+                        id="hccertcourse7"
+                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dKOFAX%5fHO%26componentTypeID%3dONLINE%26revisionDate%3d1617134580000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
+                        target="_blank"
+                        class="btn btn-light btn-lg w-100">
+                        View Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 8 -->
+              <div class="slider-card">
+                <div class="card h-100">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                    class="card-img-top"
+                    alt="Cloud Services Course"
+                    style="height: 200px; object-fit: cover" />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="text-transform: uppercase">
+                      <span
+                        class="badge rounded-pill bg-danger ms-2"
+                        style="margin-bottom: 8px; display: inline-block"
+                        >New!</span
+                      >
+                      <br />
+                      8. HIPAA Compliance Services
+                    </h5>
+                    <p class="card-text grow">
+                      This session focuses on a critical service that every
+                      healthcare organization should consider. HIPAA requires
+                      that every business &#40;healthcare provider or
+                      otherwise&#41; that manages Protected Health Information,
+                      or PHI, must comply with HIPAA requirements, which
+                      includes regular Risk Assessments. This session will
+                      describe All Covered&#39;s Managed Compliance services,
+                      which include HIPAA Risk Assessments, as well as a
+                      solution that provides an ongoing and proactive means of
+                      tracking their compliance efforts overtime, which is a
+                      competitive advantage for Konica Minolta / All Covered.
+                      Learn how these services can add value to your customer
+                      relationships and drive MRR.
+                    </p>
+                    <div class="mt-auto">
+                      <a
+                        id="hccertcourse8"
+                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHC%5fHIPAA%5fCS%26componentTypeID%3dONLINE%26revisionDate%3d1630075140000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
+                        target="_blank"
+                        class="btn btn-light btn-lg w-100">
+                        View Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 9 -->
+              <div class="slider-card">
+                <div class="card h-100">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                    class="card-img-top"
+                    alt="Managed IT Services Course"
+                    style="height: 200px; object-fit: cover" />
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title" style="text-transform: uppercase">
+                      <span
+                        class="badge rounded-pill bg-danger ms-2"
+                        style="margin-bottom: 8px; display: inline-block"
+                        >New!</span
+                      >
+                      <br />
+                      9. All Covered Services for Healthcare
+                    </h5>
+                    <p class="card-text grow">
+                      This training module highlights All Covered Managed IT
+                      services at a high level, with particular focus on the
+                      services offered to the healthcare vertical and specific
+                      emphasis on cybersecurity, compliance, cloud and
+                      assessments. Learn how these services can add value and
+                      broaden your customer relationships and drive MRR.
+                    </p>
+                    <div class="mt-auto">
+                      <a
+                        id="hccertcourse9"
+                        href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dHC%5fACSFH%26componentTypeID%3dONLINE%26revisionDate%3d1755982500000%26targetStudentSysGUID%3d%26actingAs%3d%26fromSF%3dY&company=KonicaMinolta"
+                        target="_blank"
+                        class="btn btn-light btn-lg w-100">
+                        View Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Healthcare Certification Cards End -->
+
+    <!-- Healthcare Certification Process Intro Begin -->
+    <div
+      class="parallax-section"
+      id="healthcarecertificationprocessintrosection">
+      <div class="parallax-background"></div>
+      <div class="parallax-overlay"></div>
+      <div class="parallax-content">
+        <div class="container my-5 py-5">
+          <!-- Section: Design Block -->
+          <section class="mb-5" id="healthcarecertificationprocessintro">
+            <h1 class="fw-bold text-white text-center mb-4">
+              Ready to Earn Your Healthcare Certification?
+            </h1>
+            <h3 class="text-white text-center mb-4" style="font-weight: 300">
+              Transform your knowledge into recognized expertise
+            </h3>
+
+            <div class="row justify-content-center mb-5">
+              <div class="col-lg-10">
+                <p
+                  id="healthcarecertificationprocessintroparagraph"
+                  class="text-white lead"
+                  style="
+                    font-size: 1.2rem;
+                    line-height: 1.6;
+                    text-align: left !important;
+                    background: rgba(0, 0, 0, 0.2);
+                    padding: 30px;
+                    border-radius: 15px;
+                    backdrop-filter: blur(5px);
+                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+                  ">
+                  You've completed the coursework and gained valuable healthcare
+                  industry knowledge &#45; now it&#39;s time to put that
+                  expertise to the test!
+                  <br /><br />
+                  Your journey to becoming a
+                  <strong>Healthcare Certified Professional</strong> involves
+                  three simple steps that will showcase your understanding and
+                  officially recognize your achievement. From completing your
+                  acknowledgment checklist to delivering a final presentation
+                  and receiving your official certification, we&#39;ll guide you
+                  through each step of this exciting process. <br /><br />
+                  <span class="text-warning fw-bold"
+                    >Ready to demonstrate your healthcare knowledge and earn
+                    your certification? Let's get started!</span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <!-- Healthcare Certification Process Cards Inside Parallax -->
+            <div class="container" id="healthcarecertificationprocesssection">
+              <h3 class="fw-bold text-center mb-5 text-white">
+                Healthcare Certification Process
+              </h3>
+
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="parallax-process-card">
+                    <div class="text-center mb-3">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                        alt="Step 1"
+                        class="img-fluid"
+                        style="
+                          height: 150px;
+                          object-fit: cover;
+                          border-radius: 10px;
+                        " />
+                    </div>
+                    <h5 class="text-white mb-3">
+                      Healthcare Certification Program Acknowledgment &amp;
+                      Checklist
+                    </h5>
+                    <p class="text-white mb-4" style="opacity: 0.9">
+                      Review the program requirements, acknowledgment process,
+                      and complete the certification checklist to begin your
+                      healthcare certification journey.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-light btn-lg w-100"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#healthcareCertificationAcknowledgmentModal">
+                      <i class="fas fa-presentation me-2"></i>View Details
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <div class="parallax-process-card">
+                    <div class="text-center mb-3">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                        alt="Step 2"
+                        class="img-fluid"
+                        style="
+                          height: 150px;
+                          object-fit: cover;
+                          border-radius: 10px;
+                        " />
+                    </div>
+                    <h5 class="text-white mb-3">
+                      KMBS Healthcare Certification Final Presentation Scenarios
+                    </h5>
+                    <p class="text-white mb-4" style="opacity: 0.9">
+                      Prepare for your final certification presentation with
+                      comprehensive scenarios, evaluation criteria, and
+                      presentation resources.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-light btn-lg w-100"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#healthcareCertificationPresentationModal">
+                      <i class="fas fa-presentation me-2"></i>View Details
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <div class="parallax-process-card">
+                    <div class="text-center mb-3">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/BradleyAPierce/Healthcare_Playbook_Images_Copy/Certification_Business72dpi.jpg"
+                        alt="Step 3"
+                        class="img-fluid"
+                        style="
+                          height: 150px;
+                          object-fit: cover;
+                          border-radius: 10px;
+                        " />
+                    </div>
+                    <h5 class="text-white mb-3">
+                      Healthcare Certification Program Assets
+                    </h5>
+                    <p class="text-white mb-4" style="opacity: 0.9">
+                      Complete your certification journey by obtaining your
+                      official certificate and updating your business cards with
+                      your new credentials.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-light btn-lg w-100"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#healthcareCertificationCertificateModal">
+                      <i class="fas fa-presentation me-2"></i>View Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Section: Design Block -->
+        </div>
+      </div>
+    </div>
+    <!-- Healthcare Certification Process Intro End -->
+
+    <!-- Healthcare Certification Process Modals Begin -->
+
+    <!-- Modal 1: Healthcare Certification Program Acknowledgment & Checklist -->
+    <div
+      class="modal fade"
+      id="healthcareCertificationAcknowledgmentModal"
+      tabindex="-1"
+      aria-labelledby="healthcareCertificationAcknowledgmentModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- Modal 1 Header - REMOVE ICON -->
+            <h4
+              class="modal-title"
+              id="healthcareCertificationAcknowledgmentModalLabel">
+              Healthcare Certification Program Acknowledgment & Checklist
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Content will be added here -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <p class="lead">
+                    This checklist will guide you through the acknowledgment
+                    process and requirements.
+                  </p>
+                  <h3>Healthcare Certification Program Acknowledgment</h3>
+                  <h4>Direct Channel</h4>
+
+                  <p>
+                    The healthcare certification program has been developed to
+                    provide a level of healthcare industry competency for
+                    members of our sales organization who are dedicated to, or
+                    have a highly focused concentration on this critical
+                    vertical market. The coursework included in the
+                    certification program provides a foundational understanding
+                    of the healthcare industry and the provider organizations
+                    categorized as <strong>Acute, Ambulatory,</strong> and
+                    <strong>Extended Care</strong>, as well as the trends,
+                    challenges, initiatives, and the solutions and services
+                    developed and positioned to address this critical vertical
+                    market.
+                  </p>
+
+                  <p>
+                    The certification program includes the following steps, as
+                    described below. By downloading and acknowledging this
+                    document, you agree to pursue and complete these steps prior
+                    to finalizing the certification process.
+                  </p>
+
+                  <h5>Required:</h5>
+                  <ul>
+                    <li>Complete assigned certification curriculum.</li>
+                    <li>Access and utilize the Healthcare Digital Playbook.</li>
+                    <li>Join the monthly Healthcare Webinar.</li>
+                    <li>
+                      Film a brief presentation via Teams, and submit files to
+                      the following:<br />
+                      <a href="mailto:jcisna@kmbs.konicaminolta.us"
+                        >jcisna@kmbs.konicaminolta.us</a
+                      ><br />
+                      <a href="mailto:MCardwell@kmbs.konicaminolta.us"
+                        >MCardwell@kmbs.konicaminolta.us</a
+                      ><br />
+                      <a href="mailto:dmorrison@allcovered.com"
+                        >dmorrison@allcovered.com</a
+                      >
+                    </li>
+                  </ul>
+
+                  <h5>Recommended:</h5>
+                  <ul>
+                    <li>Follow Healthcare Social Media Targets.</li>
+                    <li>
+                      Download internal and external Healthcare Battle Cards.
+                    </li>
+                    <li>Obtain prescribed digital marketing collateral.</li>
+                    <li>
+                      Join local HIMSS Chapter, MGMA, or other membership
+                      organizations in your market (as appropriate).
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="certdocs/Healthcare_Certification_Program_Acknowledgment.pdf"
+              download
+              class="btn btn-success"
+              target="_blank"
+              >Download Checklist</a
+            >
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2: KMBS Healthcare Certification Final Presentation Scenarios -->
+    <div
+      class="modal fade"
+      id="healthcareCertificationPresentationModal"
+      tabindex="-1"
+      aria-labelledby="healthcareCertificationPresentationModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- Modal 2 Header - REMOVE ICON -->
+            <h4
+              class="modal-title"
+              id="healthcareCertificationPresentationModalLabel">
+              KMBS Healthcare Certification Final Presentation Scenarios
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Content will be added here -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <p class="lead">
+                    Prepare for your final presentation with these comprehensive
+                    scenarios and guidelines.
+                  </p>
+
+                  <h3>Certification Final Presentation Guidelines</h3>
+
+                  <p>
+                    As the final step of certification, please do the following:
+                  </p>
+
+                  <ol>
+                    <li>Download the file below.</li>
+                    <li>Read the instructions.</li>
+                    <li>
+                      Review the scenarios, select one, and prepare a brief
+                      presentation where you will role-play and present to us as
+                      if we are the customer.
+                    </li>
+                    <li>
+                      As part of your presentation, be sure to use the
+                      <strong>Solutions: 360 View</strong> slide to demonstrate
+                      how KM provides a comprehensive Healthcare capability.
+                    </li>
+                    <li>
+                      Record the presentation using Teams, and send to the
+                      following:<br />
+                      <a href="mailto:jcisna@kmbs.konicaminolta.us"
+                        >jcisna@kmbs.konicaminolta.us</a
+                      >
+                      <br />
+                      <a href="mailto:DMorrison@kmbs.konicaminolta.us"
+                        >DMorrison@kmbs.konicaminolta.us</a
+                      >
+                      <br />
+                      <a href="mailto:mcardwell@kmbs.konicaminolta.us"
+                        >mcardwell@kmbs.konicaminolta.us</a
+                      >
+                    </li>
+                    <li>
+                      Once we review the recording, and assuming you capture the
+                      intent of the scenario, your certification will be
+                      complete and you will be provided with your certificate,
+                      business card designation, and mentioned in upcoming
+                      communications to the field.
+                      <strong
+                        >Well done to everyone for your time, effort, and
+                        commitment!</strong
+                      >
+                    </li>
+                    <li>
+                      There may be a brief post-recording review with the
+                      Healthcare team to share best practices and to identify
+                      areas to focus on to sharpen messaging or enhance mastery
+                      of various solutions, services, and CVPs.
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="certdocs/Certification Program_ Final Presentation Instructions and Scenarios_041025 Revision.ppt"
+              download
+              class="btn btn-success">
+              Download Presentation Guidelines
+            </a>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3: Healthcare Sales Certification Certificate and Business Card Process -->
+    <div
+      class="modal fade"
+      id="healthcareCertificationCertificateModal"
+      tabindex="-1"
+      aria-labelledby="healthcareCertificationCertificateModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- Modal 3 Header - REMOVE ICON -->
+            <h4
+              class="modal-title"
+              id="healthcareCertificationCertificateModalLabel">
+              Healthcare Certification Program Assets
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Content will be added here -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <p class="lead">
+                    Learn about the certification completion process and how to
+                    obtain your official certificate and business card updates.
+                  </p>
+
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <!-- Certificate Thumbnail Image -->
+                      <img
+                        src="certdocs/HC_Cert_Example.png"
+                        alt="Healthcare Certification Example"
+                        class="img-fluid rounded shadow-sm"
+                        style="
+                          max-width: 100%;
+                          height: auto;
+                          border: 2px solid #ddd;
+                        " />
+                    </div>
+                    <div class="col-md-8">
+                      <h5>Certificate of Completion</h5>
+                      <p>
+                        Satisfy the requirements of the certification program:
+                      </p>
+                      <ol>
+                        <li>
+                          Complete the certification learn track in KM Learning
+                        </li>
+                        <li>Submit your final video presentation</li>
+                      </ol>
+                      <p>
+                        You will receive an email with your official "Healthcare
+                        Certified Professional" certificate.
+                      </p>
+
+                      <h5>Business Card Updates</h5>
+                      <p>
+                        The Healthcare Sales Certified Logo is an option in the
+                        Business Card Services Incorporated within Ariba. Begin
+                        your order as you normally would, and select the
+                        Standard Business Card. Follow the process in the next
+                        few slides to select the Healthcare Logo Option.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Healthcare Certification Process Modals End -->
+
+    <!-- Start Footer Section here -->
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column 1 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="index.html" style="color: inherit">
+                <h5 class="text-uppercase">Home</h5>
+              </a>
+            </div>
+            <!--Grid column 1 End -->
+
+            <!--Grid column 2 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="healthcarecertification.html" style="color: inherit">
+                <h5 class="text-uppercase">Healthcare Certification</h5>
+              </a>
+            </div>
+            <!--Grid column 2 End -->
+
+            <!--Grid column 3 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="salespractices.html" style="color: inherit">
+                <h5 class="text-uppercase">Sales Practices</h5>
+              </a>
+            </div>
+            <!--Grid column 3 End -->
+
+            <!--Grid column 4 Begin-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="acutecaremarket.html" style="color: inherit">
+                <h5 class="text-uppercase">Acute Care</h5>
+              </a>
+            </div>
+            <!--Grid column 4 End -->
+
+            <!--Grid column 5 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="ambulatorymarket.html" style="color: inherit">
+                <h5 class="text-uppercase">Ambulatory Care</h5>
+              </a>
+            </div>
+            <!--Grid column 5 End -->
+
+            <!--Grid column 6 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="extendedcaremarket.html" style="color: inherit">
+                <h5 class="text-uppercase">Extended Care</h5>
+              </a>
+            </div>
+            <!--Grid column 6 End -->
+
+            <!--Grid column 7 Begin -->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="keyresources.html" style="color: inherit">
+                <h5 class="text-uppercase">Key Resources</h5>
+              </a>
+            </div>
+            <!--Grid column 7 End -->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        &copy; 2025 Konica Minolta Business Solutions USA
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- End Footer Section here -->
+
+    <!-- End your project here-->
+
+    <!-- MDB ESSENTIAL -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- MDB PLUGINS -->
+    <script type="text/javascript" src="plugins/js/all.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script
+      type="text/javascript"
+      src="https://bradleyapierce.github.io/Healthcare_Playbook/popupcontentfolder/popupcontent.js"></script>
+    <script>
+      // Card Slider JavaScript
+      document.addEventListener("DOMContentLoaded", function () {
+        const slider = document.getElementById("certificationSlider");
+        const prevBtn = document.getElementById("sliderPrev");
+        const nextBtn = document.getElementById("sliderNext");
+
+        let currentSlide = 0;
+        const totalSlides = 9;
+        let slidesToShow = getSlidesToShow();
+        let maxSlide = totalSlides - slidesToShow;
+
+        function getSlidesToShow() {
+          if (window.innerWidth > 992) return 3; // Desktop: 3 cards
+          if (window.innerWidth > 768) return 2; // Tablet: 2 cards
+          return 1; // Mobile: 1 card
+        }
+
+        function updateSlider() {
+          const cardWidth = 100 / slidesToShow;
+          const translateX = -(currentSlide * cardWidth);
+          slider.style.transform = `translateX(${translateX}%)`;
+
+          // Update button states
+          prevBtn.disabled = currentSlide === 0;
+          nextBtn.disabled = currentSlide >= maxSlide;
+        }
+
+        // Next slide
+        nextBtn.addEventListener("click", () => {
+          if (currentSlide < maxSlide) {
+            currentSlide++;
+            updateSlider();
+          }
+        });
+
+        // Previous slide
+        prevBtn.addEventListener("click", () => {
+          if (currentSlide > 0) {
+            currentSlide--;
+            updateSlider();
+          }
+        });
+
+        // Handle window resize
+        window.addEventListener("resize", () => {
+          slidesToShow = getSlidesToShow();
+          maxSlide = totalSlides - slidesToShow;
+
+          if (currentSlide > maxSlide) {
+            currentSlide = maxSlide;
+          }
+
+          updateSlider();
+        });
+
+        // Initialize
+        updateSlider();
+
+        console.log(
+          "Healthcare Certification Card Slider initialized successfully!"
+        );
+      });
+    </script>
+  </body>
+</html>

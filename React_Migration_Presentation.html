@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthcare Playbook: React Migration Strategy</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary-color: #0d6efd;
+        --secondary-color: #6c757d;
+        --success-color: #198754;
+        --info-color: #0dcaf0;
+        --warning-color: #ffc107;
+        --danger-color: #dc3545;
+        --dark-color: #212529;
+        --light-color: #f8f9fa;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        line-height: 1.6;
+        color: var(--dark-color);
+        background-color: #ffffff;
+      }
+
+      .hero-section {
+        background: linear-gradient(
+          135deg,
+          var(--primary-color) 0%,
+          #4dabf7 100%
+        );
+        color: white;
+        padding: 80px 0;
+      }
+
+      .section-divider {
+        height: 4px;
+        background: linear-gradient(
+          90deg,
+          var(--primary-color),
+          var(--info-color)
+        );
+        border: none;
+        margin: 40px 0;
+      }
+
+      .card {
+        border: none;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      }
+
+      .badge-custom {
+        font-size: 0.9em;
+        padding: 8px 12px;
+      }
+
+      .timeline-item {
+        border-left: 3px solid var(--primary-color);
+        padding-left: 20px;
+        margin-bottom: 30px;
+        position: relative;
+      }
+
+      .timeline-item::before {
+        content: "";
+        position: absolute;
+        left: -8px;
+        top: 0;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: var(--primary-color);
+      }
+
+      .cost-highlight {
+        background: linear-gradient(135deg, var(--success-color), #51cf66);
+        color: white;
+        padding: 30px;
+        border-radius: 15px;
+        text-align: center;
+      }
+
+      .nav-pills .nav-link.active {
+        background-color: var(--primary-color);
+      }
+
+      .accordion-button:not(.collapsed) {
+        background-color: var(--light-color);
+        color: var(--primary-color);
+      }
+
+      .table-responsive {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .progress {
+        height: 8px;
+      }
+
+      .icon-feature {
+        font-size: 2.5rem;
+        color: var(--primary-color);
+      }
+
+      .btn-primary {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        padding: 12px 30px;
+        font-weight: 500;
+      }
+
+      .btn-outline-primary {
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+        padding: 12px 30px;
+        font-weight: 500;
+      }
+
+      .highlight-box {
+        background-color: #e3f2fd;
+        border-left: 5px solid var(--primary-color);
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+      }
+
+      .navbar {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .smooth-scroll {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="smooth-scroll">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#"
+          ><i class="fas fa-project-diagram me-2"></i>React Migration
+          Strategy</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#executive-summary"
+                >Executive Summary</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#current-state">Current State</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#strategy">Strategy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#timeline">Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#costs">Investment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#recommendation">Recommendation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <h1 class="display-4 fw-bold mb-4">
+              Healthcare Playbook Migration to React
+            </h1>
+            <p class="lead mb-4">
+              Strategic Plan for Modernizing Three Playbooks into a Unified
+              React Application
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <span class="badge bg-light text-dark badge-custom"
+                ><i class="fas fa-file-alt me-1"></i>116 HTML Pages</span
+              >
+              <span class="badge bg-light text-dark badge-custom"
+                ><i class="fas fa-dollar-sign me-1"></i>$540-$1,340
+                Investment</span
+              >
+              <span class="badge bg-light text-dark badge-custom"
+                ><i class="fas fa-calendar me-1"></i>20 Week Timeline</span
+              >
+              <span class="badge bg-light text-dark badge-custom"
+                ><i class="fas fa-users me-1"></i>Zero Additional
+                Headcount</span
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <i
+              class="fas fa-rocket icon-feature text-white"
+              style="font-size: 6rem"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container my-5">
+      <!-- Executive Summary -->
+      <section id="executive-summary" class="mb-5">
+        <h2 class="text-primary mb-4">
+          <i class="fas fa-chart-line me-2"></i>Executive Summary
+        </h2>
+        <div class="row">
+          <div class="col-lg-8">
+            <p class="lead">
+              This document outlines a comprehensive plan to migrate three
+              existing HTML/Bootstrap-based playbooks (Healthcare, Legal, and
+              Public Sector) into a unified React application.
+            </p>
+            <p>
+              The current playbooks consist of 100+ static HTML pages with
+              Bootstrap 5 styling, custom CSS, and embedded interactive content.
+              The proposed solution will modernize the architecture, improve
+              maintainability, and provide a unified user experience across all
+              three playbooks.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-primary text-white">
+              <div class="card-body text-center">
+                <h5 class="card-title">Key Benefits</h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="fas fa-check me-2"></i>60% faster content updates
+                  </li>
+                  <li>
+                    <i class="fas fa-check me-2"></i>80% faster new playbook
+                    creation
+                  </li>
+                  <li>
+                    <i class="fas fa-check me-2"></i>40-60% loading speed
+                    improvement
+                  </li>
+                  <li>
+                    <i class="fas fa-check me-2"></i>Modern, maintainable
+                    codebase
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Current State Analysis -->
+      <section id="current-state" class="mb-5">
+        <h2 class="text-primary mb-4">
+          <i class="fas fa-analytics me-2"></i>Current State Analysis
+        </h2>
+
+        <!-- Tabs for Current State -->
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-structure-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-structure"
+              type="button"
+              role="tab"
+            >
+              Structure
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-tech-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-tech"
+              type="button"
+              role="tab"
+            >
+              Technology Stack
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-patterns-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-patterns"
+              type="button"
+              role="tab"
+            >
+              Content Patterns
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-structure"
+            role="tabpanel"
+          >
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">
+                      Healthcare Playbook Structure
+                    </h5>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between"
+                      >
+                        <span>Sales Practices</span>
+                        <span class="badge bg-primary">9 pages</span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between"
+                      >
+                        <span>Acute Care</span>
+                        <span class="badge bg-primary">17 pages</span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between"
+                      >
+                        <span>Ambulatory Care</span>
+                        <span class="badge bg-primary">16 pages</span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between"
+                      >
+                        <span>Extended Care</span>
+                        <span class="badge bg-primary">14 pages</span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between"
+                      >
+                        <span>Other Resources</span>
+                        <span class="badge bg-primary">2 pages</span>
+                      </li>
+                    </ul>
+                    <div class="mt-3">
+                      <strong>Total: 116 HTML files</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title text-success">Interactive Content</h5>
+                    <ul class="list-unstyled">
+                      <li>
+                        <i class="fas fa-play-circle text-success me-2"></i>Rise
+                        Articulate modules
+                      </li>
+                      <li>
+                        <i class="fas fa-video text-success me-2"></i>Embedded
+                        iframes
+                      </li>
+                      <li>
+                        <i class="fas fa-film text-success me-2"></i>Video
+                        content (Brightcove)
+                      </li>
+                      <li>
+                        <i class="fas fa-mouse-pointer text-success me-2"></i
+                        >Forms and interactive elements
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-tech" role="tabpanel">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card border-success">
+                  <div class="card-header bg-success text-white">
+                    <h6 class="mb-0">
+                      <i class="fas fa-check-circle me-2"></i>Current Technology
+                      (Keeping)
+                    </h6>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-unstyled">
+                      <li>
+                        <i class="fas fa-code text-success me-2"></i>Bootstrap 5
+                        for UI framework (CDN imports)
+                      </li>
+                      <li>
+                        <i class="fas fa-palette text-success me-2"></i>Custom
+                        CSS (dxplaybook.css) - to be retained
+                      </li>
+                      <li>
+                        <i class="fas fa-chart-bar text-success me-2"></i>Google
+                        Analytics integration
+                      </li>
+                      <li>
+                        <i class="fas fa-icons text-success me-2"></i>Font
+                        Awesome icons (CDN imports)
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card border-danger">
+                  <div class="card-header bg-danger text-white">
+                    <h6 class="mb-0">
+                      <i class="fas fa-times-circle me-2"></i>Being
+                      Removed/Cleaned
+                    </h6>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-unstyled">
+                      <li>
+                        <i class="fas fa-trash text-danger me-2"></i
+                        ><del>MDB (Material Design Bootstrap) components</del>
+                      </li>
+                      <li>
+                        <i class="fas fa-folder text-danger me-2"></i>Excessive
+                        local CSS/JS files in css/ and js/ folders
+                      </li>
+                      <li>
+                        <i class="fas fa-download text-danger me-2"></i>Local
+                        Bootstrap dependencies
+                      </li>
+                    </ul>
+                    <div class="highlight-box">
+                      <strong>Strategy:</strong> Move to CDN approach for
+                      simplified maintenance and better performance
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-patterns" role="tabpanel">
+            <div class="row g-3">
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body text-center">
+                    <i class="fas fa-bars icon-feature mb-3"></i>
+                    <h6>Consistent Navigation</h6>
+                    <p class="small">
+                      All pages share the same navbar with dropdowns
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body text-center">
+                    <i class="fas fa-image icon-feature mb-3"></i>
+                    <h6>Banner/Hero Sections</h6>
+                    <p class="small">Similar layout patterns across pages</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body text-center">
+                    <i class="fas fa-th-large icon-feature mb-3"></i>
+                    <h6>Card-based Layouts</h6>
+                    <p class="small">Extensive use of Bootstrap cards</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Migration Strategy -->
+      <section id="strategy" class="mb-5">
+        <h2 class="text-primary mb-4">
+          <i class="fas fa-cogs me-2"></i>Migration Strategy
+        </h2>
+
+        <div class="row mb-4">
+          <div class="col-lg-6">
+            <div class="card border-primary">
+              <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">
+                  <i class="fas fa-robot me-2"></i>Self-Directed with GitHub
+                  Copilot
+                </h5>
+              </div>
+              <div class="card-body">
+                <p>
+                  Leverage AI-powered development assistance to accelerate
+                  learning and implementation without additional headcount.
+                </p>
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i>GitHub Copilot
+                    as Technical Mentor
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i>AI-assisted
+                    code generation and learning
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i>Community
+                    support and documentation
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i>Gradual skill
+                    building approach
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card border-warning">
+              <div class="card-header bg-warning text-dark">
+                <h5 class="mb-0">
+                  <i class="fab fa-python me-2"></i>Python Automation
+                </h5>
+              </div>
+              <div class="card-body">
+                <p>
+                  Automate content migration and processing tasks to reduce
+                  manual work and ensure accuracy.
+                </p>
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i>HTML parsing
+                    with BeautifulSoup
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i>Content
+                    migration automation
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i>Asset
+                    management and optimization
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i>Optional Flask
+                    API for advanced features
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technology Stack Accordion -->
+        <div class="accordion" id="technologyAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#techStack"
+              >
+                <i class="fas fa-layer-group me-2"></i>Recommended Technology
+                Stack
+              </button>
+            </h2>
+            <div
+              id="techStack"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#technologyAccordion"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h6 class="text-primary">Frontend Framework</h6>
+                    <ul>
+                      <li>
+                        <strong>React 18</strong> with TypeScript for type
+                        safety
+                      </li>
+                      <li>
+                        <strong>Next.js 14</strong> for enhanced performance and
+                        SEO
+                      </li>
+                      <li>
+                        <strong>React Router</strong> for client-side navigation
+                      </li>
+                    </ul>
+
+                    <h6 class="text-primary mt-3">Styling & UI</h6>
+                    <ul>
+                      <li>
+                        <strong>React Bootstrap</strong> for component-based
+                        approach
+                      </li>
+                      <li>
+                        <strong>Bootstrap 5 via CDN</strong> for consistent
+                        styling
+                      </li>
+                      <li>
+                        <strong>Custom CSS Migration</strong> from existing
+                        dxplaybook.css
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <h6 class="text-primary">Development Tools</h6>
+                    <ul>
+                      <li><strong>Vite</strong> for fast development builds</li>
+                      <li>
+                        <strong>ESLint & Prettier</strong> for code quality
+                      </li>
+                      <li>
+                        <strong>GitHub Copilot Pro</strong> for AI assistance
+                      </li>
+                    </ul>
+
+                    <h6 class="text-primary mt-3">Deployment & Hosting</h6>
+                    <ul>
+                      <li>
+                        <strong>Vercel</strong> or <strong>Netlify</strong> for
+                        static hosting
+                      </li>
+                      <li>
+                        <strong>GitHub Actions</strong> for CI/CD pipeline
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#pythonIntegration"
+              >
+                <i class="fab fa-python me-2"></i>Python Integration
+                Opportunities
+              </button>
+            </h2>
+            <div
+              id="pythonIntegration"
+              class="accordion-collapse collapse"
+              data-bs-parent="#technologyAccordion"
+            >
+              <div class="accordion-body">
+                <div class="table-responsive">
+                  <table class="table table-striped">
+                    <thead class="table-primary">
+                      <tr>
+                        <th>Feature</th>
+                        <th>Pure React</th>
+                        <th>Python + React</th>
+                        <th>Recommendation</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Static Content</td>
+                        <td><span class="badge bg-success">Perfect</span></td>
+                        <td><span class="badge bg-warning">Overkill</span></td>
+                        <td>Use React</td>
+                      </tr>
+                      <tr>
+                        <td>Content Migration</td>
+                        <td><span class="badge bg-warning">Manual</span></td>
+                        <td><span class="badge bg-success">Automated</span></td>
+                        <td>Use Python</td>
+                      </tr>
+                      <tr>
+                        <td>Search Functionality</td>
+                        <td>
+                          <span class="badge bg-success">Client-side</span>
+                        </td>
+                        <td>
+                          <span class="badge bg-success">Server-side</span>
+                        </td>
+                        <td>Start React, upgrade Python</td>
+                      </tr>
+                      <tr>
+                        <td>Content Management</td>
+                        <td>
+                          <span class="badge bg-warning">Developer-only</span>
+                        </td>
+                        <td>
+                          <span class="badge bg-success">User-friendly</span>
+                        </td>
+                        <td>Consider Python for future</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Timeline -->
+      <section id="timeline" class="mb-5">
+        <h2 class="text-primary mb-4">
+          <i class="fas fa-calendar-alt me-2"></i>Implementation Timeline
+        </h2>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card text-white bg-primary mb-3">
+              <div class="card-header">
+                <strong>Phase 1: Foundation</strong>
+              </div>
+              <div class="card-body">
+                <h6>Weeks 1-4</h6>
+                <small
+                  >Learn React fundamentals and establish basic application
+                  structure</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card text-white bg-info mb-3">
+              <div class="card-header">
+                <strong>Phase 2: Migration System</strong>
+              </div>
+              <div class="card-body">
+                <h6>Weeks 5-8</h6>
+                <small>Develop systematic approach to content conversion</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card text-white bg-warning mb-3">
+              <div class="card-header">
+                <strong>Phase 3: Enhancement</strong>
+              </div>
+              <div class="card-body">
+                <h6>Weeks 9-12</h6>
+                <small
+                  >Add interactive features and polish the application</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card text-white bg-success mb-3">
+              <div class="card-header"><strong>Phase 4: Scaling</strong></div>
+              <div class="card-body">
+                <h6>Weeks 13-20</h6>
+                <small
+                  >Apply patterns to Legal and Public Sector playbooks</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Detailed Timeline -->
+        <div class="mt-4">
+          <h5 class="text-secondary mb-3">Detailed Milestone Timeline</h5>
+          <div class="timeline-item">
+            <h6 class="text-primary">
+              Phase 1: Foundation Setup & Learning (Weeks 1-4)
+            </h6>
+            <ul>
+              <li>Complete React fundamentals course (freeCodeCamp)</li>
+              <li>Set up development environment with GitHub Copilot</li>
+              <li>Bootstrap 5 CDN setup and CSS cleanup</li>
+              <li>Convert 2-3 simple HTML pages to React components</li>
+            </ul>
+            <div class="progress mb-2">
+              <div class="progress-bar bg-primary" style="width: 20%"></div>
+            </div>
+            <small class="text-muted">20% of total project</small>
+          </div>
+
+          <div class="timeline-item">
+            <h6 class="text-info">
+              Phase 2: Content Migration System (Weeks 5-8)
+            </h6>
+            <ul>
+              <li>
+                Build Python scripts for HTML parsing and content extraction
+              </li>
+              <li>Create TypeScript interfaces for page content</li>
+              <li>Implement Next.js routing with Copilot guidance</li>
+              <li>Convert 20-30 pages to React systematically</li>
+            </ul>
+            <div class="progress mb-2">
+              <div class="progress-bar bg-info" style="width: 20%"></div>
+            </div>
+            <small class="text-muted">20% of total project</small>
+          </div>
+
+          <div class="timeline-item">
+            <h6 class="text-warning">
+              Phase 3: Feature Enhancement (Weeks 9-12)
+            </h6>
+            <ul>
+              <li>Build video player and modal components</li>
+              <li>Integrate Google Analytics and external content</li>
+              <li>Complete Healthcare Playbook migration</li>
+              <li>Performance optimization and testing</li>
+            </ul>
+            <div class="progress mb-2">
+              <div class="progress-bar bg-warning" style="width: 30%"></div>
+            </div>
+            <small class="text-muted">30% of total project</small>
+          </div>
+
+          <div class="timeline-item">
+            <h6 class="text-success">
+              Phase 4: Scaling to Additional Playbooks (Weeks 13-20)
+            </h6>
+            <ul>
+              <li>Apply established patterns to Legal Playbook</li>
+              <li>Build unified navigation and search system</li>
+              <li>Complete Public Sector Playbook migration</li>
+              <li>Final polish and production deployment</li>
+            </ul>
+            <div class="progress mb-2">
+              <div class="progress-bar bg-success" style="width: 30%"></div>
+            </div>
+            <small class="text-muted">30% of total project</small>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Cost Analysis -->
+      <section id="costs" class="mb-5">
+        <h2 class="text-primary mb-4">
+          <i class="fas fa-dollar-sign me-2"></i>Investment Analysis
+        </h2>
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="cost-highlight mb-4">
+              <h3 class="mb-3">
+                <i class="fas fa-piggy-bank me-2"></i>Total Investment: $540 -
+                $1,340
+              </h3>
+              <p class="lead mb-0">
+                Compared to $25,000-$41,000 with external consultants
+              </p>
+              <h4 class="mt-2">98% Cost Savings with Self-Directed Approach</h4>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <thead class="table-primary">
+                  <tr>
+                    <th>Investment Category</th>
+                    <th>Cost Range</th>
+                    <th>Duration</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <i class="fas fa-robot me-2"></i>GitHub Copilot Pro (2
+                      team members)
+                    </td>
+                    <td>$240</td>
+                    <td>6 months ($20/month per user)</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-cloud me-2"></i>Hosting & Domain</td>
+                    <td>$100 - $200</td>
+                    <td>Annual (Vercel Pro or Netlify)</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-book me-2"></i>Learning Resources</td>
+                    <td>$200 - $500</td>
+                    <td>Books, courses, tutorials</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-tools me-2"></i>Development Tools</td>
+                    <td>$0 - $300</td>
+                    <td>Optional premium features</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fab fa-python me-2"></i>Python Learning
+                      Resources
+                    </td>
+                    <td>$0 - $100</td>
+                    <td>Mostly free resources</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-success">
+              <div class="card-header bg-success text-white">
+                <h6 class="mb-0">
+                  <i class="fas fa-chart-bar me-2"></i>Long-term Benefits
+                </h6>
+              </div>
+              <div class="card-body">
+                <div class="mb-3">
+                  <strong>Maintenance Efficiency:</strong>
+                  <div class="progress mt-1">
+                    <div class="progress-bar bg-success" style="width: 60%">
+                      60% faster content updates
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <strong>New Playbook Creation:</strong>
+                  <div class="progress mt-1">
+                    <div class="progress-bar bg-info" style="width: 80%">
+                      80% faster development
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <strong>Bug Fixes:</strong>
+                  <div class="progress mt-1">
+                    <div class="progress-bar bg-warning" style="width: 70%">
+                      70% faster resolution
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <strong>Loading Speed:</strong>
+                  <div class="progress mt-1">
+                    <div class="progress-bar bg-primary" style="width: 50%">
+                      40-60% improvement
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Risk Assessment -->
+      <section id="risks" class="mb-5">
+        <h2 class="text-primary mb-4">
+          <i class="fas fa-shield-alt me-2"></i>Risk Assessment & Mitigation
+        </h2>
+
+        <div class="accordion" id="riskAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#highRisk"
+              >
+                <i class="fas fa-exclamation-triangle text-danger me-2"></i
+                >High-Risk Areas
+              </button>
+            </h2>
+            <div
+              id="highRisk"
+              class="accordion-collapse collapse"
+              data-bs-parent="#riskAccordion"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h6 class="text-danger">Content Migration Accuracy</h6>
+                    <p>
+                      <strong>Risk:</strong> Loss or misrepresentation of
+                      existing content
+                    </p>
+                    <p>
+                      <strong>Mitigation:</strong> Comprehensive content audit
+                      and side-by-side comparison using Python automation
+                      scripts
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <h6 class="text-danger">
+                      Interactive Content Compatibility
+                    </h6>
+                    <p>
+                      <strong>Risk:</strong> Rise Articulate modules or embedded
+                      content may not work properly
+                    </p>
+                    <p>
+                      <strong>Mitigation:</strong> Early testing and alternative
+                      embedding strategies
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mediumRisk"
+              >
+                <i class="fas fa-exclamation-circle text-warning me-2"></i
+                >Medium-Risk Areas
+              </button>
+            </h2>
+            <div
+              id="mediumRisk"
+              class="accordion-collapse collapse"
+              data-bs-parent="#riskAccordion"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h6 class="text-warning">Learning Curve Challenges</h6>
+                    <p>
+                      <strong>Risk:</strong> Team may need more time to learn
+                      React concepts
+                    </p>
+                    <p>
+                      <strong>Mitigation:</strong> GitHub Copilot guidance,
+                      structured learning plan, community support
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <h6 class="text-warning">Time Management</h6>
+                    <p>
+                      <strong>Risk:</strong> Balancing learning with regular
+                      work responsibilities
+                    </p>
+                    <p>
+                      <strong>Mitigation:</strong> Dedicated learning time
+                      blocks, realistic timeline expectations
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <!-- Recommendation -->
+      <section id="recommendation" class="mb-5">
+        <h2 class="text-primary mb-4">
+          <i class="fas fa-thumbs-up me-2"></i>Strategic Recommendation
+        </h2>
+
+        <div class="highlight-box">
+          <h4 class="text-primary mb-3">
+            Recommended Action: Proceed with Self-Directed React Migration
+          </h4>
+          <p class="lead">
+            Based on the analysis of your current Healthcare Playbook and the
+            constraint of zero additional headcount, we strongly recommend
+            proceeding with the self-directed React migration using GitHub
+            Copilot as your primary technical mentor.
+          </p>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <div class="card border-success h-100">
+              <div class="card-header bg-success text-white">
+                <h6 class="mb-0">
+                  <i class="fas fa-star me-2"></i>Key Success Factors
+                </h6>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i
+                    ><strong>Cost-Effective Learning:</strong> Under $1,350
+                    total investment provides maximum ROI
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i
+                    ><strong>Skill Building:</strong> Team gains valuable React
+                    skills for long-term benefit
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i
+                    ><strong>AI Force Multiplier:</strong> GitHub Copilot
+                    accelerates learning and development
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i
+                    ><strong>Future-Proofing:</strong> Modern development
+                    practices for years to come
+                  </li>
+                  <li>
+                    <i class="fas fa-check text-success me-2"></i
+                    ><strong>Python Automation:</strong> Eliminates manual
+                    content migration work
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card border-primary h-100">
+              <div class="card-header bg-primary text-white">
+                <h6 class="mb-0">
+                  <i class="fas fa-rocket me-2"></i>Immediate Next Steps
+                </h6>
+              </div>
+              <div class="card-body">
+                <ol class="mb-0">
+                  <li>
+                    <strong>Get management approval</strong> for self-directed
+                    approach and timeline
+                  </li>
+                  <li>
+                    <strong>Subscribe to GitHub Copilot Pro</strong> for both
+                    team members
+                  </li>
+                  <li>
+                    <strong>Start React fundamentals</strong> using free online
+                    resources
+                  </li>
+                  <li>
+                    <strong>Learn Python basics</strong> for content automation
+                  </li>
+                  <li>
+                    <strong>Set up development environment</strong> with Copilot
+                    guidance
+                  </li>
+                  <li>
+                    <strong>Begin with proof of concept</strong> single page
+                    conversion
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 text-center">
+          <h5 class="text-success mb-3">Why This Approach Will Succeed</h5>
+          <div class="row">
+            <div class="col-md-3">
+              <i class="fas fa-robot icon-feature text-primary mb-2"></i>
+              <h6>AI-Powered Learning</h6>
+              <small
+                >GitHub Copilot provides expert-level assistance without
+                expert-level cost</small
+              >
+            </div>
+            <div class="col-md-3">
+              <i class="fab fa-python icon-feature text-warning mb-2"></i>
+              <h6>Automation Benefits</h6>
+              <small
+                >Python scripts eliminate tedious manual content migration
+                work</small
+              >
+            </div>
+            <div class="col-md-3">
+              <i
+                class="fas fa-graduation-cap icon-feature text-success mb-2"
+              ></i>
+              <h6>Knowledge Transfer</h6>
+              <small
+                >Your HTML/CSS knowledge transfers well to React
+                development</small
+              >
+            </div>
+            <div class="col-md-3">
+              <i class="fas fa-chart-line icon-feature text-info mb-2"></i>
+              <h6>Future Value</h6>
+              <small
+                >Learning investment pays dividends beyond this single
+                project</small
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="text-center bg-light p-5 rounded">
+        <h3 class="text-primary mb-3">Ready to Transform Your Playbooks?</h3>
+        <p class="lead mb-4">
+          This self-directed migration will modernize your content delivery
+          while building valuable team skills.
+        </p>
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+          <button class="btn btn-primary btn-lg">
+            <i class="fas fa-play me-2"></i>Approve & Start Project
+          </button>
+          <button class="btn btn-outline-primary btn-lg">
+            <i class="fas fa-calendar me-2"></i>Schedule Discussion
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+      <div class="container text-center">
+        <p class="mb-0">
+          &copy; 2025 Healthcare Playbook React Migration Strategy | Prepared
+          with <i class="fas fa-heart text-danger"></i> and GitHub Copilot
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Add active class to navbar links based on scroll position
+      window.addEventListener("scroll", function () {
+        let current = "";
+        const sections = document.querySelectorAll("section");
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          if (scrollY >= sectionTop - 60) {
+            current = section.getAttribute("id");
+          }
+        });
+
+        document.querySelectorAll(".navbar-nav a").forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

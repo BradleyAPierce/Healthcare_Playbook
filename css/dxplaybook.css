@@ -7,22 +7,23 @@
 
 
 .banner1 {
-    font-size: 7vw;
+    font-size: 8vw;
     margin-bottom: 25px;
     margin-left: 40px;
     margin-right: 40px;
 }
 
 .banner2 {
-    font-size: 3.5vw;
+    font-size: 4.25vw;
     font-weight: normal;
+    text-decoration: underline;
     margin-bottom: 10px;
     margin-left: 40px;
     margin-right: 50px;
 }
 
 .banner4 {
-    font-size: 2vw;
+    font-size: 3.5vw;
     font-weight: lighter;
     margin-bottom: 25px;
     margin-left: 40px;
